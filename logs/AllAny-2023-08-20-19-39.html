@@ -1,0 +1,850 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Ada - </span>
+<span style="color:#06E00C"> Spy </span>
+<span style="color:#a0a0a0"><i>(Username: Flawski)</i></span>
+<style>span.Ada{color: #06E00C;}</style>
+<span><br>[2] obietas - </span>
+<span style="color:#9D7038"> Werewolf </span>
+<span style="color:#a0a0a0"><i>(Username: obeitas)</i></span>
+<style>span.obietas{color: #9D7038;}</style>
+<span><br>[3] Zephyros - </span>
+<span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br>N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k47"><b><color=#007AFF><b>Abstain</b></color></b></link></font></style> <br>D2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style> <br>N2. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k56"><b><color=#007AFF><b>Examine</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> <br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style> x <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k39"><b><color=#007AFF><b>Good</b></color></b></link></font></style>  <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>  <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>  - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k41"><b><color=#007AFF><b>Sus</b></color></b></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style><br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> is real.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Zephyros)</i></span>
+<style>span.Zephyros{color: #06E00C;}</style>
+<span><br>[4] fresita - </span>
+<span style="color:#B545FF"> Medusa </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">vet<br>n1: no alert<br>n2:</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Karentronix)</i></span>
+<style>span.fresita{color: #B545FF;}</style>
+<span><br>[5] Never Claims - </span>
+<span style="color:#DB7601"> Arsonist </span>
+<span style="color:#a0a0a0"><i>(Username: Junior)</i></span>
+<style>span.Never-Claims{color: #DB7601;}</style>
+<span><br>[6] GuyMontag - </span>
+<span style="color:#B545FF"> Hex Master </span>
+<span style="color:#a0a0a0"><i>(Username: typhoon901)</i></span>
+<style>span.GuyMontag{color: #B545FF;}</style>
+<span><br>[7] Nuka Cola - </span>
+<span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1- building trap<br>N2- trap on {REDACTED}.... trap was not triggered<br>N3- trap triggered by arso<br>N4- building trap</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Nuka-Cola{color: #06E00C;}</style>
+<span><br>[8] Cotton Mather - </span>
+<span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: Zuluu)</i></span>
+<style>span.Cotton-Mather{color: #06E00C;}</style>
+<span><br>[9] Sparrow - </span>
+<span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br><br>[N1] <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style> <br>[N2] <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Shadow32o)</i></span>
+<style>span.Sparrow{color: #FF004E;}</style>
+<span><br>[10] Hiya - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: shannoli2007)</i></span>
+<style>span.Hiya{color: #B545FF;}</style>
+<span><br>[11] Lilith - </span>
+<span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style> <br>|N2 - Trap 1 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>) <br>|N3 - Build<br><br>|1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>|2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><color=#06E00C>Town </color><color=#1F51FF>Support</color></b></link></font></style> <br>|3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br>|4 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> <br>|5 -<br>|6 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>|7 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style> <br>|10 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style> <br>|11 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>  <br>|14 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>|15 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><color=#06E00C>Town </color><color=#1F51FF>Support</color></b></link></font></style> <br><br><br>IF I DIE, BOTH 7 AND 10 ARE FAKE, NOT ON CONFIRMED TRAPPER.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[12] Someone - </span>
+<span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: oscarbaltasar)</i></span>
+<style>span.Someone{color: #06E00C;}</style>
+<span><br>[13] Environment - </span>
+<span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> inno<br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MathPengwin)</i></span>
+<style>span.Environment{color: #B545FF;}</style>
+<span><br>[14] Spanish Lover - </span>
+<span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Investigator<br>N1: 7 (no blood)<br>N2: 1 (no blood)<br>N3: 15 (BLOOD)<br>N4: 10</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn voogievohn</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Cianuro27)</i></span>
+<style>span.Spanish-Lover{color: #06E00C;}</style>
+<span><br>[15] Giles Corey - </span>
+<span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">ogita the idiotic tavern<br>N1:sry was afk  watching nole<br>N2:rbed 2 for no reason<br>N3:IM SORRY I WAS AFK</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Ogita)</i></span>
+<style>span.Giles-Corey{color: #FF004E;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[7]</span>
+<span class="Nuka-Cola">Nuka Cola</span>
+<span>: good talk</span>
+<span><br>[5]</span>
+<span class="Never-Claims">Never Claims</span>
+<span>: *cough*</span>
+<span><br>[8]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: achoo</span>
+<span><br>[12]</span>
+<span class="Someone">Someone</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Kill 7</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You are building your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> is built.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Someone</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Someone</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: Investigator
+N1: 7 (no blood)</span>
+<span><br>[13]</span>
+<span class="Environment">Environment</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> 
+n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> inno</span>
+<span><br>[6]</span>
+<span class="GuyMontag">GuyMontag</span>
+<span>: n1 - 15 - no blood</span>
+<span><br>[8]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: fr</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: i was afk 1st night sry</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: im ts</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: im watching djokovic</span>
+<span><br>[7]</span>
+<span class="Nuka-Cola">Nuka Cola</span>
+<span>: I am tp</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: its ok...what is djokovic</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: tennis player</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: xd</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: oh</span>
+<span><br>[8]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: nice</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: final against carlos alcaraz</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: hes from my country</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: so im watching ill stop now</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: sry</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: vfa?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><color=#06E00C>Town </color><color=#1F51FF>Power</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Environment</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: TS</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Environment</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Environment</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="Zephyros">Zephyros</span>
+<span>: Coroner</span>
+<span><br>[3]</span>
+<span class="Zephyros">Zephyros</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k47"><b><color=#007AFF><b>Abstain</b></color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: so true</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: lowkey dont seem legit</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: ngl</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Abstain those drugs</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: really late lol</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Zephyros</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style> by a vote of <color=#66FF66><b>3</b></color> to <color=#FF0000><b>2</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: why guilty</span>
+<span><br>[8]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: still get claims</span>
+<span><br>[8]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: 4 role</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: eh..coroner cant do much anyway, dont blaim em</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Environment</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: im tp btw</span>
+<span><br>[4]</span>
+<span class="fresita">fresita</span>
+<span>: vet</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Environment</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Never Claims</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: 5 never claims real</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: I really dont trust 4</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: THey wanted to up me</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: 5 ur name tarnation u up</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: AFTER Ive claimed</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> has been triggered by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> has been triggered by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>fresita</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>: |N2 - Trap 1 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>: 9 - Doused/Bread Im actually spy.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>: fuck</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>: Yeah 9 could easily be Baker.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Cotton Mather</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>: will</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>: will</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Environment</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Environment</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>: InvestigatorN1: 7 (no blood)N2: 1 (no blood)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>: role and will</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>: 14 checked you</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>: TP</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>: role?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>: will</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>: trapper, |N2 - Trap 1 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>)</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: N2: 1 (no blood)</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: N2: Bugging 9 (Target is DOUSED and got BREAD!)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>: can i whisper a will?</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: hm</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>: yes</span>
+<span><br>[6]</span>
+<span class="GuyMontag">GuyMontag</span>
+<span>: n1 - 15 - no blood
+n2 - 9 - blood</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: the Arsonist!</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>: just said to me what u did</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: <b>Sparrow</b> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> 
+
+[N1] <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <b>Zephyros</b> 
+[N2] <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <b>Ada</b></span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: gee golly</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 9s the baker</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 6 is fake</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N2 - Trap 1 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>)</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: 9 IS DA BAKIR!</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: djokovic 0-30</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: 9 - Doused/Bread</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: BAD BOY</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: I am not lol</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: im gonna lose my money again</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 9s the baker and 6 is fake</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: ok what is going on</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: I am so confused</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: 11 how do you know they are baker</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: cuz</span>
+<span><br>[3]</span>
+<span class="Zephyros">Zephyros</span>
+<span>: <b>Lilith</b> who are you</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: he visited 1</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: and baker visited 1</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N2 - Trap 1 (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style> , <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>)</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Yeah and I can see they got bread.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 9 cant have blood</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: hes baker</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sparrow</b> was voted up to trial.</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: Could b an exe play, Im a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: <b>Sparrow</b> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> 
+
+[N1] <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <b>Zephyros</b> 
+[N2] <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <b>Ada</b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: What can i say..trapper is easy to fake</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: It's an exe play from TWO people, yeah, okay.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: IF I WAS EXE, HOW DID I KNOW 14 VISITED 1, I WHISPERED HIM FOR WILL</span>
+<span><br>[3]</span>
+<span class="Zephyros">Zephyros</span>
+<span>: Inno him.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: hm</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: do we inno</span>
+<span><br>[3]</span>
+<span class="Zephyros">Zephyros</span>
+<span>: Trapper is fake for sure.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: yeah thats true</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: I literally said he got bread.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: guilty</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Im spu</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: then if none we can guilty next</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: guilty</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: guitlty</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Guilty IM SPY</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 14 CONFIRMED ME</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: trapper saw me</span>
+<span><br>[9]</span>
+<span class="Sparrow">Sparrow</span>
+<span>: i want bread though</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: guilty</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sparrow</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 6 IS NOT INVEST BTW</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: HE FOUND THIS WITH BLOOD</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: GUYS</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Yeah 6 gotta go. But now evils will avoid him lol</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: THIS IS GOING TO FLIP BAKER</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: ok a tkk can kill him</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> was convicted and executed.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: DJOKOVIC 2 BREAK POINTS</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: 4K caught.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: vigi on 6?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Sparrow</color></link></font></style> left a last will.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: dang bro</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: if there is a vig shooot him then</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Me and 11 are pretty confirmed.</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: vigi bigi on 6?</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: vigi blast 6</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: out of this town</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You are building your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> is built.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Zephyros</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: N3: 15 (BLOOD)</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: gee golly 11 got double killed</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Okay well 15 hangs.</span>
+<span><br>[7]</span>
+<span class="Nuka-Cola">Nuka Cola</span>
+<span>: N3- trap triggered by arso</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: xd for what</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: 15 role</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: 7 and 10 wills.</span>
+<span><br>[7]</span>
+<span class="Nuka-Cola">Nuka Cola</span>
+<span>: we have arso</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: we need to find arso asap</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: N3: 15 (BLOOD)</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: ogita the idiotic tavern
+N1:sry was afk watching nole
+N2:rbed 2 for no reason
+N3:IM SORRY I WAS AFK</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: am i doused</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: 14 u sure?</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: kk</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: lol</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: SPY CHECK IF IM DOUSED</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: ok who here is arso...raise your hand</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: i mena, there is a berserker, could be 15</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: 6 was found fake tbh.</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: SPY ON ME</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Prolly the arso.,</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: 6 could be arso</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: GET 6</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: i dont think he is arso then tbh</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Yeah they said 9 blood</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: prob coven</span>
+<span><br>[2]</span>
+<span class="obietas">obietas</span>
+<span>: GET THAT RAPSCALLION OUTTA THERE!</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: We need coven/berk out.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: 6 is prob coven</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Ada</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Get 15</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>GuyMontag</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Giles Corey</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: xd i posted my will idk what more</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: do u want</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: u do u tbh</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: N3: 15 (BLOOD)</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: ok if anyone claims tk then they get lynched..cause thye should have shot 6 by now....</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: AFK doesn't fly well here. 6 is arsonist.</span>
+<span><br>[15]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: DJOKOVIC ANOTHER BREAK POINT</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: i think 6 is coven</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Get this out. Bers is gonna turn into war so theyre next.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Giles Corey</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>obietas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: 7 and 10 wills?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> died today.</span>
+<span><br>[14]</span>
+<span class="Spanish-Lover">Spanish Lover</span>
+<span>: tp on me</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> was convicted and executed.</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: im good thx</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Neither of you were on trapper.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Giles Corey</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Hiya</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Hiya">Hiya</span>
+<span>: im on my chaining buddy</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Arso I hope you win.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: Town, hang 10 next.</span>
+<span><br>[1]</span>
+<span class="Ada">Ada</span>
+<span>: The lying bastarad.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Nuka Cola</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Spanish Lover</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Environment</span>
+<span style="color:#689194">: so 5 has def</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Nuka-Cola</span>
+<span style="color:#689194">: dk</i></span>
+<span style="color:#689194"><br><i>[7]</span>
+<span style="color:#689194">Nuka-Cola</span>
+<span style="color:#689194">: probably</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Environment</span>
+<span style="color:#689194">: 6 has book and 5 got hexed</i></span>
+</body>
+</html>

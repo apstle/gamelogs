@@ -1,0 +1,930 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Katniss - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Katniss the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style> <br><br>N1- Jailed<br><br>N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: PaperRabbits)</i></span>
+<style>span.Katniss{color: #06E00C;}</style>
+<span><br>[2] lost - </span><span style="color:#AE00FF"> Enchanter </span>
+<span style="color:#a0a0a0"><i>(Username: Lost)</i></span>
+<style>span.lost{color: #AE00FF;}</style>
+<span><br>[3] Gay for Jackie - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> | <br>N2-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TwistMyArm)</i></span>
+<style>span.Gay-for-Jackie{color: #06E00C;}</style>
+<span><br>[4] Surv claim - </span><span style="color:#AE00FF"> Coven Leader </span>
+<span style="color:#a0a0a0"><i>(Username: EugeneWong)</i></span>
+<style>span.Surv-claim{color: #AE00FF;}</style>
+<span><br>[5] loofa - </span><span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> <br><br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br><br>N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> / <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k64"><b><color=#007AFF><b>Execute</b></color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: saloof)</i></span>
+<style>span.loofa{color: #06E00C;}</style>
+<span><br>[6] Bulgarian - </span><span style="color:#06E00C"> Deputy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style> gaming <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k7"><b><color=#007AFF><b>Invincible Defense</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k3"><b><color=#007AFF><b>Unstoppable Attack</b></color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AgentKnockout)</i></span>
+<style>span.Bulgarian{color: #06E00C;}</style>
+<span><br>[7] Thomas Danforth - </span><span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: twizbuck)</i></span>
+<style>span.Thomas-Danforth{color: #06E00C;}</style>
+<span><br>[8] i fight god - </span><span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">lol</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: WhiteHolyAngel)</i></span>
+<style>span.i-fight-god{color: #06E00C;}</style>
+<span><br>[9] Cameron Rose - </span><span style="color:#FF8900"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cameron Rose the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br><br>N1 12<br>N2 4</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: CameronRose)</i></span>
+<style>span.Cameron-Rose{color: #FF8900;}</style>
+<span><br>[10] csfmd - </span><span style="color:#FFB0DF"> Jester </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">csfmd the seer<br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> (Enemies)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: lyra)</i></span>
+<style>span.csfmd{color: #FFB0DF;}</style>
+<span><br>[11] mialc vruS - </span><span style="color:#06E00C"> Retributionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>mialc vruS</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br><br>N1-No <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF0000>Death</color></b></link></font></style> <br>N2-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Dum)</i></span>
+<style>span.mialc-vruS{color: #06E00C;}</style>
+<span><br>[12] Blumiere - </span><span style="color:#AE00FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Blumiere{color: #AE00FF;}</style>
+<span><br>[13] Pepper - </span><span style="color:#AE00FF"> Wildling </span>
+<span style="color:#a0a0a0"><i>(Username: NoobiousMasterus)</i></span>
+<style>span.Pepper{color: #AE00FF;}</style>
+<span><br>[14] Salt - </span><span style="color:#06E00C"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style><br><br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style> VB <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style><br><br>N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style> VB</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: JQB)</i></span>
+<style>span.Salt{color: #06E00C;}</style>
+<span><br>[15] Lego - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: LegoCondom)</i></span>
+<style>span.Lego{color: #06E00C;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style>?</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style> here, TPLO on me,</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: like from paper mario?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Thomas Danforth</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: dude ur the 2nd person to know</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: shhh</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: AYYY\</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="mialc-vruS">mialc vruS</span>
+<span>: make that 3</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: TPLO on me.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>lost</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> tonight.</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: 3 and 10 might be NE</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: lmao enchanter</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: go on 7</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: how so?</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: free forge</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lego</color></link></font></style> tonight.</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: forge em as coven</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You also decided to add <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k36"><b><color=#007AFF><b>Poison</b></color></b></link></font></style> to your target's beverage tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> instead decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>mialc vruS</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> tonight.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: poisoning 15</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> instead decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Thomas Danforth</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Thomas Danforth</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>mialc vruS</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>mialc vruS</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: Tracker|N1 - 15 did not visit</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: Im seer, 3 and 5 are enemies!</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: I was jailed last night. Claimed to Jailor. I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style> on jailor.</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: PsychicN1 - (7), 10, or 13 is evil</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> (Enemies)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: from now on</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: 10 or 13 is evil</span>
+<span><br>[3]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: I'M TP</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: get 3 then</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: LMAO <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style></span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: 3 and 5 are Enemies</span>
+<span><br>[3]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: I'M TP</span>
+<span><br>[6]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: ok 13</span>
+<span><br>[6]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: let's test it</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: we have the same seer will</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: 10 or 13?</span>
+<span><br>[6]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: town button activate!</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: 3 and 5 are enemies</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Gay for Jackie</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>: you got visited by 9 btw</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Bulgarian</color></link></font></style> has <b><style="GuiltyColor">dishonored the town</style></b> and will be put to death.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>: i tried to coerce them for their role but you know</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>: they silent af</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Bulgarian</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>: getting ignited tonight</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>For crimes against the town, the hangman has executed them.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>: probably</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Bulgarian</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style>: hope you live my brother</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: GET 5! This confirms 5 is evil.</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: do we up the seer then? or 5</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: 5 reveal or die</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: so we lynch 5 here</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: so <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#AE00FF>Enchanter</color></b></link></font></style> / fake <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>s.</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: yeah....</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: ??</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 5 reveal</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: what are you 5</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style> .</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: BS</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: any jailed?</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style></span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: oh right</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: anyone jailed?</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: Im dumb</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: oh</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: lmao</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: 2 seers having the same will is unlikely</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 1 was jailed</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: yeah no</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: 1 was jailed.</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: 10 or 13 is evil remmeber that</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: 1...</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: seer is fake</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: 10 and 13 claim</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: we get 13</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: get 10.</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: and 5 can exe 10</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: GET 10</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: if 13 is good</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: hang 13 exe 10</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>lost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: i have the same will as another seer</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: the chances of that are nearly impossible for us both to be fake</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: Maybe illusionist?</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: I mean, not if youre both coven</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: 5 is fake jailor, real one is prob silenced</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: ?</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: chat do we think enchanter in play</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> , want me to jail you?</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: tf 10?</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: imma guilty</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: why would 2 coven do that</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: guilty</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: or enchanter</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: to confirm info</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: exe 13</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>csfmd</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: it might enchanter</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: actually</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: this gives town info</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: ooooh jailor</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: unless this is somehow real</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: you should have innod</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="csfmd">csfmd</span>
+<span>: jest is best :3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: oh no.</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: okay</span>
+<span><br>[14]</span>
+<span class="Salt">Salt</span>
+<span>: bye bye 5</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: whatever</span>
+<span><br>[5]</span>
+<span class="loofa">loofa</span>
+<span>: gg</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>csfmd</color></link></font></style> left a last will.</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: wtf</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: I'm TP on 5</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> was hauled off to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>lost</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> tonight.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: I WILL SAVE YOU</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 14 is LO</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: <b>Surv claim</b></span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: ok</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: kill taht</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> tonight.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 9 visited me n1</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: aight</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 15 did not react to the poison</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: btw</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#FFB0DF>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>loofa</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Salt</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lego</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#AE00FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lego</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: well. I can't protect from that. ffs jester</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: PsychicN1 - (7), 10, or 13 is evilN2 - (9) or 1 is good0</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: 3 town left</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: if that</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: so we lost</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: not necessarily but it dont look great</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: if there r 4 coven</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: its voodoo game</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: ooffffffffffff</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: fuck</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 15 didnt say they were poisoned</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: okay</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: they did not</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: look at their logs</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: so they havent used poison yet</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: or</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: Oh</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: mods kill 9</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: ohhhhhhhhh</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: i persoanlyy think 13 is evil but also 2</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>lost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Cameron Rose</b> was voted up to trial.</span>
+<span><br>[9]</span>
+<span class="Cameron-Rose">Cameron Rose</span>
+<span>: wtf</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Cameron-Rose">Cameron Rose</span>
+<span>: Cameron Rose the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> N1 12 N2 4</span>
+<span><br>[9]</span>
+<span class="Cameron-Rose">Cameron Rose</span>
+<span>: i was voted by coven</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: Yes.</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: inno and up 2 i think</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: guilty this</span>
+<span><br>[9]</span>
+<span class="Cameron-Rose">Cameron Rose</span>
+<span>: i did visit</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: yeah guilty</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: gulty</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: this is cov</span>
+<span><br>[9]</span>
+<span class="Cameron-Rose">Cameron Rose</span>
+<span>: its in 14s will</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: guilty</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: guilty</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Cameron Rose</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>: what r u doing lol</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: if this isnt 4 coven game we might be ok</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>: wild guessing</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> died today.</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: Oh</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>: ur literally TT</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: shit</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#FF8900>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Blumiere</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>: lmao</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: LOL</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Cameron Rose</color></link></font></style> left a last will.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 14 I CALLED IT</span>
+<span><br>[8]</span>
+<span class="i-fight-god">i fight god</span>
+<span>: tp on me?</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>lost</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Pepper</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> decided to empower their offense.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: kill 8 here</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: rb 8</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: imo</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: ok</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> tonight.</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: rb 1</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> instead decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> tonight.</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: ill kill 8</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: dont visit 8</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: thumbs up</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: just in case</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: Kill 1</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>lost</color></link></font></style> also decided to alterate <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> tonight.</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: 1 needs to go</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>i fight god</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF0000>Baker</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>).</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: one must imagine solo baker happy</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: I was roleblocked last night. But also what the fuck. Is this CL or enchanter?</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: Claims now</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: oh right i forgot we had an enchanter</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: CL</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: its both</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: its both</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: 12 is CL?</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: lol</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: no</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: 12 poisoner</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: poisoner</span>
+<span><br>[2]</span>
+<span class="lost">lost</span>
+<span>: irs both</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: 12 pois</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: 13 wildling</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: so 4 coven</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: ench cl pois wildling</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: oh wait</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 15 was just AFK</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: 2 is enchanter, 4 CL, 12, poinsoner, 13 wildling</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: can i have one night</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: on</span>
+<span><br>[2]</span>
+<span class="lost">lost</span>
+<span>: i made 8 baker cause why not</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: if i knight CL</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: nah</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: i get an achieve</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: no</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: :C</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: thats</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: not a thing</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: btw</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: not an achievement</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: yes it is</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>lost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Surv claim</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Katniss</b> was voted up to trial.</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: ohhh</span>
+<span><br>[13]</span>
+<span class="Pepper">Pepper</span>
+<span>: wow this makes 2 perfect Coven games in a row for me.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: Mon achieves are: Knight your lover, Knight a revealed Mayor, Knight while insane</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: you need to control me into mon</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: and</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: idk</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: the 4th one</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: or cl</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: tahts witch</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: thank you jest</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: whichever</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: sigh</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Katniss</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: CL gets one for killing u with a knight alive</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: ah</span>
+<span><br>[1]</span>
+<span class="Katniss">Katniss</span>
+<span>: darnit</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: i already have that achievement lol</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: taking that chance, def not</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: oh wow</span>
+<span><br>[4]</span>
+<span class="Surv-claim">Surv claim</span>
+<span>: they were real</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katniss</color></link></font></style> left a last will.</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: 15 being afk helped</span>
+<span><br>[12]</span>
+<span class="Blumiere">Blumiere</span>
+<span>: tbh</span>
+</body>
+</html>

@@ -1,0 +1,810 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Master Baiter - </span>
+<span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: Derpy)</i></span>
+<style>span.Master-Baiter{color: #06E00C;}</style>
+<span><br>[2] Gyongyhaju - </span>
+<span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: Mogiel)</i></span>
+<style>span.Gyongyhaju{color: #06E00C;}</style>
+<span><br>[3] Seris - </span>
+<span style="color:#B545FF"> Jinx </span>
+<span style="color:#a0a0a0"><i>(Username: BlueEight)</i></span>
+<style>span.Seris{color: #B545FF;}</style>
+<span><br>[4] Hazel - </span>
+<span style="color:#949797"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Hazel{color: #949797;}</style>
+<span><br>[5] Yuumi - </span>
+<span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Yuumi the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>N1- bugging <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style> (n2 attacked by coven but has def)<br>N2- bugging <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Waffle</color></link></font></style> (rbd also killed by shroud)<br>N3- bugging <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> (killed by cov)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: InfernalEmber)</i></span>
+<style>span.Yuumi{color: #06E00C;}</style>
+<span><br>[6] Waffle - </span>
+<span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Investigator<br>N1- Hazel no blood<br>N2- Lilith</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DivineKingLeo)</i></span>
+<style>span.Waffle{color: #06E00C;}</style>
+<span><br>[7] Random Bard - </span>
+<span style="color:#1D4DFC"> Serial Killer </span>
+<span style="color:#a0a0a0"><i>(Username: Soijin)</i></span>
+<style>span.Random-Bard{color: #1D4DFC;}</style>
+<span><br>[8] mmmmmmmmmmmmmmmm - </span>
+<span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: lomek455)</i></span>
+<style>span.mmmmmmmmmmmmmmmm{color: #ECC23E;}</style>
+<span><br>[9] Willow - </span>
+<span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: LoadXBare)</i></span>
+<style>span.Willow{color: #06E00C;}</style>
+<span><br>[10] Space - </span>
+<span style="color:#6699FF"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>N1 Pirated<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Gyongyhaju</color></link></font></style> Inno</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Galyen)</i></span>
+<style>span.Space{color: #6699FF;}</style>
+<span><br>[11] Lilith - </span>
+<span style="color:#06E00C"> Deputy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br><br>1 <br>2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> <br>5 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>8 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> <br>9 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><color=#06E00C>Town </color><color=#1F51FF>Killing</color></b></link></font></style> <br>11 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br>14 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[12] Waite - </span>
+<span style="color:#FF004E"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> is Dead</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mischief)</i></span>
+<style>span.Waite{color: #FF004E;}</style>
+<span><br>[13] Sam Willard - </span>
+<span style="color:#06E00C"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1 - Waiting<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style><br><br>N2 - Proposed to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> <br>They said no</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Junsuina)</i></span>
+<style>span.Sam-Willard{color: #06E00C;}</style>
+<span><br>[14] Cat in Hat - </span>
+<span style="color:#B545FF"> Potion Master </span>
+<span style="color:#a0a0a0"><i>(Username: Zel)</i></span>
+<style>span.Cat-in-Hat{color: #B545FF;}</style>
+<span><br>[15] zaza - </span>
+<span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">zaza the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> <br>n1- 4 and 6 (enemies)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: dudeGrewfish)</i></span>
+<style>span.zaza{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Random Bard</color></link></font></style> has disconnected from life.</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: You are now BREATHING MANUALLY!</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: shroud get u lazy ass on me, im shroud</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: i mean</span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: I cant belive you've done this 1</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: im seer</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 15 ur shroud....</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: Master</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: KILL</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: KILL...</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Random Bard</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Random Bard</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Random Bard</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Random Bard</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 Pirated</span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: Hazel the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style> - Blood!</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: why tf 4 and 6 are still alive? or there no shroud?</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: Yuumi the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> 
+N1- bugging someone (nothing so far)</span>
+<span><br>[8]</span>
+<span class="mmmmmmmmmmmmmmmm">mmmmmmmmmmmmmmmm</span>
+<span>: ... shlt</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: jailed</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: why did pirate go for me</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: smh</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: zaza the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> 
+n1- 4 and 6 (enemies)</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: 15 just outright has blood</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 15 are you shroud</span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: Yeah and 15 is saying I'm enemies with someone</span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: 15 is Shroud</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: Suprised im alive tbh</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: bro executioner today really love my dick</span>
+<span><br>[12]</span>
+<span class="Waite">Waite</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: Get hung bozo</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Waffle">Waffle</span>
+<span>: Investigator
+N1- Hazel innocent no blood</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Waite</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: yea let me out</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: i hate every ti role</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: also tps</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: and tss</span>
+<span><br>[15]</span>
+<span class="zaza">zaza</span>
+<span>: zaza the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> 
+n1- 4 and 6 (enemies)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: Guilty? Inno?</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>zaza</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: i think its exe tbh</span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: Nu uh</span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: :3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: omg</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: damn <b>Hazel</b></span>
+<span><br>[12]</span>
+<span class="Waite">Waite</span>
+<span>: um</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style> left a last will.</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: 6 and 4</span>
+<span><br>[4]</span>
+<span class="Hazel">Hazel</span>
+<span>: They checked me N1 deserved it</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> has successfully gotten their target hanged!</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hazel</color></link></font></style> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> and left town.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Waite</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Waite</color></link></font></style> was tormented by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Waite</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Waite</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>zaza</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Waite</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: sheeeesh exe</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: rip <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: looooooooool</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: oh... omfg... the play...</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sam Willard</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style> was executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Seris</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Waffle</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Waffle</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Waffle</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Waffle</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>: role</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Gyongyhaju</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Gyongyhaju</color></link></font></style>: role</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sam Willard</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sam Willard</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style>: role</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sam Willard</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Gyongyhaju</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Gyongyhaju</color></link></font></style>: tavern keeper</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>: wouldnt you like to know eather boy</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>: now</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Sam Willard</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>: no</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>: or ur getting jailed</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 PiratedN2 <b>Gyongyhaju</b> Inno</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: Yuumi the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> 
+N1- bugging someone (attacked by coven but has def)
+N2- bugging someone else (rbd also killed by shroud)</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: <b>Space</b> why do you have def</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: ?</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: <b>Cat in Hat</b> why deny admir</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: <b>Yuumi</b> ???</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 1 claim</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: Why would I risk it with Admirer?</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: you were attacked by coven</span>
+<span><br>[8]</span>
+<span class="mmmmmmmmmmmmmmmm">mmmmmmmmmmmmmmmm</span>
+<span>: I think I know who is 1</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: but you have def</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: He dies and I die</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>: yeah doubt you claim jailor in whispers stop tryna scum read</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: i wasnt attacked</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: <b>Space</b> is an evil</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style>: rol,e</span>
+<span><br>[10]</span>
+<span class="Space">Space</span>
+<span>: another exe play?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style>: I have a feeling 1 is jailor</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: N1- bugging someone (n2 attacked by coven but has def)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style>: you first</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: 10</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: I HAVE A QUESTION</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style></span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: WHY ARE YOU SHROUD</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: what claim is that for exe</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k68"><b><color=#007AFF><b>Shoot</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style> was shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Waffle</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style>: am jailor</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Space</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: beeeeeeeng</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: good shit dep</span>
+<span><br>[11]</span>
+<span class="Lilith">Lilith</span>
+<span>: ghahahahaha</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: lol suprised you didnt hit me lol</span>
+<span><br>[9]</span>
+<span class="Willow">Willow</span>
+<span>: nice shot</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: Yuumi the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> 
+N1- bugging someone (attacked by coven but has def)
+N2- bugging someone else (rbd also killed by shroud)</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: I even taunted you</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style>: pirate 1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>mmmmmmmmmmmmmmmm</color></link></font></style>: ok</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: also theres either pois</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: or tav was on 6</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a member of the <style="CovenColor">Coven</style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> was killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Lilith</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: N3- bugging <b>Lilith</b> (killed by cov)</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> 
+n1: jailed
+n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k73"><b><color=#007AFF><b>Drink</b></color></b></link></font></style> <b>Waffle</b> 
+n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k73"><b><color=#007AFF><b>Drink</b></color></b></link></font></style> <b>Master Baiter</b>(jailed)</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: N3 ~ Jailed cxonfirmed not coven killing</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: ok</span>
+<span><br>[8]</span>
+<span class="mmmmmmmmmmmmmmmm">mmmmmmmmmmmmmmmm</span>
+<span>: 2 was jailed n1 no coven kills</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: 3 is 14 last cov?</i></span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: trie</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: true</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: so if <b>Gyongyhaju</b> is tav <b>Master Baiter</b> osmt cpv lo;;omg</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: yes</i></span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: isnt cov killing</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: ffs</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: rip</i></span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: 5 what?</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: oh</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: lol</span>
+<span><br>[9]</span>
+<span class="Willow">Willow</span>
+<span>: what is 8</span>
+<span><br>[8]</span>
+<span class="mmmmmmmmmmmmmmmm">mmmmmmmmmmmmmmmm</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[9]</span>
+<span class="Willow">Willow</span>
+<span>: i see</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: <b>Willow</b> <b>Cat in Hat</b> which is jailor</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: want to say</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: ?</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: we lynch the other</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: 5 tryna out jailor</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: hang 5</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: cause its ck</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Gyongyhaju</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Yuumi</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: i got the shroud out, are you daft</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: coven killing</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: is either 9 or 14</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: ????</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: So you are coven then... simple</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: you got shroud out cuz you attacked him</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: also knew there was a tav</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: Conj?</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: how do i see tav as coven</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: tell me</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: how</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Yuumi</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[5]</span>
+<span class="Yuumi">Yuumi</span>
+<span>: throwing ig</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: damn</i></span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: who rb?</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: i didnt expect us to get this far</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: tarnation</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: with a jailor even</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: i mean if town had a bit more of a braincell</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Yuumi</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: it wouldve worked out</i></span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: ILL SAVE YOU</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: like always</i></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: but we lynch the spy who knows theres a tav</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: like</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: 14 is jailed</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: what</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: yeah that was a weird lynch</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: lol</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: is <b>Cat in Hat</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r107"><b><color=#B545FF>Coven </color><color=#1F51FF>Killing</color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: yes</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: 14 is last cov</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: yes</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: and jailed</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: i fucking called that</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: yup you did lmao</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: but no, we want the jailor to stay hidden when its down to 2 ppl</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: like</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Yuumi</span>
+<span style="color:#689194">: yeah</i></span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> 
+n1: jailed
+n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k73"><b><color=#007AFF><b>Drink</b></color></b></link></font></style> <b>Waffle</b> 
+n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k73"><b><color=#007AFF><b>Drink</b></color></b></link></font></style> <b>Master Baiter</b>(jailed)
+n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k73"><b><color=#007AFF><b>Drink</b></color></b></link></font></style> <b>Cat in Hat</b> (jailed)</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: they didnt execute</i></span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: for sure its 14</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: and 8 is fake pirat</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: Right so 14 was attacked or is ck</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: ?</span>
+<span><br>[9]</span>
+<span class="Willow">Willow</span>
+<span>: 8 isn't fake</span>
+<span><br>[9]</span>
+<span class="Willow">Willow</span>
+<span>: i was pirated last night</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: okay</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: I'm not, also we are missing many evils, no?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Gyongyhaju</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: Ik too little evilks</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Master Baiter</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: slooooow</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: jailor pleeease</i></span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: Follow me</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Cat in Hat</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: meh</i></span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: I'm Vet, I still have alerts</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: Don't waste it and get 1</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: nah</span>
+<span><br>[2]</span>
+<span class="Gyongyhaju">Gyongyhaju</span>
+<span>: i will rb 1</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Cat in Hat</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[14]</span>
+<span class="Cat-in-Hat">Cat in Hat</span>
+<span>: To be honest it was unfair, only 2 coven</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Cat-in-Hat</span>
+<span style="color:#689194">: And 3 died early</i></span>
+<span><br>[1]</span>
+<span class="Master-Baiter">Master Baiter</span>
+<span>: jailor hold 9/8 and ill get rbd</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: :(</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Cat-in-Hat</span>
+<span style="color:#689194">: u_u</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Seris</span>
+<span style="color:#689194">: nice try</i></span>
+<span><br>[9]</span>
+<span class="Willow">Willow</span>
+<span>: i'll hold 8</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Cat in Hat</color></link></font></style> did not leave a last will.</span>
+</body>
+</html>

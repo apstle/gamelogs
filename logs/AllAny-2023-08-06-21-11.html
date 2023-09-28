@@ -1,0 +1,862 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] cranz - </span>
+<span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: 079enjoyer)</i></span>
+<style>span.cranz{color: #06E00C;}</style>
+<span><br>[2] MrChips - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>N1. (5), 6,13<br>N2. (7), 4 (dw'd)<br>N3. (8), 13,4</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.MrChips{color: #06E00C;}</style>
+<span><br>[3] Da Pope - </span>
+<span style="color:#FF004E"> Plaguebearer </span>
+<span style="color:#a0a0a0"><i>(Username: EpicG)</i></span>
+<style>span.Da-Pope{color: #FF004E;}</style>
+<span><br>[4] Hellen t - </span>
+<span style="color:#06E00C"> Veteran </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cant do anything tonight</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Hellen-t{color: #06E00C;}</style>
+<span><br>[5] Potato - </span>
+<span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Potato{color: #06E00C;}</style>
+<span><br>[6] Donk - </span>
+<span style="color:#DB7601"> Arsonist </span>
+<span style="color:#a0a0a0"><i>(Username: FrogCarrot)</i></span>
+<style>span.Donk{color: #DB7601;}</style>
+<span><br>[7] Betty Parris - </span>
+<span style="color:#B545FF"> Medusa </span>
+<span style="color:#a0a0a0"><i>(Username: NewCJRocks)</i></span>
+<style>span.Betty-Parris{color: #B545FF;}</style>
+<span><br>[8] Guardian Angel - </span>
+<span style="color:#B545FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: Trastian)</i></span>
+<style>span.Guardian-Angel{color: #B545FF;}</style>
+<span><br>[9] Ronnie Coleman - </span>
+<span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: Squfro)</i></span>
+<style>span.Ronnie-Coleman{color: #06E00C;}</style>
+<span><br>[10] Misty - </span>
+<span style="color:#1D4DFC"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">BG<br><br>n1. 1<br>n2.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Misty{color: #1D4DFC;}</style>
+<span><br>[11] JeffySpaghetti - </span>
+<span style="color:#949797"> Executioner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>cranz</color></link></font></style> seems <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style> <br><br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed<br><br>N3:</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: JackTehRipper69)</i></span>
+<style>span.JeffySpaghetti{color: #949797;}</style>
+<span><br>[12] kill tk claims - </span>
+<span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: ryarya)</i></span>
+<style>span.kill-tk-claims{color: #06E00C;}</style>
+<span><br>[13] Hazel - </span>
+<span style="color:#B545FF"> Dreamweaver </span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Hazel{color: #B545FF;}</style>
+<span><br>[14] Woof - </span>
+<span style="color:#06E00C"> Deputy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Deputy<br><br>n1 - they put me in charge. yay!<br>n2 - didn't shoot anyone yesterday. almost did. but other Deputy got there first.<br>n3 - okay. no matter what<br><br>HA HA HA<br>BANG BANG<br>PEW PEW</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: kerouaille)</i></span>
+<style>span.Woof{color: #06E00C;}</style>
+<span><br>[15] Lilith - </span>
+<span style="color:#B545FF"> Potion Master </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #B545FF;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[6]</span>
+<span class="Donk">Donk</span>
+<span>: arso claim d1</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: howdy</span>
+<span><br>[12]</span>
+<span class="kill-tk-claims">kill tk claims</span>
+<span>: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+<span><br>[1]</span>
+<span class="cranz">cranz</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: heyo</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: i wanna see some more retributionist gaming</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: TK</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: ello</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> decided to invade the dreams of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: hazel are you like</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: the REAL hazel</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: No</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: I'm fake</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: like -THE- hazel</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: NOOOOO</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Reveal potion tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to reveal <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Da Pope</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: this makes me cry</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: :(</span>
+<span style="background-color:#0000FF; color:#FFFFFF"><br>Your target is a carrier of disease. They must be the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: N1. (5), 6,13</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: o_O</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Hazel the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="cranz">cranz</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>cranz</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> (not sus)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Donk</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 - 3 - No Blood</span>
+<span><br>[5]</span>
+<span class="Potato">Potato</span>
+<span>: I am rb</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: TK</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Donk</color></link></font></style> sus</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill tk claims</color></link></font></style> has disconnected from life.</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: i am TK</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>cranz</color></link></font></style> seems <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: 5 /6 /13 roles</span>
+<span><br>[6]</span>
+<span class="Donk">Donk</span>
+<span>: im arso</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Donk</color></link></font></style> sus</span>
+<span><br>[6]</span>
+<span class="Donk">Donk</span>
+<span>: i dont show up as sus</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: Oh</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: ok well ur still arso</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: yes you do</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Okay then</span>
+<span><br>[5]</span>
+<span class="Potato">Potato</span>
+<span>: maybe jester</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: so lets get you out anyways</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: fuk it</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: Also ive been dreamwoven, if someone could visit pls</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: it says sus!</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: yeah 6 is jest</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: uhm</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Donk</color></link></font></style> died today. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: okay that's that one settled.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Lets hang 10 now</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: He right, he aint sus</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay and now we hang the sheriff claim!</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: cant take the chance bby</span>
+<span><br>[5]</span>
+<span class="Potato">Potato</span>
+<span>: oh okay</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: nice ty</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: nice shooting, Deputy</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: well ok</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>cranz</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>MrChips</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Woof</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: guys im jest i will side town</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: dont waste my kill yet</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: trust</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: hes not jest</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>: what are you</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: idk be pretty funny to see jest torment</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: What does this even mean?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>: investigator</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>: i posted</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: wait</span>
+<span><br>[10]</span>
+<span class="Misty">Misty</span>
+<span>: dont wait</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>: Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> N1 - 3 - No Blood</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Misty</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to hang <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style> by a vote of <color=#FF0000><b>9</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Waiting is for nerds</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>: Ok I am mayor</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: FULL THROTTLE</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: gottem</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style> died today. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died to the noose.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: LOL</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: gee golly</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Felt more exe</span>
+<span><br>[5]</span>
+<span class="Potato">Potato</span>
+<span>: nice</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Misty</color></link></font></style> left a last will.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: L SK</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: L</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: looks a bit too blue for a jester</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: to be honest</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: im sorry guys I was getting a drink N1</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: So 11's immune to DW</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> decided to invade the dreams of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>MrChips</color></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: 5 claimed mayor to me in whispers</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: who is a good kill?</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> tonight.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: 3 is PB, 11 immune to DW</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: best to leave him alone</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: for now</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: leave 5 ya</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: he'll have my trust if he survives</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: A lot of apoc around</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Protection potion tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Woof</color></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: im gonna push 11 tmr</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: as bers</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: if theres a bers kill</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style> instead decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>cranz</color></link></font></style> tonight.</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Im rbing it</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: just gonna self so i can stay alive</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: kk</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>cranz</color></link></font></style> died last night. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Da Pope</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Da Pope</color></link></font></style> died last night. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>kill tk claims</color></link></font></style> died last night. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: N2 - 11 - No Blood what a colorful graveyard wow</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: N2 - <b>cranz</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: amne <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> here, I was AFK N1 but luckily it didn't matter</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: hell yeah vet</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: N2. (7), 4 (dw'd)</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: Dreamweaved, need a visit please</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: RBd last night</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: 1 was real sheriff</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: any tavs?</span>
+<span><br>[5]</span>
+<span class="Potato">Potato</span>
+<span>: any crusadea</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: who claims that rb?</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: prolly a PM</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Anynone claim that rb?</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: PM cant rb</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: so we got a mes, PM, DW?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah theres no tav</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: nobody rb'd you</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: 11 had no blood</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hellen t</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>JeffySpaghetti</b> was voted up to trial.</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: thats incorrect, I was RBd, pois not admitting it</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: <b>JeffySpaghetti</b> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1: <b>cranz</b> seems <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style> N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed N3:</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: Med and DW defo. perhaps PM or Cautious Tav</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Doesnt mean they arent coven tho.</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: 1 was real sheriff, inno</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: theres confirmed: Medusa, and Dreamweaver, I doubt theres a Poisoner, since one of the TI claims is probably PM</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: guilty</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: guilty this</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: 3rd sheriff claim</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Guilty</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: imo</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Donk</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>JeffySpaghetti</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to hang <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: idk why ur defending this so hard 7</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: nobody rb'd them</span>
+<span><br>[11]</span>
+<span class="JeffySpaghetti">JeffySpaghetti</span>
+<span>: 15 acting cov this game, good luck town</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Wait, how did we know 1 was real?</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: i forgot PM doesnt RB</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> died today. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died to the noose.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: 1 was inno</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Thats how I knew 1 was real</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: TIs on me</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>JeffySpaghetti</color></link></font></style> left a last will.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: only poisoner roleblocks</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: That proves very little</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: and tav</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: poison 2</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: we are 4v4</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> decided to use their <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k36"><b><color=#007AFF><b>Poison</b></color></b></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 is a confirmed kill</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: ya think dep is a good kill tonight?</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hellen t</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: 5 is vet prolly</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: so kill dep</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: 14 claimed TK</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: ok</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: 14 claimed TK</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: They might be vet</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: kill 5 then</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Protection potion tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: i will stop vet kill</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Kill 5</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: kill 5</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style> instead decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> tonight.</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: bet</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> died last night. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: N3 - <b>Betty Parris</b> - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k48"><b><color=#007AFF><b>Innocent</b></color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="Hellen-t">Hellen t</span>
+<span>: poisoned</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: N3. (8), 13,4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Potato</color></link></font></style> has disconnected from life.</span>
+<span><br>[7]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: <b>Woof</b> was inno</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: I want 4 hung today tbh</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Pretty sure weve just lost</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: o7</span>
+<span><br>[4]</span>
+<span class="Hellen-t">Hellen t</span>
+<span>: im the vet</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: what is 4 and 8?</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Oh 4 si vet</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: what is 8?</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: what is 14?</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: is</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: I am TP</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: 14 role?</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: TK</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: which</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: 13 what are you?</span>
+<span><br>[14]</span>
+<span class="Woof">Woof</span>
+<span>: pick a number</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: What TK</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: 2</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 i guess?</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: they're silent</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Woof</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: 2 is psy</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: what</span>
+<span><br>[2]</span>
+<span class="MrChips">MrChips</span>
+<span>: lol?</span>
+<span><br>[4]</span>
+<span class="Hellen-t">Hellen t</span>
+<span>: 9 is dep</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Scrw you deputy</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>MrChips</color></link></font></style> died today. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: baaaaah</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: lmao</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: *sheep noises*</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: Town really is carrying us this game</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Woof</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: EXACTLY</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: Now we hang the Vet!</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Woof</color></link></font></style> has <b><style="GuiltyColor">dishonored the town</style></b> and will be hanged.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: they are poisoned</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: Didnt we poison 2?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Woof</color></link></font></style> died today. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>For crimes against the town, the hangman has executed them.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: no</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Woof</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay 4 is poisoned lynch 9</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: actual throw his will was good tf lol</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Bruh, 13 and 7 are obvious coven here. What would Jesus do?</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hellen t</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hellen t</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: guys</span>
+<span><br>[9]</span>
+<span class="Ronnie-Coleman">Ronnie Coleman</span>
+<span>: town doesnt have maj</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: why didnt 9 go up</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style> decided to celebrate with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> tonight.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: kill 9</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to use your Reveal potion tonight.</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Lets all visit 9 tonight</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to use your Protection potion tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k32"><b><color=#007AFF><b>Barrier</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: What would Jesus do?</span>
+<span><br>[8]</span>
+<span class="Guardian-Angel">Guardian Angel</span>
+<span>: Visit 9</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: no i must protect hazel</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: its my job</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Would Jesus have us all visit 9?</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> decided to invade the dreams of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> instead decided to invade the dreams of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hellen t</color></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: im hazels purple cleric</span>
+<span><br>[13]</span>
+<span class="Hazel">Hazel</span>
+<span>: Jesus would have me dreamweave the vet</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: :3</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Betty Parris</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> tonight.</span>
+<span><br>[15]</span>
+<span class="Lilith">Lilith</span>
+<span>: do iiit</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target was attacked last night!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Guardian Angel</color></link></font></style>: nice achievement pfft</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: Ty they were on alert</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Hellen t</color></link></font></style> died last night. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: yeah 8 just got an achievement</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Ronnie Coleman</color></link></font></style> died last night. Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>).</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: forcefully shoves barrier potion in your face DRINK IIIIIIIIIT</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Hazel</color></link></font></style>: DONT DIIIIIIE</span>
+</body>
+</html>

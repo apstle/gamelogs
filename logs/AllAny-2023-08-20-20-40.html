@@ -1,0 +1,785 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] inuarashi - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: MicrowavedPlum)</i></span>
+<style>span.inuarashi{color: #06E00C;}</style>
+<span><br>[2] Backpainman - </span>
+<span style="color:#B545FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: Topphoenix)</i></span>
+<style>span.Backpainman{color: #B545FF;}</style>
+<span><br>[3] Lynx - </span>
+<span style="color:#6699FF"> Shroud </span>
+<span style="color:#a0a0a0"><i>(Username: Lynxolotl)</i></span>
+<style>span.Lynx{color: #6699FF;}</style>
+<span><br>[4] Lilith - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #B545FF;}</style>
+<span><br>[5] Gone Bananas - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Psychic Bananas<br>N1:9(</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Gone-Bananas{color: #06E00C;}</style>
+<span><br>[6] Lucifer - </span>
+<span style="color:#949797"> Executioner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">14 is fake btw shroud appears inno to sheriff and 4 is also coven<br><br><br><br>Lucifer the Investigator<br>N1:14(BLOOD)<br>N2:4</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Rivalslinky)</i></span>
+<style>span.Lucifer{color: #949797;}</style>
+<span><br>[7] Twerkulation - </span>
+<span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Twerkulation the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style> <br><br>N2: @</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: KGuida)</i></span>
+<style>span.Twerkulation{color: #FF004E;}</style>
+<span><br>[8] Not Veteran - </span>
+<span style="color:#B545FF"> Wildling </span>
+<span style="color:#a0a0a0"><i>(Username: AWeekFromNextTuesday)</i></span>
+<style>span.Not-Veteran{color: #B545FF;}</style>
+<span><br>[9] TeeHeee - </span>
+<span style="color:#06E00C"> Veteran </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> <br>N1-Alert<br>N2-No Alert</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Wsguygamer)</i></span>
+<style>span.TeeHeee{color: #06E00C;}</style>
+<span><br>[10] Sarah Wildes - </span>
+<span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sarah Wildes</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style><br><br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Lilith</color></link></font></style><br>N2-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MrDasaplo)</i></span>
+<style>span.Sarah-Wildes{color: #06E00C;}</style>
+<span><br>[11] braincells gone - </span>
+<span style="color:#9D7038"> Werewolf </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">4 is RIT</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ashbringer)</i></span>
+<style>span.braincells-gone{color: #9D7038;}</style>
+<span><br>[12] CoochiMan - </span>
+<span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style> killed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k36"><b><color=#007AFF><b>Poison</b></color></b></link></font></style> <br><br>11: no evidance of killer</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Captainkerly)</i></span>
+<style>span.CoochiMan{color: #06E00C;}</style>
+<span><br>[13] mischief - </span>
+<span style="color:#06E00C"> Veteran </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> ||<br><br>n1= <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k69"><b><color=#007AFF><b>Alert</b></color></b></link></font></style> (outright said im baiting bruh)<br><br>n2= <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k69"><b><color=#007AFF><b>Alert</b></color></b></link></font></style> (this aint it chief im down to one now)<br><br>n3= <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k69"><b><color=#007AFF><b>Alert</b></color></b></link></font></style> (this is my trump card, can i do it? paranoid vet moment) <br><br>4 isnt confirmed, fuck this town of passives game</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: NITROZ)</i></span>
+<style>span.mischief{color: #06E00C;}</style>
+<span><br>[14] Town Breeder - </span>
+<span style="color:#B545FF"> Witch </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>n1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> (SUS)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: nampp)</i></span>
+<style>span.Town-Breeder{color: #B545FF;}</style>
+<span><br>[15] marthy - </span>
+<span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>TeeHeee</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: caramey)</i></span>
+<style>span.marthy{color: #06E00C;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: my back</span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: kill 1</span>
+<span><br>[5]</span>
+<span class="Gone-Bananas">Gone Bananas</span>
+<span>: I see you, falling off your rocker so to speak</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Lilith</color></link></font></style> hello mother of demons</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: fuck you 9</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: KILL <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style>KILL <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style>KILL <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style>KILL <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style>KILL <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style>KILL <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style></span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[7]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: any other vet baiters?</span>
+<span><br>[1]</span>
+<span class="inuarashi">inuarashi</span>
+<span>: WHY</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: yeah me</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: KILL <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style></span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: im baiting</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: come to me</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: kill 1 pls ty</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: dear poisoner</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Not Veteran</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>marthy</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> decided to celebrate with and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> decided to make their victim target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> instead decided to celebrate with and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style> tonight.</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: what should i claim</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: tp</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>inuarashi</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sarah Wildes</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gone Bananas</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Gone Bananas</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>marthy</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>marthy</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: you guys are so stupid</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> why arent you vet</span>
+<span><br>[9]</span>
+<span class="TeeHeee">TeeHeee</span>
+<span>: teehee</span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: rip</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> here
+n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>marthy</color></link></font></style> visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>TeeHeee</color></link></font></style></span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: Achievment the InvestigatorN1:14(BLOOD)</span>
+<span><br>[3]</span>
+<span class="Lynx">Lynx</span>
+<span>: i was witched</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: wow i didnt thought shroud and coven both would attack 1 lmao</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: i went to 14 to die</span>
+<span><br>[7]</span>
+<span class="Twerkulation">Twerkulation</span>
+<span>: Twerkulation the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> 
+
+N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style></span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: im sorry</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: 14 is not a vet</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: Achievment the InvestigatorN1:14(BLOOD)</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: that i couldnt kill you</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: i wish i could</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: i wish you could have</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: oh?</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> 
+n1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> (SUS)</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: 3 role</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: 6 is jes btw</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: now</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: I was crus on 14 and attacked someone, 6 is fake</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: deputy</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: nah</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: on3</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: probably the exe</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: 3 role</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: deput on 3</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 6 is exe</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: deput on 3</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: is a exe on a exe or something LMAO</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: i wasnt attacked</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: pros 3</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: you were</span>
+<span><br>[3]</span>
+<span class="Lynx">Lynx</span>
+<span>: dont waste you shot dep</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 6 is exe</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Not Veteran</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>braincells gone</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lucifer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 6 IS EXE</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>TeeHeee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: I WAS CRUS ON 14</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="Lynx">Lynx</span>
+<span>: i was witched</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style>: thank you</span>
+<span><br>[3]</span>
+<span class="Lynx">Lynx</span>
+<span>: gonna get controled into vet anyways</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: so 14 is probably witch and 4 is coven</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: lol</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: u couldnt have visited 14</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: 4 is defending witch im betting</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: 6 ur mom is gay thats whats happening</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lynx</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i was crusader on 14</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style>: did u attack someone?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style>: yea</span>
+<span><br>[3]</span>
+<span class="Lynx">Lynx</span>
+<span>: how did i almost get innoed?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style>: ahh</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: 6 stop trying ignore 6</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 6 is exe i attacked him</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> was convicted and executed.</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: jester %100</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i was crus on 14</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: yeah 14 fake</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lynx</color></link></font></style> did not leave a last will.</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: or exe</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: pussies</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: shroud is inno</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: innos are pussies</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: i found 3</span>
+<span><br>[6]</span>
+<span class="Lucifer">Lucifer</span>
+<span>: 14 is fake</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: check innos</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have performed a Blood Ritual on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>TeeHeee</color></link></font></style> guessing their role is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: 4 intersting responce</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: well 6 is blatant fake</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: since 14 cant have blood</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: 4 saved me</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i need him alive</span>
+<span><br>[14]</span>
+<span class="Town-Breeder">Town Breeder</span>
+<span>: or we both will go down</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: we have majority tomorrow</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: just kill</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Not Veteran</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>braincells gone</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lucifer</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> decided to make their victim target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style> tonight.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: send to 9</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> decided to celebrate with and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>TeeHeee</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You successfully guessed your target's role.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lucifer</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>. They were also destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lucifer</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Twerkulation</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>TeeHeee</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>TeeHeee</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sarah Wildes</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sarah Wildes</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Town Breeder</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i got witched</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: holy shit town of duplicates, anyway lets get 4 for now and lets hope we can get ww</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: werewolf popped of</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: n2: <b>braincells gone</b> visited <b>Lucifer</b></span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: 11s ww</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: hey now</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: coven is about have maj</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 13 im confirmed crus</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: can we get the convirmed coven now</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: if die here'</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i got witched</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: 4</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i am confirmed crus</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: oh you are?</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i got witched last night</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: oh?</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: YES</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: wait how are you confriemd</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: wait</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i attacked exe</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: 4 how would you get witched if we know witch visited 6</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: how did i know 14 was witch???</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: and how does this confirm you</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: exe didnt die to crus</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: no he didnt</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: one of you i coven</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: EXE IS IMMUNE</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: i think</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: goober</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: yes how do we confirm you did attack him</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: yea</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: do you not understnad the game</span>
+<span><br>[11]</span>
+<span class="braincells-gone">braincells gone</span>
+<span>: wait hold up</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: he pushed me back</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: whatever vfa</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>mischief</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: damn slow</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: well then</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: why u voting me</span>
+<span><br>[13]</span>
+<span class="mischief">mischief</span>
+<span>: gg town lsot</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have performed a Blood Ritual on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>braincells gone</color></link></font></style> guessing their role is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: can we all kill</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: 11s actually ww</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: yes</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: i know</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: I cant kill</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> decided to celebrate with and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>mischief</color></link></font></style> tonight.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 lets NOT KILL THE PERSON IM GUESSING</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: THIS TIME</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: PLEASE AND THANK YOU</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Not Veteran</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style> tonight.</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: sos</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You successfully guessed your target's role.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>braincells gone</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>braincells gone</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Not Veteran</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>mischief</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>mischief</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: gg</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: lmao 13 poisoner jumpscare</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: n3: <b>CoochiMan</b> visited <b>marthy</b> , <b>Not Veteran</b></span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: im ok with this</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: LOL</span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: role call</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 12S CORONER</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: why do the coroners always live til the end</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: well 12</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 is pois im rit 8s wildling</span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: idk</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: Thanks for the Achievement lol</span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: my neck itches</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: This proves that <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> best role</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: so true</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: i might get an achievement actually</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Not Veteran</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Backpainman</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>CoochiMan</b> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: ...</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: good defence</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: inno</span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: my neck is killing me today guys</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>CoochiMan</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style> to death by a vote of <color=#FF0000><b>2</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: 13 lost to a frog</span>
+<span><br>[12]</span>
+<span class="CoochiMan">CoochiMan</span>
+<span>: weeee</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: LMAO</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: who wins</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: hardened war veteran</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: froggy.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style> was convicted and executed.</span>
+<span><br>[2]</span>
+<span class="Backpainman">Backpainman</span>
+<span>: gg</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Not-Veteran">Not Veteran</span>
+<span>: ggs</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>CoochiMan</color></link></font></style> left a last will.</span>
+<span><br>[4]</span>
+<span class="Lilith">Lilith</span>
+<span>: froggy gaming</span>
+</body>
+</html>

@@ -1,0 +1,934 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] sunny - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>sunny</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>[N1]: E (8)</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Wow, you got killed by a [[#31]]? That's just plain embarassing, buddy.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: cr3nsh9w)</i></span>
+<style>span.sunny{color: #06E00C;}</style>
+<span><br>[2] amne monkey - </span>
+<span style="color:#B545FF"> Illusionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">BG<br>N1: jailed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Trashtrashib)</i></span>
+<style>span.amne-monkey{color: #B545FF;}</style>
+<span><br>[3] almong mik - </span>
+<span style="color:#06E00C"> Jailor </span>
+<span style="color:#a0a0a0"><i>(Username: lawrencezlin)</i></span>
+<style>span.almong-mik{color: #06E00C;}</style>
+<span><br>[4] bousta cuum - </span>
+<span style="color:#FF004E"> Soul Collector </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">discord.gg / wevibe</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Knight322)</i></span>
+<style>span.bousta-cuum{color: #FF004E;}</style>
+<span><br>[5] Skim Milk - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: DonnieBirb)</i></span>
+<style>span.Skim-Milk{color: #06E00C;}</style>
+<span><br>[6] Thomas Danforth - </span>
+<span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: flech)</i></span>
+<style>span.Thomas-Danforth{color: #06E00C;}</style>
+<span><br>[7] shawty - </span>
+<span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">shawty the sheriff<br><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style>ed 9- inno<br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style>ed 4- jailed<br>n3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed<br>n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style>ed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: yankeecandle)</i></span>
+<style>span.shawty{color: #06E00C;}</style>
+<span><br>[8] PoeTayToe - </span>
+<span style="color:#DB7601"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style> <br>N1 4<br>N2 15</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Skierchamp)</i></span>
+<style>span.PoeTayToe{color: #DB7601;}</style>
+<span><br>[9] Lilith - </span>
+<span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>|N1 - B14 (Shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>)<br>|N2 - B5 (Doused)<br>|N3 - B7 ()<br><br>|3 -<br>|5 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> (8), 13, 14<br>|6 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> <br>|7 -<br>|9 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>|10 -<br>|11 -<br>|13 -<br>|15 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">4 defence</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[10] Fyodor - </span>
+<span style="color:#DB7601"> Arsonist </span>
+<span style="color:#a0a0a0"><i>(Username: Kolya)</i></span>
+<style>span.Fyodor{color: #DB7601;}</style>
+<span><br>[11] Mylo - </span>
+<span style="color:#B545FF"> Hex Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mylo)</i></span>
+<style>span.Mylo{color: #B545FF;}</style>
+<span><br>[12] Merle Ambrose - </span>
+<span style="color:#B545FF"> Jinx </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Merle Ambrose the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style> <br><br>N1) Placing a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k78"><b><color=#007AFF><b>Jinx</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SirTalonshire)</i></span>
+<style>span.Merle-Ambrose{color: #B545FF;}</style>
+<span><br>[13] Cool way to die - </span>
+<span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: gogohappyday)</i></span>
+<style>span.Cool-way-to-die{color: #06E00C;}</style>
+<span><br>[14] Lays - </span>
+<span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">14 the invest<br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> (</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AskingGuess)</i></span>
+<style>span.Lays{color: #B545FF;}</style>
+<span><br>[15] Skips - </span>
+<span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: Clearskies)</i></span>
+<style>span.Skips{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: you know what be funn</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: ur mum</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: if a kill put a game ad in their detah note</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: like raid</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bug on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style> has been triggered and revealed the following information.</span>
+<span style="background-color:#000000; color:#FF004E"><br>Your target was killed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> they visited!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>sunny</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>sunny</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>sunny</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>: yo did you just shoot 14</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>: no but i saw 12 is jixn</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>: cuz he died to vet</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>sunny</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>: o</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>: get his ass then</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style> was shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: [ <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> ] n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k69"><b><color=#007AFF><b>Alert</b></color></b></link></font></style> = killed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lays</color></link></font></style> //</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> |N1 - B14 (Shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>)</span>
+<span><br>[2]</span>
+<span class="amne-monkey">amne monkey</span>
+<span>: Jailed</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: i got my ass attacked by coven dawg</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: n1: gee golly noone dc'ed lame (8), 13, 14 EVIL I SAW 12 IS JINX</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: sweet</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: N1) Placing a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>[Failed, target was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed!]</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: wait for coven dawgs</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 12 IS <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: to push me now</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: ?</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 12 IS <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style></span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: i can confirm 12 is jinx</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: n1: gee golly noone dc'ed lame (8), 13, 14 EVIL I SAW 12 IS JINX</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: 5 what're you on about lmao</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: I was on 2</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: k</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: N1) Placing a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>[Failed, target was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed!]</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 12</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: IS</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 2 was jailed 12....</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: JINXXXXX</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: yes</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: N1) Placing a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>[Failed, target was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>ed!]</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: I posted as much</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 is the necro holder</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: jailor don't jail me brah</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: up them</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 1f1 i suppose</span>
+<span><br>[12]</span>
+<span class="Merle-Ambrose">Merle Ambrose</span>
+<span>: I'm <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style></span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: please</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: jailor get 12</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: jialor get 12 hang 2</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: don't jail me brah</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: BRO CAUGTH IN A LIE</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: vote 12</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: get 12 hang 2</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: jailor cant get 2 again</span>
+<span><br>[2]</span>
+<span class="amne-monkey">amne monkey</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Cool way to die</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: up 12</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: 12 knew 2 was jailed</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: visited 8</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style> was shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Skips</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Merle Ambrose</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay we get 2 here, 12 visited 8 but knew 2 was jailed, get 2, 2 is book holder</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: gj</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Skips</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Cool way to die</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="amne-monkey">amne monkey</span>
+<span>: 4 is immune</span>
+<span><br>[2]</span>
+<span class="amne-monkey">amne monkey</span>
+<span>: Im not book holder</span>
+<span><br>[2]</span>
+<span class="amne-monkey">amne monkey</span>
+<span>: fairwell</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: JAILOR BRAH</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: DON'T GET ME PLEASE</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: guilty</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: GET OTHER COVEN DOGS</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: AND WW</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: lol 4 unlucky</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: I AM NON KILLING</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: get 4's booty jailor</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: how do you know theres a werewolf</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: what</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: I SAID COVEN ATTACKED ME FIRST DAY</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: BRAH</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>amne monkey</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style> to death by a vote of <color=#FF0000><b>9</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: I AIN'T LYING</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: I TOLD D TRUTH</span>
+<span><br>[2]</span>
+<span class="amne-monkey">amne monkey</span>
+<span>: gg</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: DAY 1</span>
+<span><br>[2]</span>
+<span class="amne-monkey">amne monkey</span>
+<span>: rough</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay so 4 is doomsayer, jailor fuck em up</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: let me use 4 for info jailor</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: THERE IS WW + OTHER COVEN DOG</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: DON'TCHU GET ME</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#B545FF>Illusionist</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: please</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: I AIN'T GOTS INFO</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style> left a last will.</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: LET ME BE DAWG</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: let me use him</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: U CAN ALWAYS KILL ME AT THE END</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: bad day for coven holy</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: let me use himm</span>
+<span><br>[4]</span>
+<span class="bousta-cuum">bousta cuum</span>
+<span>: NA JAILOR</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: beware</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bug on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> has been triggered and revealed the following information.</span>
+<span style="background-color:#000000; color:#FF004E"><br>You detected that your target is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k18"><b><color=#007AFF><b>Douse</b></color></b></link></font></style>d in gas.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>: 8 is arsonist...</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style> was executed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>: oh?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N2 - B5 (Doused) 8 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style></span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: n1: gee golly noone dc'ed lame (8), 13, 14 EVIL I SAW 12 IS JINX n2: (4)LET ME USE HIM JAILOR. MILK HIM LIKE A COW, MILK HIM LIKE</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>:  MY EX BF - F**K JAILED</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 is arsonist</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: Coven attacked me last night</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: im tp</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: no you're not 8</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: you said day 2</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: "i confirm 12 is jinx"</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: i am though?</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: YOU ARE TP</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: JINX VISITED YOU</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: i selfed n1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bousta cuum</color></link></font></style> has disconnected from life.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: HOW DO YOU KNOW?</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 5 r u jailor?</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: it shows if you self</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: HOW DID YOU KNOW 12 WAS JINX</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: lol</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: LOL</span>
+<span><br>[15]</span>
+<span class="Skips">Skips</span>
+<span>: im jailor</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: dude this guy</span>
+<span><br>[15]</span>
+<span class="Skips">Skips</span>
+<span>: plot twist</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 5 is a man milker</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: get the arso out</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: please</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: nooooooooo</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Cool way to die</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: im not</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: idk i usually self n1</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>PoeTayToe</b> was voted up to trial.</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: just no good leads and selfing lets you see jinx on you if they attack</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: so yeah</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: guilty</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: you knew d2 12 visited you</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: yeah guilty</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: and 5 is conviently doused</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: and he ALSO visited you</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>PoeTayToe</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[8]</span>
+<span class="PoeTayToe">PoeTayToe</span>
+<span>: idk was kinda stupid of me to say 12 was jinx, at least i got triple douse acheive</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: kinda was</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style> left a last will.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: btw 6 you said coven attacked you?</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: yeah</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: hm necro game then</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: since they have astral</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>PoeTayToe</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your ability failed because your target was in <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k14"><b><color=#007AFF><b>Jail</b></color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a member of the <style="CovenColor">Coven</style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> was killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: why kill a spy i have no idea</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: n1: gee golly noone dc'ed lame (8), 13, 14 EVIL I SAW 12 IS JINX n2: (4)- target jailed n3: (15) so we can get a 50/50 3 or 11 is</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>:  bad 15 confirmed good i feel 11 more than 3</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: well i got nothing</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: 13 role? 11 role?</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: fast</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: im vet</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: tpow</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: nobody ever visited me</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: what is 10</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: then 3</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 10 silent zzzz</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: alright</span>
+<span><br>[7]</span>
+<span class="shawty">shawty</span>
+<span>: i was jailed last night btw</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: get them</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 3 or 11 is bad</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 10 silent zzzzz</span>
+<span><br>[15]</span>
+<span class="Skips">Skips</span>
+<span>: im silent too tbh</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 10</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Cool way to die</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Fyodor</b> was voted up to trial.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style> has disconnected from life.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: LISTEN TO THE <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> 3 OR 11 IS BAD</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: they are gone</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: n1: gee golly noone dc'ed lame (8), 13, 14 EVIL I SAW 12 IS JINX n2: (4)- target jailed n3: (15) so we can get a 50/50 3 or 11 is</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>:  bad</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: easiest win of my life</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: wouldnt that mean 3 bad?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Fyodor</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style> by a vote of <color=#66FF66><b>4</b></color> to <color=#FF0000><b>2</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Cool way to die</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Skips</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: wait</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 6 u guiltied</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: im veteran ??</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: why 11 vote me?</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: 6 is vet</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: jailor good luck</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>amne monkey</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style> was shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>shawty</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Fyodor</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: 3 then 11?</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: jailor n1 2 bg n2 exing 4 n3 7 sheriff n4 11 claimed mayor</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: so who was jailed?</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: ah ok</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: I jailed 3?</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: not the other way around lmao</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: ?</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: relave 3</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: reveal 3</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: reveal 3</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: 3 claimed mayor in jail</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: reaveal 3</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: bro 11 claiemd mayor</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: reveal</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: reveal</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: IM JAILOR</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: No i didnt...</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: REVEAL</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 3 IS BAD</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: Get 3 for not revealing</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Cool way to die</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: jailor n1 2 bg n2 exing 4 n3 7 sheriff n4 11 claimed mayor</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Skips</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: bro</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thomas Danforth</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: 11 doesnt even have a jailor will</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Cool way to die</color></link></font></style> cancelled their vote.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: NO COVEN KILL</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 3 BAD</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: Yeah 3 was jailed</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mylo</b> was voted up to trial.</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: Still Jailor</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: Like I said 3 was jailed and no coven kills</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: They claimed mayor so I didnt exe</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: Then they're cliaming jailor</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: what?!</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: NO COVEN KILL LAST NIGHT 3 IS BAD</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: INNO</span>
+<span><br>[15]</span>
+<span class="Skips">Skips</span>
+<span>: bitch did i ask if you were jailor?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>almong mik</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Skim Milk</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: yeah 3</span>
+<span><br>[15]</span>
+<span class="Skips">Skips</span>
+<span>: guiolt</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: inno this</span>
+<span><br>[15]</span>
+<span class="Skips">Skips</span>
+<span>: guilt</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: this isnt jailor</span>
+<span><br>[15]</span>
+<span class="Skips">Skips</span>
+<span>: guilty haha</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 15</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: INNO</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: 15</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mylo</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: bro</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: guiltied the jailor..</span>
+<span><br>[11]</span>
+<span class="Mylo">Mylo</span>
+<span>: nice one town</span>
+<span><br>[3]</span>
+<span class="almong-mik">almong mik</span>
+<span>: bro...</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#B545FF>Hex Master</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: wut</span>
+<span><br>[13]</span>
+<span class="Cool-way-to-die">Cool way to die</span>
+<span>: so</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mylo</color></link></font></style> left a last will.</span>
+<span><br>[5]</span>
+<span class="Skim-Milk">Skim Milk</span>
+<span>: huh??</span>
+<span><br>[6]</span>
+<span class="Thomas-Danforth">Thomas Danforth</span>
+<span>: niceeee</span>
+</body>
+</html>

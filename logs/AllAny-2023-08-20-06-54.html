@@ -1,0 +1,573 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Wa Da Da - </span>
+<span style="color:#06E00C"> Retributionist </span>
+<span style="color:#a0a0a0"><i>(Username: Dawn)</i></span>
+<style>span.Wa-Da-Da{color: #06E00C;}</style>
+<span><br>[2] Veins - </span>
+<span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: Doon)</i></span>
+<style>span.Veins{color: #06E00C;}</style>
+<span><br>[3] Insecr - </span>
+<span style="color:#B545FF"> Medusa </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Marmogus)</i></span>
+<style>span.Insecr{color: #B545FF;}</style>
+<span><br>[4] Barbie - </span>
+<span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: SalemStowaway)</i></span>
+<style>span.Barbie{color: #06E00C;}</style>
+<span><br>[5] footslavejew - </span>
+<span style="color:#B545FF"> Jinx </span>
+<span style="color:#a0a0a0"><i>(Username: nerunene)</i></span>
+<style>span.footslavejew{color: #B545FF;}</style>
+<span><br>[6] Thad - </span>
+<span style="color:#06E00C"> Spy </span>
+<span style="color:#a0a0a0"><i>(Username: quantumBreeze)</i></span>
+<style>span.Thad{color: #06E00C;}</style>
+<span><br>[7] sage - </span>
+<span style="color:#06E00C"> Bodyguard </span>
+<span style="color:#a0a0a0"><i>(Username: kizorq)</i></span>
+<style>span.sage{color: #06E00C;}</style>
+<span><br>[8] Betty Parris - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span style="color:#a0a0a0"><i>(Username: dldmsdn05)</i></span>
+<style>span.Betty-Parris{color: #06E00C;}</style>
+<span><br>[9] Lilith - </span>
+<span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[10] UwU - </span>
+<span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">UWU :)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Wuffgruffle)</i></span>
+<style>span.UwU{color: #06E00C;}</style>
+<span><br>[11] footjob - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style> <br>N1 1<br>N2 8<br>N3 8</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: jie)</i></span>
+<style>span.footjob{color: #B545FF;}</style>
+<span><br>[12] Crumbs - </span>
+<span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Crumbs the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br><br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>3rd game in a row as invest lmao</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Crumbs)</i></span>
+<style>span.Crumbs{color: #06E00C;}</style>
+<span><br>[13] Thundy - </span>
+<span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Thundy The Crusader<br><br>N1: 8<br>N2: 7<br>N3: 7<br><br>1. claims TI<br>2. claims TK<br>4. claims TK<br>6. claims spy<br>7. bodyguard<br>8. claims cleric<br>9.<br>11.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: thundy)</i></span>
+<style>span.Thundy{color: #06E00C;}</style>
+<span><br>[14] Phoenix Wright - </span>
+<span style="color:#B545FF"> Hex Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Bodyguard<br>N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> <br>N2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>sage</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Awe)</i></span>
+<style>span.Phoenix-Wright{color: #B545FF;}</style>
+<span><br>[15] Chad Browski - </span>
+<span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: Maga13)</i></span>
+<style>span.Chad-Browski{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: who wants one</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: omg me</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: omggg meee</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: Barbie has a gun with no safety on, TP/LO on me!</span>
+<span><br>[5]</span>
+<span class="footslavejew">footslavejew</span>
+<span>: meee</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: lol</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: you guys are down bad</span>
+<span><br>[5]</span>
+<span class="footslavejew">footslavejew</span>
+<span>: we are</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your day ability.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>UwU</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Wa Da Da</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>UwU</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Wa Da Da</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Insecr</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thad</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crumbs</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>sage</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Crumbs</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>: 5 is jinx</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: just fyi I am a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> and will post information if it's useful</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: 5 is jinx</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: So apparently I had jinx on me, lovely</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: 5 any last words</span>
+<span><br>[7]</span>
+<span class="sage">sage</span>
+<span>: Im tp</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: before i shoot you</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Chad Browski</color></link></font></style> has disconnected from life.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: none?</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: they said 5 not 15... why you quit lol</span>
+<span><br>[5]</span>
+<span class="footslavejew">footslavejew</span>
+<span>: no, i dont care hang me lol</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: damn i wanted to hear you beg</span>
+<span><br>[14]</span>
+<span class="Phoenix-Wright">Phoenix Wright</span>
+<span>: dep?</span>
+<span><br>[5]</span>
+<span class="footslavejew">footslavejew</span>
+<span>: im jinx</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: Sadly not that gun</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: i would assume 5 woulda begged</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: for his name</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Insecr</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thundy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Phoenix Wright</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thad</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style> was voted up to trial.</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: rip jinx</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: rip that jinxussy</span>
+<span><br>[5]</span>
+<span class="footslavejew">footslavejew</span>
+<span>: hot</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: or it could be the most insane <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#949797>Executioner</color></b></link></font></style> combo</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>footslavejew</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style> to death by a vote of <color=#FF0000><b>12</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[5]</span>
+<span class="footslavejew">footslavejew</span>
+<span>: n1gg3rs tongue my pillion</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: weirdo</span>
+<span><br>[14]</span>
+<span class="Phoenix-Wright">Phoenix Wright</span>
+<span>: weirdo</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: report racism</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style> died today.</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: get him banned</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style> was convicted and executed.</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: weird ass</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: Already done for the name alone</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>footslavejew</color></link></font></style> did not leave a last will.</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: make him waste 10 bucks on new account</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: lol</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: you can tell what kind of person they are lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your day ability.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style="CovenColor">Coven</style> member attacked you, but a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> protected you!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Insecr</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>: i saved u homie</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Insecr</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>: i love u</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>sage</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>sage</color></link></font></style>: i protected u :3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Phoenix Wright</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Phoenix Wright</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>sage</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>sage</color></link></font></style>: thanks</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#B545FF>Hex Master</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Chad Browski</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Chad Browski</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: THAT WAS NOT MY SHOT JFC I had no leads so I waited</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: no useful info since I bugged <b>Insecr</b> lol</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: N2 - [12] Crumbs on [6] Thad {No Blood}</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: gonna say this now since 3 was going to claim monarch, stoned is probably monarch</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: lmfao coven taking Ls last night</span>
+<span><br>[2]</span>
+<span class="Veins">Veins</span>
+<span>: so the mon was stoned then</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: lmao</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: yeah 10 was prob mon</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: i can't use it</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: :(</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: but this is a 2 vigi game lets go</span>
+<span><br>[13]</span>
+<span class="Thundy">Thundy</span>
+<span>: I'm crusader</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: rip the self achieve 1</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: wait bg still alive</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: can't wait to accidentally trick the vigi</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah bg is still alive</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: lets freakin gooo</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: crus was on bg i think</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: how is bg alive</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: oh</span>
+<span><br>[13]</span>
+<span class="Thundy">Thundy</span>
+<span>: I was on him</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thundy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: i have 2 people</span>
+<span><br>[13]</span>
+<span class="Thundy">Thundy</span>
+<span>: what's 2</span>
+<span><br>[2]</span>
+<span class="Veins">Veins</span>
+<span>: im tk</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: saying they protected me</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> cancelled their vote.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: btw</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thundy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Thundy">Thundy</span>
+<span>: what's 8</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: im cleric</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>sage</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: <b>Betty Parris</b> the cleric
+n1 <b>Barbie</b> 5 is jinx
+n2 <b>Lilith</b> (said he would shoot jinx could be dep or vigi)</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style> cancelled their vote.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: ah</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thundy</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Veins">Veins</span>
+<span>: self 8</span>
+<span><br>[2]</span>
+<span class="Veins">Veins</span>
+<span>: im shooting you</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your day ability.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thundy</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Thundy</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 were you attacked twice?</span>
+<span><br>[2]</span>
+<span class="Veins">Veins</span>
+<span>: 8 isnt cov at least</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: 2 vigis shot me last night</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: ok</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: ok well 7 cant be tricked</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: 8 caught jinx anyway</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: Yay me and 2 both confirmed</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: <b>Thundy</b> was killed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k19"><b><color=#007AFF><b>Hex</b></color></b></link></font></style>ed</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah 8 got jinxed</span>
+<span><br>[2]</span>
+<span class="Veins">Veins</span>
+<span>: oh yeah true</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: so 11 what are u</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: N3 - [15] Chad Browski on [7] Sage</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay hang 11</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: we have rit tho so i prob die tonight unless we get him</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style> N1 1N2 8N3 8</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: 1 trick 6 if game doesnt end</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: i am bg</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: ritualist will prob kill me but idrc</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Barbie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Betty Parris</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Thad</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Veins</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>footjob</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Wa Da Da</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Wa Da Da</color></link></font></style>: if this isnt rit, trick 6 it stops the rit kill</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style> N1 1N2 8N3 8</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Wa Da Da</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Wa Da Da</color></link></font></style>: ok</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: also 2 or 4 would be dead</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: 11 if you were BG, me or 2 would be dead.</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: if u r bg you would have killed one of the vigis no?</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: erm</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: UNLUCKY!</span>
+<span><br>[1]</span>
+<span class="Wa-Da-Da">Wa Da Da</span>
+<span>: erm</span>
+<span><br>[4]</span>
+<span class="Barbie">Barbie</span>
+<span>: erm indeed</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>footjob</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[11]</span>
+<span class="footjob">footjob</span>
+<span>: i cant believe 5 was my teammate</span>
+<span><br>[6]</span>
+<span class="Thad">Thad</span>
+<span>: partners in crime</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> was convicted and executed.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: i never claimed this whole game too</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: wow</span>
+<span><br>[8]</span>
+<span class="Betty-Parris">Betty Parris</span>
+<span>: nice</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>footjob</color></link></font></style> left a last will.</span>
+<span><br>[9]</span>
+<span class="Lilith">Lilith</span>
+<span>: and I NEVER WILL CLAIM</span>
+</body>
+</html>

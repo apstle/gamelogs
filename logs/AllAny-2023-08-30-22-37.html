@@ -1,0 +1,791 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Nintor - </span>
+<span style="color:#06E00C"> Jailor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Letter</color></link></font></style> claims admirer</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Nintor)</i></span>
+<style>span.Nintor{color: #06E00C;}</style>
+<span><br>[2] tomato - </span>
+<span style="color:#1D4DFC"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">FUCK</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.tomato{color: #1D4DFC;}</style>
+<span><br>[3] Krusty - </span>
+<span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Krusty the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> -<br>N1: Nothing<br>D2: Autopsy on 10<br>N2: SK added, checking 11 (not killer)<br>D3: Autopsy on 7<br>N3: Checking 14 (not killer)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TywinLannister)</i></span>
+<style>span.Krusty{color: #06E00C;}</style>
+<span><br>[4] Fat Balls - </span>
+<span style="color:#06E00C"> Crusader </span>
+<span style="color:#a0a0a0"><i>(Username: Sneed2)</i></span>
+<style>span.Fat-Balls{color: #06E00C;}</style>
+<span><br>[5] Dan Kuroto - </span>
+<span style="color:#1D4DFC"> Serial Killer </span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Dan-Kuroto{color: #1D4DFC;}</style>
+<span><br>[6] bob - </span>
+<span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: morgie4920)</i></span>
+<style>span.bob{color: #06E00C;}</style>
+<span><br>[7] Samuel Parris - </span>
+<span style="color:#06E00C"> Monarch </span>
+<span style="color:#a0a0a0"><i>(Username: Moodfluff)</i></span>
+<style>span.Samuel-Parris{color: #06E00C;}</style>
+<span><br>[8] Herald of Korne - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Mayor</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: OopsILied)</i></span>
+<style>span.Herald-of-Korne{color: #B545FF;}</style>
+<span><br>[9] Willy Fiddler - </span>
+<span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: RadioactivePickle)</i></span>
+<style>span.Willy-Fiddler{color: #06E00C;}</style>
+<span><br>[10] Herald of Corn - </span>
+<span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1 pirated, like a chad</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: 100BillionNights)</i></span>
+<style>span.Herald-of-Corn{color: #06E00C;}</style>
+<span><br>[11] Edward Bishop - </span>
+<span style="color:#B545FF"> Illusionist </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Pirate is the best role in Town of Salem 2, offering and exhilirating and captivating experience whether you play as the Pirate or find yourself dueling them as an opponent. Taking on the role of the Pirate provides a thrilling sense of gambling and intuition. Strategically plundering players and predicting their choices keeps you on the edge of your ship as you carefully choose which method to attack with. The thrill of attacking both good and evil roles, making them question your choice of weapon, and using your ability against them is second to none. Conversely, when you're up against a skilled Pirate, the challenge of deciphering their decision amidst the veil of choices adds an exciting layer of randomness to the game. The parrot-and-seagull dynamic creates and engaging and fun-filled atmosphere, making every interaction with the Pirate annoying and random.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: andrewwwww)</i></span>
+<style>span.Edward-Bishop{color: #B545FF;}</style>
+<span><br>[12] YeEeEeEeE - </span>
+<span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: lynkatri)</i></span>
+<style>span.YeEeEeEeE{color: #ECC23E;}</style>
+<span><br>[13] Letter - </span>
+<span style="color:#06E00C"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style> <br>n1: Chillin | n2: jailed | n3: Proposing to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> (rejected)</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ennybud)</i></span>
+<style>span.Letter{color: #06E00C;}</style>
+<span><br>[14] Stanko - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">im moving out</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Stanko{color: #06E00C;}</style>
+<span><br>[15] bread - </span>
+<span style="color:#FF004E"> Plaguebearer </span>
+<span style="color:#a0a0a0"><i>(Username: nikarasu)</i></span>
+<style>span.bread{color: #FF004E;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[10]</span>
+<span class="Herald-of-Corn">Herald of Corn</span>
+<span>: Corn for the Corn god</span>
+<span><br>[12]</span>
+<span class="YeEeEeEeE">YeEeEeEeE</span>
+<span>: hwy guys pirate here</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: Who wants mail?</span>
+<span><br>[5]</span>
+<span class="Dan-Kuroto">Dan Kuroto</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style> here, Pois and tav rb me for achievement</span>
+<span><br>[9]</span>
+<span class="Willy-Fiddler">Willy Fiddler</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> kill me</span>
+<span><br>[4]</span>
+<span class="Fat-Balls">Fat Balls</span>
+<span>: feed for the sneed god</span>
+<span><br>[5]</span>
+<span class="Dan-Kuroto">Dan Kuroto</span>
+<span>: 9 rb me</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust is sated.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Herald of Corn</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willy Fiddler</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They visited a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Willy Fiddler</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>tomato</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>: why did u claim sk d1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Herald of Corn</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Herald of Corn</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>tomato</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>: for achievement?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>tomato</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>: bro theres two of us</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>tomato</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>: oops</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>tomato</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>: and u throw like that</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: Let's go 5 you did it</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: Psy N1: Evil (4) 8 12</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: soooo</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: so 5 sk</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> |N1 - 5 no blood</span>
+<span><br>[5]</span>
+<span class="Dan-Kuroto">Dan Kuroto</span>
+<span>: so no pois?</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: 5 did you get your achievement</span>
+<span><br>[12]</span>
+<span class="YeEeEeEeE">YeEeEeEeE</span>
+<span>: im pirate</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: 5 has no blood</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: ???</span>
+<span><br>[5]</span>
+<span class="Dan-Kuroto">Dan Kuroto</span>
+<span>: yeah</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: its a bug</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: sk doesnt show blood if they attack rber</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: ah</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: (pirate tav pois)</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: so two sk's then?</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> moment</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: yep 2 sks</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: no could be just him</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: sk rb immune</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Letter</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Stanko</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fat Balls</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Edward Bishop</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Dan-Kuroto">Dan Kuroto</span>
+<span>: LFG</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Samuel Parris</color></link></font></style> has disconnected from life.</span>
+<span><br>[12]</span>
+<span class="YeEeEeEeE">YeEeEeEeE</span>
+<span>: as pirate i think he should live :)</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: it's two sks</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: pirate on 7</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: actaully if he didnt have blood it is 2 sks</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: yikes</span>
+<span><br>[5]</span>
+<span class="Dan-Kuroto">Dan Kuroto</span>
+<span>: how u guys know theres 2 sk?</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: why? the sk will kill you</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dan Kuroto</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style> to death by a vote of <color=#FF0000><b>8</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: u dont have blood and another sk killed</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: so he didnt kill 10</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Dan Kuroto</color></link></font></style> did not leave a last will.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: but did kill 9</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust is swelling.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fat Balls</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Herald of Korne</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fat Balls</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Fat Balls</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Samuel Parris</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>. They also disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Samuel Parris</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Herald of Korne</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Herald of Korne</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: Krusty the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> -N1: NothingD2: Autopsy on 10N2: SK added, checking 11 (not killer)</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: |N2 - 3 no blood 3 not sk</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: N2: Good (2) 13</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: monarch pirate ???? death .</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: well</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: they were dced</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: already</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: so it was just a free pirate</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: lol</span>
+<span><br>[12]</span>
+<span class="YeEeEeEeE">YeEeEeEeE</span>
+<span>: ez</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: so</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: no leads</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: welp</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: what is 1?</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: start claiming</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: vfa</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: 1 role</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: lets go</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: just get claims then</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Letter</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Stanko</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Nintor</b> was voted up to trial.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Edward Bishop</color></link></font></style> has disconnected from life.</span>
+<span><br>[1]</span>
+<span class="Nintor">Nintor</span>
+<span>: tp</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: i have a slight feeling this is coven</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: dont trust this</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: inno and get more roles</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: weak late claim tbh</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: guilty</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: really late</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: or not</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: 11 didnt vote this</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: and then dc'd</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: when he went up</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: LMAO</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: free win</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: for pirate</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: 11 is literally coven lmfao</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: take the w man</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Nintor</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[1]</span>
+<span class="Nintor">Nintor</span>
+<span>: lol</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: fine but the code word is crab</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r9"><b><color=#06E00C>Jailor</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: WHTA</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: what</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: wtf?</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: report this</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: NOO</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Nintor</color></link></font></style> left a last will.</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: report that</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: ????</span>
+<span><br>[13]</span>
+<span class="Letter">Letter</span>
+<span>: WTF</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust has reached its apex. You will deal a rampaging powerful attack tonight.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Letter</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Edward Bishop</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>. They also disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Edward Bishop</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#B545FF>Illusionist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>YeEeEeEeE</color></link></font></style> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> and left town.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Letter</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Letter</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: |N3 - 15 no blood</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: checking 14 (not killer)</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: N3: Evil (12) 3 6</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: gee golly 3 left 13 heartbroken</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: whos sk cuz they can suck my balls</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: well</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: i rejected for that exact reason</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: i knew they would die</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: 3 who did u check</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: as sk</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: 11 and 14</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: ok</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: so 14 cant be sk</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: 15 no blood</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: what is 15 and 6?</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: 15 cant be sk</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: yep</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: im tp</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: that leaves 6 and 3 as sk</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: its 6 then</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: no blood</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: no</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>bob</b> was voted up to trial.</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: im pros</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: lemme pros someone</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: i stg</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: not me</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: tpow here</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: innounnooos</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: inno</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: ok pros 2 then or die</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: pros 3 then or get upped agaian</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: inno let him do it</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: ok</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: ok, pros 3 then they have to be serial killer by process of elimination</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: ok</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: wait why not 3</span>
+<span><br>[6]</span>
+<span class="bob">bob</span>
+<span>: inno</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: i thought 3</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: im coroner pros 2</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>bob</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style> by a vote of <color=#66FF66><b>4</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: im invest pros 3</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: pros 15</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: no 15s fine</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: 15 didnt have blood</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: 15 confirmed not sk</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: bro i have no blood</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: gg 2</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: played well</span>
+<span><br>[3]</span>
+<span class="Krusty">Krusty</span>
+<span>: Im coroner</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Krusty</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: lets see</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: yikes</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: its 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Krusty</color></link></font></style> left a last will.</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: its not</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: on god</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: then who</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style> has <b><style="GuiltyColor">dishonored the town</style></b> and will be put to death.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>For crimes against the town, the hangman has executed them.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>bob</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k9"><b><color=#007AFF><b>Plague</b></color></b></link></font></style> has consumed the Town, transforming the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style> into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r252"><b><color=#FF004E>Pestilence</color></b></link></font></style>, Horseman of the Apocalypse!</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: its gotta be 14 since u didnt have blood</span>
+<span><br>[2]</span>
+<span class="tomato">tomato</span>
+<span>: NOOOOOO</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: oph its both</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust is swelling.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You have succumbed to a pestilence!</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Letter</span>
+<span style="color:#689194">: pirate is already evil</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>tomato</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They succumbed to a pestilence.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">tomato</span>
+<span style="color:#689194">: actually UNLUCKY</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>tomato</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Krusty</span>
+<span style="color:#689194">: sadge</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Rapid mode has been activated.</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: 3 was like the only person i didnt want to have pros'd lmao</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Letter</span>
+<span style="color:#689194">: game is luck sometimes</i></span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: xdd</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: really</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Krusty</span>
+<span style="color:#689194">: how pb didnt transform is beyond me</i></span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: its funny that 2 lying got u the win tho</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">YeEeEeEeE</span>
+<span style="color:#689194">: i won through skill</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: cause they conf you as not sk</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: YEAH</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Krusty</span>
+<span style="color:#689194">: beforehand</i></span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Stanko</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">YeEeEeEeE</span>
+<span style="color:#689194">: pure skill</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Letter</span>
+<span style="color:#689194">: if we didn't lynch our jailor we had that game</i></span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: cause i wasnt sk</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>bread</color></link></font></style> cancelled their vote.</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: he confirmed u and then died because of it lmao</span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: wait why am i voting</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">YeEeEeEeE</span>
+<span style="color:#689194">: i knew exactly what those dcd players would choose</i></span>
+<span><br>[15]</span>
+<span class="bread">bread</span>
+<span>: gg</span>
+<span><br>[14]</span>
+<span class="Stanko">Stanko</span>
+<span>: gg</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">tomato</span>
+<span style="color:#689194">: waiting for 14 to be hidden mayor</i></span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">tomato</span>
+<span style="color:#689194">: sadge</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Stanko</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Stanko</span>
+<span style="color:#689194">: if it isnt the consequences of your own actions</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They succumbed to a pestilence.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Stanko</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">Krusty</span>
+<span style="color:#689194">: this is a national tragedy</i></span>
+</body>
+</html>

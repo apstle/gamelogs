@@ -1,0 +1,993 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Zane - </span>
+<span style="color:#06E00C"> Tavern Keeper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> <br><br>n1 - Pirated<br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>chanella</color></link></font></style> <br>n3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AresCollection)</i></span>
+<style>span.Zane{color: #06E00C;}</style>
+<span><br>[2] Weimar republic - </span>
+<span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">ah shit i turned goobert into a rock fuck how do i go back</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Quickshock10)</i></span>
+<style>span.Weimar-republic{color: #06E00C;}</style>
+<span><br>[3] WerewolfTownie - </span>
+<span style="color:#B545FF"> Necromancer </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Die, FUCKER</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Townie123)</i></span>
+<style>span.WerewolfTownie{color: #B545FF;}</style>
+<span><br>[4] chanella - </span>
+<span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Killed [[#28]] and this is the thanks I get? Rude</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Chanelee)</i></span>
+<style>span.chanella{color: #06E00C;}</style>
+<span><br>[5] im never ok - </span>
+<span style="color:#06E00C"> Vigilante </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> <br>N1: I am waiting<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k68"><b><color=#007AFF><b>Shoot</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>lopstux</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Killed [[#28]] and this is the thanks I get? Rude</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Im2dumb)</i></span>
+<style>span.im-never-ok{color: #06E00C;}</style>
+<span><br>[6] Goobert - </span>
+<span style="color:#F5A6D4"> Jester </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">hi goobert</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Arcshift)</i></span>
+<style>span.Goobert{color: #F5A6D4;}</style>
+<span><br>[7] Sleepy - </span>
+<span style="color:#1D4DFC"> Serial Killer </span>
+<span style="color:#a0a0a0"><i>(Username: cilantrolime)</i></span>
+<style>span.Sleepy{color: #1D4DFC;}</style>
+<span><br>[8] Dale Gribble - </span>
+<span style="color:#B545FF"> Wildling </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> <br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: abstractsins0)</i></span>
+<style>span.Dale-Gribble{color: #B545FF;}</style>
+<span><br>[9] Villager - </span>
+<span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style><br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style> (No Blood)<br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>chanella</color></link></font></style> (No Blood) (Attacked by ww, saved by trap)<br>n3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> (Blood)<br>n4 - waiting<br><br><br><br>Win Con -<br><br>3 used ww on 7<br>7 attacks 3</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Icanbreath)</i></span>
+<style>span.Villager{color: #06E00C;}</style>
+<span><br>[10] Amnesiac - </span>
+<span style="color:#FF004E"> Berserker </span>
+<span style="color:#a0a0a0"><i>(Username: Benjamin)</i></span>
+<style>span.Amnesiac{color: #FF004E;}</style>
+<span><br>[11] Pierat - </span>
+<span style="color:#ECC23E"> Pirate </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Pierat the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> - lost<br>N2 - your mom<br>N3 -<br><br>Sorry if I disconnected, my wifi is shit</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DarkWingzz)</i></span>
+<style>span.Pierat{color: #ECC23E;}</style>
+<span><br>[12] lopstux - </span>
+<span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>lopstux</color></link></font></style>  the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style> <br><br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k95"><b><color=#007AFF><b>Build</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style><br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k17"><b><color=#007AFF><b>Trap</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> - probs evil as fuck but who cares</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Jayziah)</i></span>
+<style>span.lopstux{color: #06E00C;}</style>
+<span><br>[13] Jill Stingray - </span>
+<span style="color:#B545FF"> Medusa </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Attempting to Nuke 4, if they don't die and I do and it wasn't to Tricks assume they're SK</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Amiiko)</i></span>
+<style>span.Jill-Stingray{color: #B545FF;}</style>
+<span><br>[14] Lilith - </span>
+<span style="color:#B545FF"> Enchanter </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Lilith the <br>|N1 -<br>|N2 -<br>|N3 -<br>|1 -<br>|2 -<br>|3 -<br>|4 -<br>|5 -<br>|6 -<br>|7 -<br>|8 -<br>|9 -<br>|10 -<br>|11 -<br>|12 -<br>|13 -<br>|14 -<br>|15 -</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">Lilith is a demon. Demons must die</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #B545FF;}</style>
+<span><br>[15] Lime - </span>
+<span style="color:#9D7038"> Werewolf </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br><br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mijora)</i></span>
+<style>span.Lime{color: #9D7038;}</style>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[11]</span>
+<span class="Pierat">Pierat</span>
+<span>: shootin pros</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: gl hf</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[11]</span>
+<span class="Pierat">Pierat</span>
+<span>: cant stop wont stop</span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: I want a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k34"><b><color=#007AFF><b>Lover</b></color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: can a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k37"><b><color=#007AFF><b>Proposal</b></color></b></link></font></style> to me</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> tonight.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: IM GOING TO AVENGE MYSEL.......</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k26"><b><color=#007AFF><b>Enchant</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> tonight.</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: interesting setup</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Goobert</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> instead decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style> tonight.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: lookout or tracker</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: or other</span>
+<span><br>[14]</span>
+<span class="Lilith">Lilith</span>
+<span>: i wouldnt claim either</span>
+<span><br>[14]</span>
+<span class="Lilith">Lilith</span>
+<span>: tbh</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: TP FOR ME</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: i love being reghunted n1</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Goobert</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Goobert</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lilith</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Lilith</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style> (No Blood)</span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: Im solo <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r114"><b><style="NeutralColor">Neutral </style><color=#1F51FF>Apocalpyse</color></b></link></font></style> btw i just want love :(</span>
+<span><br>[2]</span>
+<span class="Weimar-republic">Weimar republic</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style> is not wrong tho</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: Lilith isnt a demon shes justa strong woman and you cant handle that</span>
+<span><br>[15]</span>
+<span class="Lime">Lime</span>
+<span>: Lilith pre hot ngl</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: get 10 out if hes na</span>
+<span><br>[2]</span>
+<span class="Weimar-republic">Weimar republic</span>
+<span>: Y'all discust me</span>
+<span><br>[5]</span>
+<span class="im-never-ok">im never ok</span>
+<span>: dep on 10</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: your name checks out</span>
+<span><br>[15]</span>
+<span class="Lime">Lime</span>
+<span>: discuss?</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: 10 if you're Baker I will continue to teleport bread in your place</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> send me some bread in the mail</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Weimar-republic">Weimar republic</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lime</color></link></font></style> no</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lime</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: Wrong NA</span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: Im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Weimar-republic">Weimar republic</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k7"><b><color=#007AFF><b>Invincible Defense</b></color></b></link></font></style></span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: ok</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: ur going to find my previous game ghost hes gonna propose u bro so win win</span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: can i atleast get some love?</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k7"><b><color=#007AFF><b>Invincible Defense</b></color></b></link></font></style></span>
+<span><br>[5]</span>
+<span class="im-never-ok">im never ok</span>
+<span>: can you kill the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style> for us?</span>
+<span><br>[15]</span>
+<span class="Lime">Lime</span>
+<span>: *Hug*</span>
+<span><br>[2]</span>
+<span class="Weimar-republic">Weimar republic</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k50"><b><color=#007AFF><b>Defense</b></color></b></link></font></style></span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: i love <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: tell me who and yea</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Amnesiac</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> to death by a vote of <color=#FF0000><b>10</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: this man pleads insanity</span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: yes</span>
+<span><br>[10]</span>
+<span class="Amnesiac">Amnesiac</span>
+<span>: <b>Villager</b> is right</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: oh ok</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> did not leave a last will.</span>
+<span><br>[4]</span>
+<span class="chanella">chanella</span>
+<span>: nice</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: honesty is the best policy</span>
+<span><br>[5]</span>
+<span class="im-never-ok">im never ok</span>
+<span>: everyone allignment</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: they were bigger threat for now</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: welp</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Weimar republic</color></link></font></style> tonight.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: YO YO YO WE GOT A NA ON MY HANDS</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> decided to reanimate <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Amnesiac</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> decided to sense <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pierat</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> will make their zombie target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> will instead make their zombie target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> tonight.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: wildling without book is kinda meh</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> will instead make their zombie target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pierat</color></link></font></style> tonight.</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: yeah</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Lime</span>
+<span style="color:#689194">: WHAT</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Weimar republic</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Lime</span>
+<span style="color:#689194">: always a fuckin trapper when im ww</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>. They were also killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Weimar republic</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">lopstux</span>
+<span style="color:#689194">: i killed ww sorry</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>).</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Lime</span>
+<span style="color:#689194">: fu bro</i></span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">lopstux</span>
+<span style="color:#689194">: and i was shot by a vigi</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Lime</span>
+<span style="color:#689194">: good</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">im-never-ok</span>
+<span style="color:#689194">: that vigi was me</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">lopstux</span>
+<span style="color:#689194">: i was trapper and you shoot me lol</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">im-never-ok</span>
+<span style="color:#689194">: I predicted my own death</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pierat</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">im-never-ok</span>
+<span style="color:#689194">: so I random</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Pierat</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>lopstux</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>. They were also mauled by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>lopstux</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Lime</span>
+<span style="color:#689194">: man my rampage did nothing</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Lime</span>
+<span style="color:#689194">: u were all dead anyways</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Lime</span>
+<span style="color:#689194">: pretty much killed myself</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: COVEN MAJ RN?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lime</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: NO WAY</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lime</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: HOLY SHIT COVEN MAJ</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: LETS GOOOOOO</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style> has <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style>ed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k12"><b><color=#007AFF><b>Investigate</b></color></b></link></font></style> <b>chanella</b> (No Blood) (Attacked by ww, saved by trap)</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: nvm</i></span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: wow</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">im-never-ok</span>
+<span style="color:#689194">: its onlt 3 coven</i></span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: Thank you monarch</span>
+<span><br>[4]</span>
+<span class="chanella">chanella</span>
+<span>: BG N1= <b>Sleepy</b> N2= <b>Villager</b> rb'd</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: That's crazy</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: crazy i was crazy once</i></span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: who roleblocked 4</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: they locked me in a room</i></span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: so evils left are necro, dusa, ww and sk</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: a rubber room</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: a rubber room with rats</i></span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: wow</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: ww died</span>
+<span style="color:#689194"><br><i>[12]</span>
+<span style="color:#689194">lopstux</span>
+<span style="color:#689194">: oh its you</i></span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: right</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: I don't RB eople</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: I rbd 4</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: people*</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: 1 is tav?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: yes</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: or pois</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: 3 role</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: aka bg</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: post will</span>
+<span><br>[4]</span>
+<span class="chanella">chanella</span>
+<span>: drop will??</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: why would you openly claim bg though</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: if u guys let me why the heck we took so long for this</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: because theres no <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r43"><b><color=#00CC99>Doomsayer</color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: TK here, haven't had much info.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: did 4 do that</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: 4 also openly claimed BG</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: innoing</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> by a vote of <color=#66FF66><b>3</b></color> to <color=#FF0000><b>2</b></color>.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: 4?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="chanella">chanella</span>
+<span>: they didnt even post will</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: <b>Dale Gribble</b> role</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>chanella</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: im tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> n1: <b>Zane</b> n2: <b>Villager</b></span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: <b>Sleepy</b> role</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: TP</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sleepy</b> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I didn/t even guilty anyone. I'm TP</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: *didnt</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: too much tp claims we need to lynch</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: actual role</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: inno up 8 imo</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: lynch for time</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: Okay there are way too many TP claims for them all to be legitimate. Good news though, 4 isn't SK</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: since ww and trapper were on me and 8 didnt get any kills</span>
+<span><br>[4]</span>
+<span class="chanella">chanella</span>
+<span>: i think we up 3</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sleepy</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> by a vote of <color=#66FF66><b>4</b></color> to <color=#FF0000><b>2</b></color>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: up 8</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: coven ur throwing</i></span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: bro i posted</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: I want to lynch a tp claim</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: up 1 he guiltied twice</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dale Gribble</b> was voted up to trial.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: if you wanted to lynch a tp claim it was right there</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: the latest tp claim</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: i claimed before them</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> n1: <b>Zane</b> n2: <b>Villager</b></span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: 9 i protectted you</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: 3 whats wrong with u I'm confirmed to have a rbd ability.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: I had ww and trapper on me and you didnt get any kills</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: or even attack anything</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: a tp is fake</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: ww is immune</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: to crus</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: inno</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: Also</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: idk hereeeeeeeeee</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dale Gribble</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[8]</span>
+<span class="Dale-Gribble">Dale Gribble</span>
+<span>: cant believe 7 guiltied me</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: mon shouldnt knight anymore</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: too many claims to inno to many to guilty</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I didn't guilty...</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I didn't guilty anyone, why single me out?</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Dale Gribble</color></link></font></style> left a last will.</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: Mon may have died for all we know</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>'s go on me</span>
+<span><br>[1]</span>
+<span class="Zane">Zane</span>
+<span>: good call</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: no good no good</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> decided to reanimate <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>im never ok</color></link></font></style> tonight.</span>
+<span><br>[13]</span>
+<span class="Jill-Stingray">Jill Stingray</span>
+<span>: 1 is real Tav I think</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> will make their zombie target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> tonight.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: then get em</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k10"><b><color=#007AFF><b>Stone Gaze</b></color></b></link></font></style> and attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>chanella</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> possesses the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k21"><b><color=#007AFF><b>Necronomicon</b></color></b></link></font></style>. Their powers are enhanced!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Zane</span>
+<span style="color:#689194">: what was that throw vigi?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: necromancer</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Zane</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[1]</span>
+<span style="color:#689194">Zane</span>
+<span style="color:#689194">: ah</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Jill-Stingray</span>
+<span style="color:#689194">: SK killed us both</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: monarch knighted SK</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Jill-Stingray</span>
+<span style="color:#689194">: Mon also is a rock</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>chanella</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>chanella</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: mon is dead</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r254"><b><color=#9C9A9A>Stoned</color></b></link></font></style> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>).</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: ok</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: k who out</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#B545FF>Necromancer</color></b></link></font></style> and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style> alive lol</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: is the monarch stoned?</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: actually yea</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: 2 was mon on me I think</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: so who is who</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: me too</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: sk got the rampage</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: so get em i think</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: 3 is Necro</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I'm Solo</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: 7 is sk</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: first of all i never got a necro win</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Jill-Stingray</span>
+<span style="color:#689194">: mon knighted the sk f</i></span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: and lets be real my team died real quick</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: you have an entire team, it's just me</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: u got this far i lost everyone on the way</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: On my own tho</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: u would had lost d2</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> by a vote of <color=#66FF66><b>2</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: honestly we deserve a tie here</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: if we wanna get a reward thats not losing lets go for tie then</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: 9s best chance to win is not lynching anyone</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: tbh</i></span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: yeah I'm going for draw lol</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I never get SK wins, because I'm always dead by Day 3. This will be my second SK win</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: i only have 1</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: sad</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: 7 u deserve to lose for being a reghunter</i></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> by a vote of <color=#66FF66><b>2</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: so how we do it</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: skill issue I have 10 sk wins btw</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: how the heck we do thissss</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: anybody can win this game depending on what you do tonight</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: I'm literally solo, why are you letting someone who has a team get a win...? They had a strong team too</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: u sniped my enchanter n1</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>WerewolfTownie</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> by a vote of <color=#66FF66><b>2</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span><br>[9]</span>
+<span class="Villager">Villager</span>
+<span>: gl all</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: Honestly, fuck it. This is rude</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: k using ww</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> decided to reanimate <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lime</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> instead decided not to reanimate anyone tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> decided to reanimate <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Lime</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> instead decided not to reanimate anyone tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> decided to reanimate <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Jill Stingray</color></link></font></style> tonight.</span>
+<span style="background-color:#522F67; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> will make their zombie target <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: why didnt he use ww</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: he wouldve won</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Villager</span>
+<span style="color:#689194">: 3 didnt use ww?</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: if he used ww</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Villager</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: no he didnt</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: also 9</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: u shouldve let necro win</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: not 7</i></span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Rapid mode has been activated.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Villager</span>
+<span style="color:#689194">: no its a draw</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Sleepy</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: alright then what</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: no u shouldve let 3 win</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: not 7</i></span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: Fuck you 9, that was rude</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Villager</span>
+<span style="color:#689194">: I was going for a draw</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>: Imagine letting someone with an ENTIRE TEAM win over someone SOLO who had to fight way harder? "Oh I lost my team early" Hi, LOOK</span>
+<span><br>[7]</span>
+<span class="Sleepy">Sleepy</span>
+<span>:  AT THE LIST</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: cuz 7 reghunted me</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Villager</span>
+<span style="color:#689194">: <b>WerewolfTownie</b> can use <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r51"><b><color=#9D7038>Werewolf</color></b></link></font></style></i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Villager</span>
+<span style="color:#689194">: and draw it</i></span>
+<span><br>[3]</span>
+<span class="WerewolfTownie">WerewolfTownie</span>
+<span>: u freaking sniped my team on n1</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Villager</span>
+<span style="color:#689194">: why tf didnt u use ww?</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#1D4DFC>Serial Killer</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">WerewolfTownie</span>
+<span style="color:#689194">: i was thinking way too hard</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>WerewolfTownie</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">Villager</span>
+<span style="color:#689194">: lmao</i></span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">WerewolfTownie</span>
+<span style="color:#689194">: i was considering 1 maybe even pirate</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#B545FF>Necromancer</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[3]</span>
+<span style="color:#689194">WerewolfTownie</span>
+<span style="color:#689194">: i forgot rapid mode was on</i></span>
+</body>
+</html>

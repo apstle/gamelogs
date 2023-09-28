@@ -1,0 +1,921 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Katze - </span><span style="color:#FF0000"> Berserker </span>
+<span style="color:#a0a0a0"><i>(Username: NekoThijs)</i></span>
+<style>span.Katze{color: #FF0000;}</style>
+<span><br>[2] town landlord - </span><span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br><br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> - theyve been voodoo'd and dreamwoven</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: drywallsmasher)</i></span>
+<style>span.town-landlord{color: #06E00C;}</style>
+<span><br>[3] John Proctor - </span><span style="color:#AE00FF"> Dreamweaver </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> <br><br><br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style> no visits<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> no visits <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> no visits<br>N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> visited 1</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ThePingu)</i></span>
+<style>span.John-Proctor{color: #AE00FF;}</style>
+<span><br>[4] dogboy - </span><span style="color:#06E00C"> Retributionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style> )<br><br>N1 - no dead to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k72"><b><color=#007AFF><b>Raise</b></color></b></link></font></style><br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k72"><b><color=#007AFF><b>Raise</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d and <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k89"><b><color=#007AFF><b>Dreamweave</b></color></b></link></font></style>d!<br>N3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k72"><b><color=#007AFF><b>Raise</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style><br>saved from going <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style>!<br>my raising of this corpse was confirmed by the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#AE00FF>Necromancer</color></b></link></font></style> who found the corpse missing<br>N4 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k72"><b><color=#007AFF><b>Raise</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: noneer3141)</i></span>
+<style>span.dogboy{color: #06E00C;}</style>
+<span><br>[5] primal - </span><span style="color:#AE00FF"> Voodoo Master </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: primal)</i></span>
+<style>span.primal{color: #AE00FF;}</style>
+<span><br>[6] Mimyuu - </span><span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Tarpper<br>N1 | Building...<br>N2 | Placed on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> (Triggered by Cleric + Spy)<br>N3 | Building...</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mimyuu)</i></span>
+<style>span.Mimyuu{color: #06E00C;}</style>
+<span><br>[7] Longshot - </span><span style="color:#AE00FF"> Necromancer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Longshot the Retributionist<br><br>N1- waiting for usable body<br><br>N2- cleric on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> <br><br>N3-cleric on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> BODY MISSING</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Kaboom2k)</i></span>
+<style>span.Longshot{color: #AE00FF;}</style>
+<span><br>[8] thomas - </span><span style="color:#0000FF"> Serial Killer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">|1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style> <br>|10 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style> <br>|12 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br>|14 - ?????</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.thomas{color: #0000FF;}</style>
+<span><br>[9] Martha Corey - </span><span style="color:#AE00FF"> Conjurer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1: no bodies<br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style> on <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> - not con</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">In my honest opinion, the Trickster is the best role in Town of Salem 2, offering an exhilarating and captivating experience whether you play as the Trickster or find yourself facing them as an opponent. Taking on the role of the Trickster provides a thrilling sense of power and strategy. Strategically Taunting players and manipulating their actions keeps on you the edge of your seet as you carefully choose your targets to disrupt evil plans and safegaurd the Town. The thrill of deceiving malevolent roles, making them question your true intention, and using your own abilities against them is second to none. Conversely, when you're up against a skilled Trickster, the challenge of deciphering their true identity amidst the veil of suspicion adds an exciting layor of complexity to the game. The cat-and-mouse dynamics create an engaging and fun-filled atmosphere, making every interaction with the Trickster a memorable and exhilarating</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: alzie20)</i></span>
+<style>span.Martha-Corey{color: #AE00FF;}</style>
+<span><br>[10] Alt - </span><span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">1 tk<br>8 sk<br>12 weird crus<br>14 cleric<br><br>im stupid sorry</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: draaag)</i></span>
+<style>span.Alt{color: #06E00C;}</style>
+<span><br>[11] Yes and Up - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">ehh maaan... i dun... i dunn kno<br>amne shit, yaknow... because i dont<br>i mean..... i guess i can uh... magic a bit?<br>N1 - was amne<br>N2 - i was forced into being a cleric for some reason, tho funny ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>) <br>N3 - i uh, i dun no why- but i like (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> - i hope 12 is actual crus</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: heafteaComic)</i></span>
+<style>span.Yes-and-Up{color: #06E00C;}</style>
+<span><br>[12] Mary Warren - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> <br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> <br>N3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style> attacked me but tp protected )<br>N4 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> ( <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style> attacked me but tp protected)<br>N5 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> <br><br><br>14 told me to guilty 7<br>14 is inno</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: xmrnightmaree)</i></span>
+<style>span.Mary-Warren{color: #06E00C;}</style>
+<span><br>[13] No and Down - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cleric<br>N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: thegodsilverwings)</i></span>
+<style>span.No-and-Down{color: #06E00C;}</style>
+<span><br>[14] Down and No - </span><span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipprev"> ⎗ <span class="tooltiptext"><span style="color:#06E00C"> Amnesiac </span></span></span></div>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> <br><br>N1: ?/<br>D2: I am a cleric<br>N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> <br>N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style><br>N4: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> (attacked and barriered)<br>N5: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> (attacked and barriered)</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">You played well my friend
+GG</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: lilali)</i></span>
+<style>span.Down-and-No{color: #06E00C;}</style>
+<span><br>[15] Ann Putnam - </span><span style="color:#777777"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: JDiesel)</i></span>
+<style>span.Ann-Putnam{color: #777777;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: tpow here</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: on god?</span>
+<span><br>[13]</span>
+<span class="No-and-Down">No and Down</span>
+<span>: Cleric here</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: tp please</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: worst ti kill me plz</span>
+<span><br>[5]</span>
+<span class="primal">primal</span>
+<span>: have you ever seen someone fake claim <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style> then just claim they went on dead people the night they died</span>
+<span><br>[5]</span>
+<span class="primal">primal</span>
+<span>: that'd be interesting</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust is sated.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>primal</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>primal</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>. They were also killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>primal</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#AE00FF>Voodoo Master</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>No and Down</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>No and Down</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Ann-Putnam">Ann Putnam</span>
+<span>: Sheriff N1- Search 12 (Sus/Ench)</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k62"><b><color=#007AFF><b>Bug</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> - theyve been voodoo'd and dreamwoven</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: TP</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: someone visit 10 tonight</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: 10 D:</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: are you ok</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: or theyll go insane</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: someone visit 10</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: BLINK TWICE IF YOU NEED HELP</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: they cant speak theyve been voodood</span>
+<span><br>[9]</span>
+<span class="Martha-Corey">Martha Corey</span>
+<span>: lol</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: rip 10</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: vfa?</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: surely not sherrif and spy as only tis</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: you... wanna vfa</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: when 12 is sus</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: L</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: tbh</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: 12 sus lol</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: my b</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>town landlord</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Martha Corey</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: i am crusider</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style></span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: any cc?</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: any cc?</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: who wants to cc that</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: This got the vm kill, inno</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: crusider shows as sus</span>
+<span><br>[15]</span>
+<span class="Ann-Putnam">Ann Putnam</span>
+<span>: spy would be dead no?</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: speak now or forever hold your peace</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: well</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: sher could be exe</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: guess not</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: crus does not show as sus</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: also spy wouldnt be dead</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Mary Warren</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> by a vote of <color=#66FF66><b>9</b></color> to <color=#FF0000><b>2</b></color>.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: ...the spy wouldnt be dead</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: it only kills 1 visitor</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: sheriff fake then</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><color=#00FF0F><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> ratios <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style>!</color></span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="Ann-Putnam">Ann Putnam</span>
+<span>: first off, that doesn't asuto mean I'm fake</span>
+<span><br>[15]</span>
+<span class="Ann-Putnam">Ann Putnam</span>
+<span>: enchanter is possible</span>
+<span><br>[15]</span>
+<span class="Ann-Putnam">Ann Putnam</span>
+<span>: but im fake</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Ann Putnam</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: lmao</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: nice</span>
+<span><br>[11]</span>
+<span class="Yes-and-Up">Yes and Up</span>
+<span>: uh huh</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: tp on 10</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were Prosecuted.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Ann Putnam</color></link></font></style> did not leave a last will.</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: crus on pros</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: tp lo on me</span>
+<span><br>[2]</span>
+<span class="town-landlord">town landlord</span>
+<span>: 1 guiltied as well</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: tp lo</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust is swelling.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Martha Corey</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style="CovenColor">Coven</style> member attacked you, but your defense was too high!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>town landlord</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>town landlord</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Martha Corey</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Martha Corey</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: No TI?</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: sooo</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: Vfa I guess</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 3 claims jester</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: no ti</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 4 no claim</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: ok *now* we can vfa</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> N1- nothing N2- No clue who to shoot</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: wait 3 is what</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: LOL</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: When did 3 claim jester?</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: in whisper</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 4 claim</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: 4 claimed?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>dogboy</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k90"><b><color=#007AFF><b>...</b></color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: inno this first continue vfa fast</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: Voodoo is dead, necro game?</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: necro maybe?</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: voodoo is dead tho?</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: can be adm or necro</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: Is why necro</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>dogboy</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> by a vote of <color=#66FF66><b>5</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: vfa fast</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 12 can u talk?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Longshot</b> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: TS</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: btw, in case yall was wondering why mimyuu was skipped in your lovely vfa, mimyuu is a tk who claimed to both 12 and 10 :3</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: Hate to say it in a necro game, but it's real</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: continue vfa</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: <b>dogboy</b> guilty if ur admi</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: inno if its necro</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Longshot</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style> by a vote of <color=#66FF66><b>5</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 4 speak now or i will execute you</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: ok its necromancer</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 4</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: 4 cant talk</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> cancelled their vote.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: pls no</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: 4 is vm'd</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: stop</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: by necro</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: just kill 4</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: no</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 12 is vm'd</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: up 4</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: 12 isnt vm'd</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: I don't think it's wise, 10</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: fast</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: its confirmed</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>dogboy</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: 12 voted they arent silenced</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: 12... literally voted. 12. isnt. voodoo'd.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: wait what? 12 wtf</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: my bad</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: ..</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: inno this LMAO...</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: can we please leave this poor person alone</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: wtf is 12 doing</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: 12 jest?</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>dogboy</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> by a vote of <color=#66FF66><b>8</b></color> to <color=#FF0000><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: can we kill 7 tomorrow ;-;</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: I think 12 jest</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: tp lo</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust has reached its apex. You will deal a rampaging powerful attack tonight.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target's defense was too high to kill!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Mimyuu</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were stabbed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Yes and Up</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: saved from going <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k28"><b><color=#007AFF><b>Insane</b></color></b></link></font></style>! thanks for not. yknow. killing me</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><style="TownColor">Town </style><color=#1F51FF>Support</color></b></link></font></style> here</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: i dont know</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: sk attacked me</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: no one cc'd 12</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: but 12 is acting really weird</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: 8 and 14 haven't claimed</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: but tp prtotected me</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: im tk</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: I am tp</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: which tk</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: I think 12 is jest, or faking jesting</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: dep</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: But no cc tho</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: shoot 3 imo</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: well there is a ccrus</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: we can get 12, but pros shoudl inno</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: <b>Longshot</b> why ia am jester?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: shoot 3 pls he claims lookout</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: or i exe u 8</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: ok</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Longshot</b> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: wait, you're the crus with the kill.....</span>
+<span><br>[7]</span>
+<span class="Longshot">Longshot</span>
+<span>: Longshot the Retributionist N1- waiting for usable body N2- cleric on <b>Mary Warren</b> N3-cleric on <b>Mary Warren</b> BODY MISSING</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: yes</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: i killed 5 as crus</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: guilty this is necromancer</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: Why did 6 want you gone?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Longshot</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: 10?</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: tp lo on me <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><style="TownColor">Town </style><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style> was convicted and executed.</span>
+<span><br>[4]</span>
+<span class="dogboy">dogboy</span>
+<span>: nice</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#AE00FF>Necromancer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Longshot</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust is swelling.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style> tried to invade your dreams, but you are immune.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style="CovenColor">Coven</style> member attacked you, but your defense was too high!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target's defense was too high to kill!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>dogboy</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF0000>Berserker</color></b></link></font></style> has transformed into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style>, Horseman of the Apocalypse! Cry 'Havoc!', and let slip the dogs of war.</span>
+<span><br>[3]</span>
+<span class="John-Proctor">John Proctor</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> N1: <b>Ann Putnam</b> no visits N2: <b>Mary Warren</b> no visits N3: <b>dogboy</b> no visits N4: <b>dogboy</b> visited 1</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: ok so bes</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: 3 ur so fake</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: N4- Shooting <b>John Proctor</b> - defence</span>
+<span><br>[12]</span>
+<span class="Mary-Warren">Mary Warren</span>
+<span>: serial killer attacked me again</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: trapper trapped them n2</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: Probably jester vest</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: thats convin nient</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: and u dont have trapper</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: or spy</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: or cleric</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: i cant choose</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: who trapper said visited</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: i rly dont know</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: 3 is lying obvs</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: 8 shoot 3</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: now</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: im fking sk</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: i cant</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Proctor</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: u know theres 4 evils alive rn</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: no bro im stupid</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style>: sadge</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: 10 should inno in case of jest right?</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: it's fine</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: i think 1 is bers</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: tbh</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: Or this for sure not jester?</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: haunt me~~</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Proctor</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: i dont wanna play anymoreeee</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Alt">Alt</span>
+<span>: noooo</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: 1 is bers</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: dang</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: unlucky</span>
+<span><br>[8]</span>
+<span class="thomas">thomas</span>
+<span>: gg</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>John Proctor</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style>.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your bloodlust is sated.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were killed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style>, Horseman of the Apocalypse!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Mimyuu</span>
+<span style="color:#689194">: 12 you table</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were destroyed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style>, Horseman of the Apocalypse.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>thomas</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Alt</span>
+<span style="color:#689194">: i told 12 to guilty if he was silenced</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r48"><b><color=#0000FF>Serial Killer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were destroyed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style>, Horseman of the Apocalypse.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Alt</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">dogboy</span>
+<span style="color:#689194">: "weird crus" lmao</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were destroyed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style>, Horseman of the Apocalypse.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Mary Warren</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Alt</span>
+<span style="color:#689194">: he acted so evil i was so confused like he was confirmed but then he's acting evil</i></span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Rapid mode has been activated.</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: Don't you dare be mayor</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> N1- nothing N2- No clue who to shoot N3- Nothing N4- Shooting <b>John Proctor</b> - defence N5- not going out cause of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style></span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: well gee golly</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">dogboy</span>
+<span style="color:#689194">: some peopel relax when theyre confirmed</i></span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: I tarnation wish</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: First apoc win</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Katze</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">dogboy</span>
+<span style="color:#689194">: lol</i></span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: Solo Bers</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: sad</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: for me</span>
+<span><br>[1]</span>
+<span class="Katze">Katze</span>
+<span>: sweating bullets</span>
+<span><br>[14]</span>
+<span class="Down-and-No">Down and No</span>
+<span>: good for you</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 6</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 7</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were destroyed by <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r251"><b><color=#FF0000>War</color></b></link></font></style>, Horseman of the Apocalypse.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Down and No</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+</body>
+</html>

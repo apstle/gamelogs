@@ -1,0 +1,890 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Cotton Mather - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span style="color:#a0a0a0"><i>(Username: DrF101)</i></span>
+<style>span.Cotton-Mather{color: #06E00C;}</style>
+<span><br>[2] Plain Doll - </span>
+<span style="color:#06E00C"> Tracker </span>
+<span style="color:#a0a0a0"><i>(Username: Jonhawk117)</i></span>
+<style>span.Plain-Doll{color: #06E00C;}</style>
+<span><br>[3] Lilith - </span>
+<span style="color:#06E00C"> Crusader </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[4] bald guy - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span style="color:#a0a0a0"><i>(Username: Branian)</i></span>
+<style>span.bald-guy{color: #06E00C;}</style>
+<span><br>[5] Snow - </span>
+<span style="color:#06E00C"> Coroner </span>
+<span style="color:#a0a0a0"><i>(Username: Azachy)</i></span>
+<style>span.Snow{color: #06E00C;}</style>
+<span><br>[6] town landlord - </span>
+<span style="color:#00CC99"> Doomsayer </span>
+<span style="color:#a0a0a0"><i>(Username: drywallsmasher)</i></span>
+<style>span.town-landlord{color: #00CC99;}</style>
+<span><br>[7] the - </span>
+<span style="color:#06E00C"> Retributionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style><br><br>n1- nothing</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: simplythe)</i></span>
+<style>span.the{color: #06E00C;}</style>
+<span><br>[8] Mister Mister - </span>
+<span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: ceejay)</i></span>
+<style>span.Mister-Mister{color: #06E00C;}</style>
+<span><br>[9] Achoo - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: Piggered)</i></span>
+<style>span.Achoo{color: #B545FF;}</style>
+<span><br>[10] five - </span>
+<span style="color:#B545FF"> Jinx </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> <br>n1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hazel</color></link></font></style> <br>n2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>pawn</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: TomatoFries)</i></span>
+<style>span.five{color: #B545FF;}</style>
+<span><br>[11] worldsmalestviol - </span>
+<span style="color:#06E00C"> Trickster </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Deodat Arson</color></link></font></style> <br>3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ChubbyCubo)</i></span>
+<style>span.worldsmalestviol{color: #06E00C;}</style>
+<span><br>[12] ghost - </span>
+<span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">ghost the spy<br><br>n1: bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> - nothin'<br>n2: bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> -</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.ghost{color: #06E00C;}</style>
+<span><br>[13] pawn - </span>
+<span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: XAstroX)</i></span>
+<style>span.pawn{color: #06E00C;}</style>
+<span><br>[14] Hazel - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Hazel the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> - They asked for TP/LO first<br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Hazel{color: #06E00C;}</style>
+<span><br>[15] Deodat Arson - </span>
+<span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>N1: 6 (Inno/Book)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: SandNSnow)</i></span>
+<style>span.Deodat-Arson{color: #B545FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[15]</span>
+<span class="Deodat-Arson">Deodat Arson</span>
+<span>: Nicely done</span>
+<span><br>[11]</span>
+<span class="worldsmalestviol">worldsmalestviol</span>
+<span>: I tarnation hate this role</span>
+<span><br>[6]</span>
+<span class="town-landlord">town landlord</span>
+<span>: tplo on me</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style> pleasee</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: glhf</span>
+<span><br>[11]</span>
+<span class="worldsmalestviol">worldsmalestviol</span>
+<span>: along with <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style></span>
+<span><br>[11]</span>
+<span class="worldsmalestviol">worldsmalestviol</span>
+<span>: guess what I am</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: TP/LO on me</span>
+<span><br>[11]</span>
+<span class="worldsmalestviol">worldsmalestviol</span>
+<span>: gee golly</span>
+<span><br>[11]</span>
+<span class="worldsmalestviol">worldsmalestviol</span>
+<span>: just kill me please</span>
+<span><br>[11]</span>
+<span class="worldsmalestviol">worldsmalestviol</span>
+<span>: I hate this role</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: I AM CRUS ON 8</span>
+<span><br>[11]</span>
+<span class="worldsmalestviol">worldsmalestviol</span>
+<span>: hang me please</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: TP/LO ON ME</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: youre the worlds smallest violin</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You attacked someone visiting your target.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>worldsmalestviol</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>worldsmalestviol</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: i think i killed 15</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Deodat Arson</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Deodat Arson</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: PM HAS BOOK LMFAO, also someone with defence visited 8</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: Nice kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: A hate filled slash, Nice work <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> 
+
+
+N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style> Visted (NV)</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: N1: RBD</span>
+<span><br>[12]</span>
+<span class="ghost">ghost</span>
+<span>: ghost the spy
+
+n1: bug <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> - nothin'</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: thats correct</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: someone with def visited 8</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: ALSO LOOOL</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: I got RBD</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner</color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: not pois</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: PM died to trick</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: if you are <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> come out now</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: Pois would ahve book</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: actual madlad rbd 8</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: and 15 would be alive</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: if there was a pois</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: Wouldn't crus kill Tav?</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: ye</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: so 3 is fake</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>pawn</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Snow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: get 3</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: So someone with defense came at me right?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: no?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>ghost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Snow</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> |N1 - 8 - attacked someone</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: not fake</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: why would i OPENLY CLAIM CRUS D1</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: like that</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: Crus attacks a random visitor, this probably isnt fake</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: obvious jester get them tk</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: Did someone heal the Tav or something?</span>
+<span><br>[12]</span>
+<span class="ghost">ghost</span>
+<span>: idk seems like cov is pushing 3</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: tv would have died so</span>
+<span><br>[1]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: exactly why is this up? inno</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: r u braindead</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: inno</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: inno</span>
+<span><br>[6]</span>
+<span class="town-landlord">town landlord</span>
+<span>: i believe them, what if they hit na?</span>
+<span><br>[1]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: ffs inno</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: inno obvious jester</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style> role</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: chain?</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: ts</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: 7 im fucking crus</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: nah give jster win</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: sure</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lilith</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> by a vote of <color=#66FF66><b>10</b></color> to <color=#FF0000><b>2</b></color>.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: IM NOT JESTER</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: Hm I want to hang 7 for that</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: give jester win</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: HANG GUILTIEIS</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: Honestly</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="town-landlord">town landlord</span>
+<span>: 2/13?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>ghost</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: i was home last night</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>pawn</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hazel</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Plain Doll</b> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: im tracker and want to give jester his win</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: <b>Plain Doll</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> 
+
+
+N1 <b>the</b> Visted (NV)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>pawn</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: already psoted</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>pawn</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: im not a fucking jester</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: ok inno</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: ur braindead</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: There is nothing to indicate there is a Jester, you could just be pushing a townie</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: inno this</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: go to classic</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: These Lays are really good</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: I want to hang 7</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: please</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>pawn</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: Reporting 3 for toxic</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: 13 role</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: 14 why are you hard pushing me</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: cope 2</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Plain Doll</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> by a vote of <color=#66FF66><b>8</b></color> to <color=#FF0000><b>2</b></color>.</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There is 1 possible trial remaining today.</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: i was speaking my opinion on life</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: ur skin is so thin</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hazel</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>the</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: i think 2 might be ww</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: im going to get doomsniped but</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>
+
+n1- nothing</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: maybe</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: Final trial, guilty, Ret is the easiest fake claim.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: im innoing</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: bro.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: last trial guilty</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: ok 14's exe</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: dont throw town</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>the</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>3</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Hazel">Hazel</span>
+<span>: Yeah no, no one is throwing by cutting off a weak link.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: yall gave exe a win</span>
+<span><br>[7]</span>
+<span class="the">the</span>
+<span>: idiots</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: damn i cant wait for the exe animation</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: 3 stay on me please</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: (that wont happen)</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: tks on 3</span>
+<span><br>[1]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: i cc exe</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="ghost">ghost</span>
+<span>: its all any bro bro</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>the</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: 1 wants me to chain with him</span>
+<span><br>[12]</span>
+<span class="ghost">ghost</span>
+<span>: you can't cc exe</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: reasonable ngl</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: all guiltys sus</span>
+<span><br>[12]</span>
+<span class="ghost">ghost</span>
+<span>: LMAO 2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: Im tpow</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>ghost</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>ghost</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: 5 is jinx</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: ok</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: 1 said 5 is jinx</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hazel</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: by 5 i mean five</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Hazel</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: he means 10</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: cus i cant read</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: u mean 10?</span>
+<span><br>[4]</span>
+<span class="bald-guy">bald guy</span>
+<span>: i was role blocked</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: <b>Plain Doll</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> 
+
+
+N1 <b>the</b> Visted (NV)
+
+N2 <b>Lilith</b> Visted ( <b>Mister Mister</b> ) <b>five</b> was jinx on</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: 10 is jinx apparently</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: yeah</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: 10 is jinx</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: im tk</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: saw them on 33</span>
+<span><br>[1]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: 10 is bad</span>
+<span><br>[1]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: 10 is jinx</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: no you didnt</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: ok</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: get fucked 10</span>
+<span><br>[1]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: 2 people saw 10 as jinx</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: well 10 is conf jinx</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: *DABS*</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: no</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 can u get off my dick</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: now?</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: no</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: u saw i visited 8</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: 3 sys</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: cuz he asked me</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: literally begging me</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: 3 is a sussy little toxic baka</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: Nothing happened to me last night</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Snow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>five</b> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="five">five</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> 
+n1 - <b>Hazel</b> 
+n2 - <b>pawn</b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: which tpow btw</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: pros</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: ok</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: im chaining with 1 then</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: bye Jinx</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: btw last coven is illu or rit</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Mister Mister</color></link></font></style>: fair enough, I should be fine</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>five</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> to death by a vote of <color=#FF0000><b>9</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: common coven L</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: since jinx didnt attack me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style>: i will mention i healed 13 on n1</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: and pm had book, and pm is 11th on book order</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: sweat 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> died today.</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: Rit should've guessed me by now</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: so its either illu or rit left</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: yea</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: sweat harder</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>five</color></link></font></style> left a last will.</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: i think its illu</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 im not sweating</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: this is common game knowledge</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: that is waet</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Cotton Mather</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: <b>Plain Doll</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> 
+
+
+N1 <b>the</b> Visted (NV)
+
+N2 <b>Lilith</b> Visted ( <b>Mister Mister</b> ) <b>five</b> was jinx on 3 <b>Lilith</b> 
+
+N3 <b>Achoo</b> Visted (NV)</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: Well it is a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: coroner?</span>
+<span><br>[9]</span>
+<span class="Achoo">Achoo</span>
+<span>: rbd but immune</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> d1 nothingn1 nothingd2 nothingn2 nothingd3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k51"><b><color=#007AFF><b>Autopsy</b></color></b></link></font></style> <b>ghost</b> (<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style> added to list)n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k56"><b><color=#007AFF><b>Examine</b></color></b></link></font></style> <b>pawn</b> (Not Killer)</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: yep</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay so rit is last coven</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: 4 6 9 and 13 roles</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: rit is rb immue right?</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: no</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: no</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: Can the Tav come out now?</span>
+<span><br>[4]</span>
+<span class="bald-guy">bald guy</span>
+<span>: cleric</span>
+<span><br>[9]</span>
+<span class="Achoo">Achoo</span>
+<span>: im ret</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: there not</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: 13 is clear</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: oh then get 9</span>
+<span><br>[6]</span>
+<span class="town-landlord">town landlord</span>
+<span>: tk</span>
+<span><br>[5]</span>
+<span class="Snow">Snow</span>
+<span>: from being <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style></span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: 13s fine</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: he was rb</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: tav is fine</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Plain Doll</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Snow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>town landlord</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Achoo</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style>: will</span>
+<span><br>[9]</span>
+<span class="Achoo">Achoo</span>
+<span>: just guilty</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>bald guy</color></link></font></style>: clericn1: 3 nothingn2: rbedn3: 13 nothingn4:</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: lol</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: only cowards inno</span>
+<span><br>[1]</span>
+<span class="Cotton-Mather">Cotton Mather</span>
+<span>: im coward</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Achoo</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: call me a coward then</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: wow 8 is a coward</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: up 8 next</span>
+<span><br>[3]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8s fine</span>
+<span><br>[8]</span>
+<span class="Mister-Mister">Mister Mister</span>
+<span>: L coward am I right</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> died today.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: nah</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: hes a coward</span>
+<span><br>[2]</span>
+<span class="Plain-Doll">Plain Doll</span>
+<span>: up 8</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Achoo</color></link></font></style> did not leave a last will.</span>
+</body>
+</html>

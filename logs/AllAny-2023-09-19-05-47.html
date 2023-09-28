@@ -1,0 +1,603 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Kit - </span><span style="color:#06E00C"> Vigilante </span>
+<span style="color:#a0a0a0"><i>(Username: ObsidianKaiser)</i></span>
+<style>span.Kit{color: #06E00C;}</style>
+<span><br>[2] Bulgarian - </span><span style="color:#AE00FF"> Enchanter </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> Psychic<br>N2: (12) or 3 is good!<br><br><br>I wanna die</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: AgentKnockout)</i></span>
+<style>span.Bulgarian{color: #AE00FF;}</style>
+<span><br>[3] ghertoi - </span><span style="color:#06E00C"> Spy </span>
+<span style="color:#a0a0a0"><i>(Username: ghertoi)</i></span>
+<style>span.ghertoi{color: #06E00C;}</style>
+<span><br>[4] milfers - </span><span style="color:#06E00C"> Lookout </span>
+<span style="color:#a0a0a0"><i>(Username: VileSquirrel)</i></span>
+<style>span.milfers{color: #06E00C;}</style>
+<span><br>[5] Avocado - </span><span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Avocado</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>N1 - Visit 6,</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Avocado)</i></span>
+<style>span.Avocado{color: #06E00C;}</style>
+<span><br>[6] Borker - </span><span style="color:#AE00FF"> Dreamweaver </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Borker{color: #AE00FF;}</style>
+<span><br>[7] Bread Knight - </span><span style="color:#06E00C"> Lookout </span>
+<span style="color:#a0a0a0"><i>(Username: Katacaz)</i></span>
+<style>span.Bread-Knight{color: #06E00C;}</style>
+<span><br>[8] Selena - </span><span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Selena{color: #06E00C;}</style>
+<span><br>[9] mince - </span><span style="color:#AE00FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: Valay)</i></span>
+<style>span.mince{color: #AE00FF;}</style>
+<span><br>[10] Deodat Lawson - </span><span style="color:#06E00C"> Trapper </span>
+<span style="color:#a0a0a0"><i>(Username: aurelianbuia)</i></span>
+<style>span.Deodat-Lawson{color: #06E00C;}</style>
+<span><br>[11] Mimyuu - </span><span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Investigator<br>N1 | <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> - No Blood<br>N2 | <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mimyuu)</i></span>
+<style>span.Mimyuu{color: #06E00C;}</style>
+<span><br>[12] Phyroll - </span><span style="color:#06E00C"> Lookout </span>
+<span style="color:#a0a0a0"><i>(Username: Phyroll)</i></span>
+<style>span.Phyroll{color: #06E00C;}</style>
+<span><br>[13] improv - </span><span style="color:#000000"> Shroud </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.improv{color: #000000;}</style>
+<span><br>[14] Flow - </span><span style="color:#06E00C"> Bodyguard </span>
+<span style="color:#a0a0a0"><i>(Username: MagmaWasTaken)</i></span>
+<style>span.Flow{color: #06E00C;}</style>
+<span><br>[15] Link - </span><span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: DigitallyDem)</i></span>
+<style>span.Link{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[14]</span>
+<span class="Flow">Flow</span>
+<span>: who want it?</span>
+<span><br>[5]</span>
+<span class="Avocado">Avocado</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style> on me please ill get you a kill</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: marital relations</span>
+<span><br>[7]</span>
+<span class="Bread-Knight">Bread Knight</span>
+<span>: I am the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style> of <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>mince</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to attack <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Avocado</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>milfers</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style> tried to invade your dreams, but you are immune.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>milfers</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Kit</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>ghertoi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>milfers</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Bread Knight</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Deodat Lawson</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Avocado</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mimyuu</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Avocado</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mimyuu</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Kit</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>mince</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>mince</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#AE00FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Deodat Lawson</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1 : 11 - enchanted</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> LunkN1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> - SUS</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1 : 11 - enchanted</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1 : 11 - enchanted</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: Coroner here</span>
+<span><br>[11]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: Investigator N1 | <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> - No Blood</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> Night 1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Avocado</color></link></font></style> VB <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style></span>
+<span><br>[11]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: huh</span>
+<span><br>[7]</span>
+<span class="Bread-Knight">Bread Knight</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k29"><b><color=#007AFF><b>Knight</b></color></b></link></font></style> |n1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Avocado</color></link></font></style> vb <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style></span>
+<span><br>[14]</span>
+<span class="Flow">Flow</span>
+<span>: shroud is astral</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: okay 12s just fake</span>
+<span><br>[11]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: what is you, 13</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: corner</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: 6 came up sus</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: i cant visit</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: corner</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: idk, I think 12 and 7 a re real</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: i dont have legs</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> Night 1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Avocado</color></link></font></style> VB <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style></span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> needs to claim</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: i dont have legs</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: i literally</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> LunkN1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> - SUS</span>
+<span><br>[7]</span>
+<span class="Bread-Knight">Bread Knight</span>
+<span>: I confirm 12</span>
+<span><br>[14]</span>
+<span class="Flow">Flow</span>
+<span>: typo, 13 is fake</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: cannot visit</span>
+<span><br>[10]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: idk we whispered all the lobby i dont think he s face</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: no 14</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: 2f1, hang 13</span>
+<span><br>[11]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: D:</span>
+<span><br>[6]</span>
+<span class="Borker">Borker</span>
+<span>: 15 sounds like exe</span>
+<span><br>[8]</span>
+<span class="Selena">Selena</span>
+<span>: Two lookouts are saying 13 killed 5</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: i call coroner "corner"</span>
+<span><br>[1]</span>
+<span class="Kit">Kit</span>
+<span>: 13 is fake</span>
+<span><br>[6]</span>
+<span class="Borker">Borker</span>
+<span>: other sheriff found me not sus</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: because its funny</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: 6 you havent even claimed lol</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: well 13 visited, but he claims not to have</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: corner claim kinda fake ngl</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: 13 is fake</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: aight up 13 first</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Deodat Lawson</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>ghertoi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Bread Knight</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style> was voted up to trial.</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: CoronerList 5 (?)</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: atleast let me see if 5 was visited by a shrouded player</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: or a shroud</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> if you could please kill <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> tonight, they came up sus and havent claimed. meanwhile guilty this</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: lolno</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: he visited by you</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: lol</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: guilt guilt guilt</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: I am Coroner</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: we want blood</span>
+<span><br>[7]</span>
+<span class="Bread-Knight">Bread Knight</span>
+<span>: 1. coroner cant visit n1 so you cant be shrouded</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r253"><b><color=#FF0000>Death</color></b></link></font></style> even</span>
+<span><br>[14]</span>
+<span class="Flow">Flow</span>
+<span>: typo = <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k46"><b><color=#007AFF><b>Guilty</b></color></b></link></font></style></span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>improv</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style> to death by a vote of <color=#FF0000><b>10</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: THE 99 CURSED SHROUD SCROLLS DONT WORK....</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: WHY EVEN BOTHER...</span>
+<span><br>[13]</span>
+<span class="improv">improv</span>
+<span>: DEATH TO ALL SHROUDS....</span>
+<span><br>[11]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: noooooooo</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: inb4 12 is exe</span>
+<span><br>[14]</span>
+<span class="Flow">Flow</span>
+<span>: lmao</span>
+<span><br>[8]</span>
+<span class="Selena">Selena</span>
+<span>: One must imagine...</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Bread Knight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><style="TownColor">Town </style><color=#1F51FF>Killing</color></b></link></font></style> ON 6</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: nvm</span>
+<span><br>[14]</span>
+<span class="Flow">Flow</span>
+<span>: it always works</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>improv</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Avocado</span>
+<span style="color:#689194">: hey there~</i></span>
+<span><br>[6]</span>
+<span class="Borker">Borker</span>
+<span>: 15 is actually exe</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">improv</span>
+<span style="color:#689194">: :333333</i></span>
+<span><br>[14]</span>
+<span class="Flow">Flow</span>
+<span>: no typos allowed</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: 6 you have not claimed</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Deodat Lawson</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">improv</span>
+<span style="color:#689194">: i was dreamweaved too</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">improv</span>
+<span style="color:#689194">: LOL</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Bread Knight</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">improv</span>
+<span style="color:#689194">: there he goes</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Borker</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Avocado</span>
+<span style="color:#689194">: BRO</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r27"><b><color=#AE00FF>Dreamweaver</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Avocado</span>
+<span style="color:#689194">: YOU SHOULD HAVE SHROUDED ME</i></span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Avocado</span>
+<span style="color:#689194">: NOO</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">improv</span>
+<span style="color:#689194">: LOOOL</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Bread Knight</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mimyuu</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Mimyuu</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Bread Knight</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: N2: Trap 12 [ enchanter ] [ bg ]</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: 2 14 roles now</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: n2 : 6 - killed by vigi nvm</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> LunkN1: <b>Borker</b> - SUSN2: <b>Deodat Lawson</b> - Seems inno- also thank you <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r24"><b><color=#06E00C>Vigilante</color></b></link></font></style> , im confirmed</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r2"><b><color=#06E00C>Amnesiac</color></b></link></font></style> Psychic N2: (12) or 3 is good!</span>
+<span><br>[1]</span>
+<span class="Kit">Kit</span>
+<span>: n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k68"><b><color=#007AFF><b>Shoot</b></color></b></link></font></style> <b>Borker</b> (killed dreamweaver)</span>
+<span><br>[10]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: N2: Trap 12 [ enchanter ] [ bg ]</span>
+<span><br>[10]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: N2: Trap 12 [ enchanter ] [ bg ]</span>
+<span><br>[7]</span>
+<span class="Bread-Knight">Bread Knight</span>
+<span>: |n2. <b>Phyroll</b> vb 2, 10, 14</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: 2 14 roles</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: w vigi</span>
+<span><br>[8]</span>
+<span class="Selena">Selena</span>
+<span>: 12 got enchanted</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: 1 and I are both confirmed</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: 2 is enchanter</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Deodat Lawson</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: get 2</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: we have an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#AE00FF>Enchanter</color></b></link></font></style> on the loose</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: man I hate my life</span>
+<span><br>[10]</span>
+<span class="Deodat-Lawson">Deodat Lawson</span>
+<span>: N2: Trap 12 [ enchanter ] [ bg ]</span>
+<span><br>[8]</span>
+<span class="Selena">Selena</span>
+<span>: We hang 2</span>
+<span><br>[8]</span>
+<span class="Selena">Selena</span>
+<span>: lmao</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Deodat Lawson</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: bye bye 2</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: 1 coven dc'd the other got found instantly</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Kit</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: can y'all let me cook</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Deodat Lawson</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Kit</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Bread Knight</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Bulgarian</b> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: this was just a bad 3-coven game</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Kit</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="Link">Link</span>
+<span>: o7, poor bestie got unlucky af</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: there's 4 isn't it</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Kit</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: no</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: liues</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: lies</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: it's 3 and technically 2</span>
+<span><br>[2]</span>
+<span class="Bulgarian">Bulgarian</span>
+<span>: because the poisoner dc'd</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Bulgarian</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Kit</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Avocado</span>
+<span style="color:#689194">: unlucky 2, you really did your best.</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Selena</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Link</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[5]</span>
+<span style="color:#689194">Avocado</span>
+<span style="color:#689194">: you did your best 2, no fault of yours.</i></span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style> was convicted and executed.</span>
+<span><br>[3]</span>
+<span class="ghertoi">ghertoi</span>
+<span>: sadge</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#AE00FF>Enchanter</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Bulgarian</span>
+<span style="color:#689194">: it's like 'how tarnation can I get'</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Bulgarian</color></link></font></style> left a last will.</span>
+<span><br>[1]</span>
+<span class="Kit">Kit</span>
+<span>: 6 went out with a bang</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Bulgarian</span>
+<span style="color:#689194">: turns out: A LOT</i></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Flow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Phyroll</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Phyroll">Phyroll</span>
+<span>: 14 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style></span>
+</body>
+</html>

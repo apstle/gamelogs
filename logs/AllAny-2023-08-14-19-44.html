@@ -1,0 +1,831 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Sofa King Big - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: TheDJ)</i></span>
+<style>span.Sofa-King-Big{color: #B545FF;}</style>
+<span><br>[2] Purple Deputy - </span>
+<span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: Galaxia)</i></span>
+<style>span.Purple-Deputy{color: #ECC23E;}</style>
+<span><br>[3] cowgirl gaming - </span>
+<span style="color:#B545FF"> Witch </span>
+<span style="color:#a0a0a0"><i>(Username: ZaTrapu)</i></span>
+<style>span.cowgirl-gaming{color: #B545FF;}</style>
+<span><br>[4] Red Prince - </span>
+<span style="color:#6699FF"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Shrouded <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style>. They didn't visit anyone, so I attacked them. They didn't die, so they have defense.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: HydrusBlack)</i></span>
+<style>span.Red-Prince{color: #6699FF;}</style>
+<span><br>[5] Go ahead Randy - </span>
+<span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Prosti-secutor <br>n1. enjoy good green soup <br>n2. hopefully i live</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">[[@6]] has def</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: StrongPatchouli)</i></span>
+<style>span.Go-ahead-Randy{color: #06E00C;}</style>
+<span><br>[6] Town Kaos - </span>
+<span style="color:#06E00C"> Trapper </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Trapper<br>N1: Building<br>N2: Placed <br>N3: Building</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: DropDaDeagle)</i></span>
+<style>span.Town-Kaos{color: #06E00C;}</style>
+<span><br>[7] Steve Rogers - </span>
+<span style="color:#06E00C"> Investigator </span>
+<span style="color:#a0a0a0"><i>(Username: TheMarthMain21)</i></span>
+<style>span.Steve-Rogers{color: #06E00C;}</style>
+<span><br>[8] Leroy Jenkins - </span>
+<span style="color:#FF004E"> Soul Collector </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>n1: [<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>], <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style><br>n2:</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">[[@14]] has def</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: CephandrianJES)</i></span>
+<style>span.Leroy-Jenkins{color: #FF004E;}</style>
+<span><br>[9] vies - </span>
+<span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style><br><br>N1)  7 (target killed by pirate)<br>N2)  8 (killed by ritualist)<br>N3)  10 (attacked by coven, but barriered)<br>N4)  10</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">14 defense<br>6 defense<br>10 defense</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: epsilon)</i></span>
+<style>span.vies{color: #06E00C;}</style>
+<span><br>[10] Lilith - </span>
+<span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>|N1 - 11<br>|N2 - 8<br>|N3 - Self Barrier<br>|N4 - 9<br><br>|1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style> <br>|3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch</color></b></link></font></style> <br>|9 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>|10 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br>|13 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r106"><b><color=#1F51FF>Random </color><color=#B545FF>Coven</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[11] the - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">frick</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: simplythe)</i></span>
+<style>span.the{color: #06E00C;}</style>
+<span><br>[12] KingLincoln - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Cleric <br>N1- 11<br>N2- <br>N3- <br>N4- <br>N5- <br>N6-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: KingLincoln32)</i></span>
+<style>span.KingLincoln{color: #06E00C;}</style>
+<span><br>[13] Luck - </span>
+<span style="color:#B545FF"> Medusa </span>
+<span style="color:#a0a0a0"><i>(Username: PandoraKnight)</i></span>
+<style>span.Luck{color: #B545FF;}</style>
+<span><br>[14] whatever - </span>
+<span style="color:#FF004E"> Berserker </span>
+<span style="color:#a0a0a0"><i>(Username: md22)</i></span>
+<style>span.whatever{color: #FF004E;}</style>
+<span><br>[15] Town Escort - </span>
+<span style="color:#B545FF"> Poisoner </span>
+<span style="color:#a0a0a0"><i>(Username: Rynamir)</i></span>
+<style>span.Town-Escort{color: #B545FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Steve Rogers</color></link></font></style> has disconnected from life.</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style> role or i shoot</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style> role or i shoot</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style> role or i shoot</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: yes</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style> role or i shoot</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> role or i shoot</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: im not veteran</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: target me</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>the</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Steve Rogers</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Steve Rogers</color></link></font></style> lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>. They also disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Steve Rogers</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Steve Rogers</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: nah tavern keeper trippin</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> n1: [<style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>], <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: sic</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> N1) 7 (target killed by pirate)</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: whispered to 1 and 2 before it showed up</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: cool</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: im tp</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Town Escort</color></link></font></style> has disconnected from life.</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style>, confirm?</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Yeah 9's pretty cool</span>
+<span><br>[12]</span>
+<span class="KingLincoln">KingLincoln</span>
+<span>: im tp</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: Ok</span>
+<span><br>[12]</span>
+<span class="KingLincoln">KingLincoln</span>
+<span>: funny enough</span>
+<span><br>[2]</span>
+<span class="Purple-Deputy">Purple Deputy</span>
+<span>: yeah he did</span>
+<span><br>[5]</span>
+<span class="Go-ahead-Randy">Go ahead Randy</span>
+<span>: vfa 2</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: One of the two TPs is fake</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: not me</span>
+<span><br>[2]</span>
+<span class="Purple-Deputy">Purple Deputy</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: But alignments for now</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: up 12 and find out</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Go-ahead-Randy">Go ahead Randy</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r103"><b><color=#06E00C>Town </color><color=#1F51FF>Killing</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Luck</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Luck</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Red-Prince">Red Prince</span>
+<span>: Shrouded <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style>. They didn't visit anyone, so I attacked them. They didn't die, so they have defense.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>the</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="KingLincoln">KingLincoln</span>
+<span>: im tp was on 11 n1</span>
+<span><br>[12]</span>
+<span class="KingLincoln">KingLincoln</span>
+<span>: not sure what else its prolly 6</span>
+<span><br>[12]</span>
+<span class="KingLincoln">KingLincoln</span>
+<span>: just off what he said</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: im here tryna save my own pillion</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Call?</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: sooo</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: alright</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: idk man</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: tf you think im gonna say, hang me?</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: i was rbed last night</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>KingLincoln</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[12]</span>
+<span class="KingLincoln">KingLincoln</span>
+<span>: this is crazy</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: You're in psy will</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: oh</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: rip</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: Why crazy?</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: RIP</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>KingLincoln</color></link></font></style> left a last will.</span>
+<span><br>[11]</span>
+<span class="the">the</span>
+<span>: rip chance of chaining</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: I was crazy once</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: RIGHT I KNOW THIS LOOKS BAD</span>
+<span><br>[8]</span>
+<span class="Leroy-Jenkins">Leroy Jenkins</span>
+<span>: It does</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Red Prince</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Leroy Jenkins</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>the</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>the</color></link></font></style> was destroyed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>the</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>the</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Town Escort</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Town Escort</color></link></font></style> lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>. They also disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Town Escort</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Town Escort</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r34"><b><color=#B545FF>Poisoner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Purple Deputy</color></link></font></style> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> and left town.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: so pm rit</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: well no wonder i was wrong the psy was fake</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: N2) 8 (killed by ritualist)</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Damn</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: oof</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>the</color></link></font></style> has disconnected from life.</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: so we got bers</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah 14 is bers</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: leave him today</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: probably</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: we need coven</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: up 14 ig</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: true</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: no</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Fair</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: leave bers alive</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: alr</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: hmm</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: theres rit pm</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: hard choice</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="whatever">whatever</span>
+<span>: 5, 3 are ur coven</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: 1 alignment?</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><color=#06E00C>Town </color><color=#1F51FF>Support</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: vfr nonclaimers</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r102"><b><color=#06E00C>Town </color><color=#1F51FF>Protective</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Luck</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="whatever">whatever</span>
+<span>: ok enjoy ur loss to coven</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>whatever</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah 5 ur just going to get ritted now its joever</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: rip <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style></span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: zamn</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: what a waste</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> was Prosecuted to death.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: shouldve saved that for a cov</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>whatever</color></link></font></style> did not leave a last will.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 13 and 3 are probably coven</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: I'm not</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: you are</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to put on your armor tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style="CovenColor">Coven</style> member attacked you, but your armor protected you!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>: N3) 10 (attacked by coven, but armor protected)</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>: ty</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>: im "cleric" dont pos thtat</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>: say barrier protected me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>: alright</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>: not armor</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Go ahead Randy</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: eat shit</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: got witched last night, also ididnt have def that was cleric</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: N3) 10 (attacked by coven, but barriered)</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 3 and 13 are coven</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: cool</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: i self bubbled</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: and then i got attacked</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: what's 6?</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: im trapper</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 6 will</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: ah okay</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: Trapper N1: Building N2: Placed N3: Building</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: on who</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: I don't buy that</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: n2</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Don't say who</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: and when did it trigger</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: who n2</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: i placed it on 4 in attempts to get pirate</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: no</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: die</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: since you're building n2</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: 6 fake imo</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Luck</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Town Kaos</b> was voted up to trial.</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: i wouldnt</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: we said 3 and 13</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: lets stick with that eh?</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: actually</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yea</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: this was upped quite fast</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: inno</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: this is baker</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: guilty</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: not even baker</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 3 and 13 are coven getting mislynch</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: inno</span>
+<span><br>[9]</span>
+<span class="vies">vies</span>
+<span>: inno this</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: youll be surprised</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Town Kaos</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay ur something</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: fuck</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 1 is coven too</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: coolio</span>
+<span><br>[6]</span>
+<span class="Town-Kaos">Town Kaos</span>
+<span>: ill just be here</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: it was 3v3 anyways</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: pros threw</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: like they all do</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>: go on me pls</span>
+<span><br>[13]</span>
+<span class="Luck">Luck</span>
+<span>: hedid get baker though</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Town Kaos</color></link></font></style> left a last will.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: well i have no self barrier</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: again</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k67"><b><color=#007AFF><b>Guard</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style> cast a spell on someone, but it backfired! They must be a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You feel a mystical power dominating you. You were under the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k16"><b><color=#007AFF><b>Control</b></color></b></link></font></style> of a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch</color></b></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> was killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>vies</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: you totally fell for it 1 get baited so fucking hard</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: <b>vies</b>, <b>Lilith</b> is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style></span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Oopsies</span>
+<span><br>[13]</span>
+<span class="Luck">Luck</span>
+<span>: gg</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: You stinky liar</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah theres no cleric</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: doesn't matter</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 9 whispered me</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: 10 loses</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: saying he saw my armor protect me</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: and i told him</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: "change your will to say barrier"</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: to bait you</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: and you totally fell for it</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: GHAHAHAHA</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: you lose either way</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Oh no I did</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah ik</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: pros threw</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>cowgirl gaming</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: What ever shall I do</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Sofa King Big</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Luck</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lilith</b> was voted up to trial.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 13 is what</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: coven leader?</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: if they are i'll be mad</span>
+<span><br>[13]</span>
+<span class="Luck">Luck</span>
+<span>: medusa yall had defense out the pillion</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r32"><b><color=#B545FF>Medusa</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: oh medusa</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: eh</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: not sad anymore</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: i need that bg achievement for killing CL</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: they would have used offense</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lilith</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: town wouldve had a chance</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: if pros didnt throw</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: numbers matter</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: town threw not once but twice</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Lilith</span>
+<span style="color:#689194">: and 5 isnt a mathematician</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> died today.</span>
+<span style="color:#689194"><br><i>[6]</span>
+<span style="color:#689194">Town-Kaos</span>
+<span style="color:#689194">: pros town traitor?</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: either way we played this game smoothly</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[2]</span>
+<span style="color:#689194">Purple-Deputy</span>
+<span style="color:#689194">: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k55"><b><color=#007AFF><b>Town Traitor</b></color></b></link></font></style></i></span>
+<span><br>[1]</span>
+<span class="Sofa-King-Big">Sofa King Big</span>
+<span>: Ye ggs</span>
+<span><br>[3]</span>
+<span class="cowgirl-gaming">cowgirl gaming</span>
+<span>: gg</span>
+</body>
+</html>

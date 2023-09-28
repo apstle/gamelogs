@@ -1,0 +1,808 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] smile - </span><span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Smile the BG<br><br>N1- Guarded 8<br>N2-</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Kubly)</i></span>
+<style>span.smile{color: #06E00C;}</style>
+<span><br>[2] Giles Corey - </span><span style="color:#FF004E"> Berserker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Spy Corey Giles<br><br>N1 - Bug on 5 (Bug triggered, target was illusioned and is plagued)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mori91)</i></span>
+<style>span.Giles-Corey{color: #FF004E;}</style>
+<span><br>[3] Very Dumb Townee - </span><span style="color:#B545FF"> Voodoo Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">I also give pirates their win</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">I got a jar of dirt
+I got a jar of dirt
+I got a jar of dirt</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: irishman89)</i></span>
+<style>span.Very-Dumb-Townee{color: #B545FF;}</style>
+<span><br>[4] Jack Sparrow - </span><span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Jack-Sparrow{color: #ECC23E;}</style>
+<span><br>[5] Hulk - </span><span style="color:#B545FF"> Ritualist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Hulk - Doctor<br>N1 - John Willard<br>N2 - Myself as I said my role<br>N3 - Green</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: R0nin)</i></span>
+<style>span.Hulk{color: #B545FF;}</style>
+<span><br>[6] Gay for Jackie - </span><span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: TwistMyArm)</i></span>
+<style>span.Gay-for-Jackie{color: #06E00C;}</style>
+<span><br>[7] Ryuji - </span><span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: ChesterDoge)</i></span>
+<style>span.Ryuji{color: #06E00C;}</style>
+<span><br>[8] green - </span><span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: alzie20)</i></span>
+<style>span.green{color: #06E00C;}</style>
+<span><br>[9] John Willard - </span><span style="color:#06E00C"> Psychic </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">you have autism</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MueminMK)</i></span>
+<style>span.John-Willard{color: #06E00C;}</style>
+<span><br>[10] Butthead - </span><span style="color:#06E00C"> Monarch </span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">I got a jar of dirt
+I got a jar of dirt
+I got a jar of dirt</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: soukeyeross)</i></span>
+<style>span.Butthead{color: #06E00C;}</style>
+<span><br>[11] Sprite - </span><span style="color:#B545FF"> Wildling </span>
+<span style="color:#a0a0a0"><i>(Username: SaltyAzure)</i></span>
+<style>span.Sprite{color: #B545FF;}</style>
+<span><br>[12] Sk Ethan - </span><span style="color:#06E00C"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Ethan the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> <br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style>  <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style>  Visited by none<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style>  <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>green</color></link></font></style>  Visited by ?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Ethan12345)</i></span>
+<style>span.Sk-Ethan{color: #06E00C;}</style>
+<span><br>[13] scoob - </span><span style="color:#DB7601"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">trapper<br>|N1 - building<br>|N2 - place on 8 <br>|N3 - trigger by taven keeper<br>|N4 - building roleblocked<br><br>|6 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style> <br>|7 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> <br>|8 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>|13 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.scoob{color: #DB7601;}</style>
+<span><br>[14] Beavis - </span><span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Beavis</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> <br><br>n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>smile</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k59"><b><color=#007AFF><b>Gaze</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>  r enemies<br><br>n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k59"><b><color=#007AFF><b>Gaze</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> r enemies<br><br>n3: 15 and 6</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: zombnyan)</i></span>
+<style>span.Beavis{color: #06E00C;}</style>
+<span><br>[15] All Any Moment - </span><span style="color:#B545FF"> Enchanter </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r4"><b><color=#06E00C>Cleric</color></b></link></font></style> <br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style> <br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> <br>N3 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: zacj)</i></span>
+<style>span.All-Any-Moment{color: #B545FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[11]</span>
+<span class="Sprite">Sprite</span>
+<span>: :)</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: hey</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: i'm gay</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: asf</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: I love all any</span>
+<span><br>[9]</span>
+<span class="John-Willard">John Willard</span>
+<span>: what do we do g</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: rn</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: i'm so gay rn</span>
+<span><br>[11]</span>
+<span class="Sprite">Sprite</span>
+<span>: good!</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: oh my god</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k18"><b><color=#007AFF><b>Douse</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Sprite</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>smile</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died while defending their target.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>smile</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Butthead</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Butthead</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r12"><b><color=#06E00C>Monarch</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Sprite</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Very Dumb Townee</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Jack Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Sprite</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r38"><b><color=#B545FF>Wildling</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Jack Sparrow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Very Dumb Townee</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Very Dumb Townee</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Jack Sparrow</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: lets go bg</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: Spy Corey GilesN1 - Bug on 5 (Bug triggered, target was illusioned and is plagued)</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: I was attacked and protected</span>
+<span><br>[14]</span>
+<span class="Beavis">Beavis</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Beavis</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>smile</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k59"><b><color=#007AFF><b>Gaze</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style> r enemies</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: he had book</span>
+<span><br>[12]</span>
+<span class="Sk-Ethan">Sk Ethan</span>
+<span>: Ethan the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style> N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k57"><b><color=#007AFF><b>Watch</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style> Visited by none</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sk Ethan</color></link></font></style> : ns - also attacked by coven but protected by BG</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 2 is exe then</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 3 and 4 roles</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: I've got jar of dirt guess whats inside it</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: ok 2 is pirate</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: bruh</span>
+<span><br>[4]</span>
+<span class="Jack-Sparrow">Jack Sparrow</span>
+<span>: HADSJGVHKAGBVHJDH</span>
+<span><br>[4]</span>
+<span class="Jack-Sparrow">Jack Sparrow</span>
+<span>: NO</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: no im not</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: why did u claim spy</span>
+<span><br>[4]</span>
+<span class="Jack-Sparrow">Jack Sparrow</span>
+<span>: 2 is not pIrtate</span>
+<span><br>[4]</span>
+<span class="Jack-Sparrow">Jack Sparrow</span>
+<span>: fk outa here</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: ok get 2 then</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: Jack come for me</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 2 is exe</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: so 1/2 enemies and 2 does a common exe play</span>
+<span><br>[3]</span>
+<span class="Very-Dumb-Townee">Very Dumb Townee</span>
+<span>: Yea hang 2</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Very Dumb Townee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sk Ethan</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Ryuji</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: Oh my but im spy ;)</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Beavis</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style> was voted up to trial.</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: How could you do this? im spy! :-)</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: 5 is like coven member. i saw them being illusioned.</span>
+<span><br>[2]</span>
+<span class="Giles-Corey">Giles Corey</span>
+<span>: :-)</span>
+<span><br>[3]</span>
+<span class="Very-Dumb-Townee">Very Dumb Townee</span>
+<span>: I give jests their win</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: guilty we will 1f1</span>
+<span><br>[3]</span>
+<span class="Very-Dumb-Townee">Very Dumb Townee</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k46"><b><color=#007AFF><b>Guilty</b></color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: this is exe i think</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: more people should claim</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 3 5 6 claims</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Giles Corey</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: while this hangs</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: passive town is losing town</span>
+<span><br>[3]</span>
+<span class="Very-Dumb-Townee">Very Dumb Townee</span>
+<span>: I'm TK</span>
+<span><br>[5]</span>
+<span class="Hulk">Hulk</span>
+<span>: Hulk - Doctor N1 - John Willard N2 -</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r42"><b><color=#FF004E>Berserker</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: nice</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: gottem</span>
+<span><br>[4]</span>
+<span class="Jack-Sparrow">Jack Sparrow</span>
+<span>: oh</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Giles Corey</color></link></font></style> left a last will.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k18"><b><color=#007AFF><b>Douse</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sk Ethan</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You have <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k18"><b><color=#007AFF><b>Douse</b></color></b></link></font></style>d a player who visited you.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Very Dumb Townee</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>Very Dumb Townee</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Jack Sparrow</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r37"><b><color=#B545FF>Voodoo Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Jack Sparrow</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Jack Sparrow</color></link></font></style> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> and left town.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sk Ethan</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sk Ethan</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: <b>John Willard</b> is sus</span>
+<span><br>[14]</span>
+<span class="Beavis">Beavis</span>
+<span>: <b>Beavis</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> n1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <b>smile</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k59"><b><color=#007AFF><b>Gaze</b></color></b></link></font></style> <b>Giles Corey</b> r enemies n2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k60"><b><color=#007AFF><b>Intuit</b></color></b></link></font></style> <b>scoob</b> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k59"><b><color=#007AFF><b>Gaze</b></color></b></link></font></style> <b>Hulk</b> r enemies</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: N1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k25"><b><color=#007AFF><b>Silence</b></color></b></link></font></style>d + <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed</span>
+<span><br>[9]</span>
+<span class="John-Willard">John Willard</span>
+<span>: blud said 9 is sus</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 5 is evil</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: i am TP</span>
+<span><br>[9]</span>
+<span class="John-Willard">John Willard</span>
+<span>: i dont even know what im doing</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: what do you claim 9</span>
+<span><br>[9]</span>
+<span class="John-Willard">John Willard</span>
+<span>: what</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: EVERYONE CLAIM RIGHT NOW</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: OR I SHOOT</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: CLAIM</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: RIGHT</span>
+<span><br>[9]</span>
+<span class="John-Willard">John Willard</span>
+<span>: wtf does that mean</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: NOW</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: tk</span>
+<span><br>[5]</span>
+<span class="Hulk">Hulk</span>
+<span>: Hulk - Doctor N1 - John Willard N2 - Myself as I said my role</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: Im tp</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: FULL CLAIM</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: FULL CLAIM</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: WITH WILLS</span>
+<span><br>[14]</span>
+<span class="Beavis">Beavis</span>
+<span>: ti</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: Tavern Keeper n1-6 n2-9</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 15 who did u go on</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: n1: <b>Sk Ethan</b> : ns - also attacked by coven but protected by BG n2: <b>John Willard</b> is sus</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: Sounds like a doom play</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Ryuji</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>green</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Ryuji</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 15 who were u on</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: THAT'S NOT HOW SHERIF FWROKS</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Willard</b> was voted up to trial.</span>
+<span><br>[9]</span>
+<span class="John-Willard">John Willard</span>
+<span>: yo g</span>
+<span><br>[9]</span>
+<span class="John-Willard">John Willard</span>
+<span>: im psychic</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: 9 was rb'd last night</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: nvm i misread that. anyways tp on me so i can shoot reasonably</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: guilty</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: <b>scoob</b> 6 last tnight</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: <b>Beavis</b> claim</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: <b>Beavis</b> claim</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 14 is seer</span>
+<span><br>[14]</span>
+<span class="Beavis">Beavis</span>
+<span>: seert</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: <b>All Any Moment</b> claim</span>
+<span><br>[14]</span>
+<span class="Beavis">Beavis</span>
+<span>: seer</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>John Willard</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 15 claimed tp</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: <b>All Any Moment</b> claim</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: <b>Gay for Jackie</b> i did</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: <b>green</b></span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>green</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: what tp, please claim full you have nothing to fear</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style> died today.</span>
+<span><br>[15]</span>
+<span class="All-Any-Moment">All Any Moment</span>
+<span>: 6 doom</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 5 cleric 6 dep 7 tav 8 sheriff 13 trapper 14 seer 15 tp</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>John Willard</color></link></font></style> left a last will.</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: <b>Gay for Jackie</b></span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: ok theres enchanter</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: tp on me</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: shut up 8</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: there is no enchanter</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k18"><b><color=#007AFF><b>Douse</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Beavis</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Beavis</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 5 is evil they are enemies with me</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: I was rb'd</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: tav is confirmed btw</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: yeah</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: Tavern Keeper n1-6 n2-9 n3-8 misclicked</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: my trap triggered by tavern keeper</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: okay 7+13</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 5 is evil</span>
+<span><br>[5]</span>
+<span class="Hulk">Hulk</span>
+<span>: Hulk - Doctor N1 - John Willard N2 - Myself as I said my role N3 - Green</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: that leaves 5, 15</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: 5 is probably jester</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style> has disconnected from life.</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: kill 5 i rb'd 15</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: can u shoot 5</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: bruh</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: or not</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: no i can't shoot</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Ryuji</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>green</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Hulk</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>: what r u then lol</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>: mayor</span>
+<span><br>[5]</span>
+<span class="Hulk">Hulk</span>
+<span>: Hulk - Doctor N1 - John Willard N2 - Myself as I said my role N3 - Green</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>: oh lol</span>
+<span><br>[5]</span>
+<span class="Hulk">Hulk</span>
+<span>: idk what yall want</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: <b>Hulk</b> if you aren't jester, fyi there is no doctor in tos2</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: no cleric on 8</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: guilty</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: cleric is new doc</span>
+<span><br>[5]</span>
+<span class="Hulk">Hulk</span>
+<span>: yes its cleric</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Hulk</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> to death by a vote of <color=#FF0000><b>3</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: rb 7</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> was convicted and executed.</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: who</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: or not</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Hulk</color></link></font></style> left a last will.</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter</color></b></link></font></style> is left</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 15 is last cov probably</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: rb 7</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: if 15 isnt enchanter 8s evil</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k18"><b><color=#007AFF><b>Douse</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Someone gave you a drink last night and you fell asleep! You were <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You have <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k18"><b><color=#007AFF><b>Douse</b></color></b></link></font></style>d a player who visited you.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>All Any Moment</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter</color></b></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: i was roleblocked</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: um</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: hmmm</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: coven is dead though</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: so 7 is real</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: ofc</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: yup</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: every one post wills</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: oh wait</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: he trigger my trap</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: rn</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: then its 6</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: enchanter probably enchanted 15</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: trapper |N1 - building |N2 - place on 8 |N3 - trigger by taven keeper |N4 - building roleblocked |6 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style> |7 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> |8 -</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>:  <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> |13 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r21"><b><color=#06E00C>Trapper</color></b></link></font></style></span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: mayor</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: we vote up</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: the sussiest person here is 13</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>green</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: one i drink other</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: ah</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: perfect</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: I was attacked by coven n1</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>scoob</b> was voted up to trial.</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: still trapper</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: your best bet is to hang 8</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: game will end when you do</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Ryuji</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Ryuji</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Gay for Jackie</color></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: inno</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: i knew trapper visit 8</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: ah nvm</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: nah</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: tavern*</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: I was attacked n1</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: coven dead</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: and body guard saved me</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>scoob</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: i mean we know that 7 is confirmed tavk</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: there was nothing i can do</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 6 not doused</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: 11 12 15</span>
+<span><br>[13]</span>
+<span class="scoob">scoob</span>
+<span>: n1 n2 n3</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">scoob</span>
+<span style="color:#689194">: all died</i></span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: yeah there was nothing you could do</span>
+<span style="color:#689194"><br><i>[4]</span>
+<span style="color:#689194">Jack-Sparrow</span>
+<span style="color:#689194">: xdd</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You were convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: rb 8 just inc ase</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>scoob</color></link></font></style> left a last will.</span>
+<span><br>[6]</span>
+<span class="Gay-for-Jackie">Gay for Jackie</span>
+<span>: if game doesn't end</span>
+<span><br>[7]</span>
+<span class="Ryuji">Ryuji</span>
+<span>: i will</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: sheriff when theres enchanter is hard</span>
+<span><br>[8]</span>
+<span class="green">green</span>
+<span>: it will</span>
+</body>
+</html>

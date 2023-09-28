@@ -1,0 +1,767 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Lilith - </span>
+<span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[2] Mimyuu - </span>
+<span style="color:#06E00C"> Lookout </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Lookout<br>N1 | <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Willard</color></link></font></style> vb NV<br>N2 | <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style> vb (Roleblocked)<br>N3 | <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Slow Learner</color></link></font></style> vb</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Mimyuu)</i></span>
+<style>span.Mimyuu{color: #06E00C;}</style>
+<span><br>[3] virgin huntress - </span>
+<span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">What can I say? Wonky coven duo... Rit makes weird mistake d2... and some bad luck at night... *shrug*</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: econbrig)</i></span>
+<style>span.virgin-huntress{color: #B545FF;}</style>
+<span><br>[4] End is Nigh - </span>
+<span style="color:#6699FF"> Shroud </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">TP<br><br>n1 : 13<br>n2 : 10<br>n3 : Selfed</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MrGrab)</i></span>
+<style>span.End-is-Nigh{color: #6699FF;}</style>
+<span><br>[5] Batman - </span>
+<span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: StTimothyJeromeC)</i></span>
+<style>span.Batman{color: #06E00C;}</style>
+<span><br>[6] Abigail Hobbs - </span>
+<span style="color:#06E00C"> Investigator </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Abigail Hobbs the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> <br>n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> - no blood<br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> - no blood</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Abigail-Hobbs{color: #06E00C;}</style>
+<span><br>[7] Rip - </span>
+<span style="color:#06E00C"> Retributionist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rip</color></link></font></style> The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style> <br><br>N1 Waiting for bodies<br>N2 Cant use <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: )</i></span>
+<style>span.Rip{color: #06E00C;}</style>
+<span><br>[8] Slow Learner - </span>
+<span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: Demented)</i></span>
+<style>span.Slow-Learner{color: #06E00C;}</style>
+<span><br>[9] Hrock - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span style="color:#a0a0a0"><i>(Username: HungryRock)</i></span>
+<style>span.Hrock{color: #B545FF;}</style>
+<span><br>[10] Depression - </span>
+<span style="color:#06E00C"> Tracker </span>
+<span style="color:#a0a0a0"><i>(Username: IvoryGrim)</i></span>
+<style>span.Depression{color: #06E00C;}</style>
+<span><br>[11] John Willard - </span>
+<span style="color:#6699FF"> Shroud </span>
+<span style="color:#a0a0a0"><i>(Username: Fangun2056)</i></span>
+<style>span.John-Willard{color: #6699FF;}</style>
+<span><br>[12] Petra - </span>
+<span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: bubblesxo)</i></span>
+<style>span.Petra{color: #06E00C;}</style>
+<span><br>[13] Leeches - </span>
+<span style="color:#DB7601"> Arsonist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">pray <br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style><br>N1 - ALERT</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: bennyboy)</i></span>
+<style>span.Leeches{color: #DB7601;}</style>
+<span><br>[14] Opec - </span>
+<span style="color:#06E00C"> Deputy </span>
+<span style="color:#a0a0a0"><i>(Username: GFuelAddict2009)</i></span>
+<style>span.Opec{color: #06E00C;}</style>
+<span><br>[15] Hazel - </span>
+<span style="color:#06E00C"> Admirer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Hazel the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style> <br><br>N1 - Reloading<br>N2 - Proposing to the love of my life, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style><br><br><br><br>:3</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Hazel)</i></span>
+<style>span.Hazel{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: killer say what</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: what</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: lilith forgot to put their cursed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style> scrolls on</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: what</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Willard</color></link></font></style> has disconnected from life.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: and lilith is now sad</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: oh my god we got em</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: but lilith isnt shroud</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: what</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: lynch em bois</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leeches</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Someone gave you a drink last night and you fell asleep! You were <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>: sheriff huh</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Willard</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Willard</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Willard</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>: how do you know-</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>John Willard</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>: pm revealed you</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>: LOL</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hazel</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hazel</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hazel</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>: its ok im a cool coven let me cook</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>: no you claimed coven</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Hazel</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r1"><b><color=#06E00C>Admirer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>: wow</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 9 claimed coven to me in whispers</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: Abigail Hobbs the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style> n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> - no blood</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style> - visited no one</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 9 instantly whispered me</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: "hi sheriff"</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: "my pm revealed you"</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: uh... that seems odd</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: i havent posted yet</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: claimed</span>
+<span><br>[9]</span>
+<span class="Hrock">Hrock</span>
+<span>: yet 1 has no will, so theyre not sheriff</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: or anything</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> N1 - Roleblocked</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> was shot by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r7"><b><color=#06E00C>Deputy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: lol</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: WHY WOULD YOU TELL ME YOU'RE COVEN</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: i... what?</span>
+<span><br>[14]</span>
+<span class="Opec">Opec</span>
+<span>: GET tarnation</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: lol</span>
+<span><br>[13]</span>
+<span class="Leeches">Leeches</span>
+<span>: LMAO</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: LMAO</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: He was honest i guess</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: well they have a pm</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: Must be new?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>Hrock</color></link></font></style> has disconnected from life.</span>
+<span><br>[13]</span>
+<span class="Leeches">Leeches</span>
+<span>: probably</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: at least they have no rit now</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: interesting</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Slow Learner</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: lilith wants to know mimyuus role</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>.</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: tp</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: mimyuu is a tp</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Also TP</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> cancelled their vote.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Opec</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: bruh</span>
+<span><br>[7]</span>
+<span class="Rip">Rip</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r104"><b><color=#06E00C>Town </color><color=#1F51FF>Support</color></b></link></font></style></span>
+<span><br>[13]</span>
+<span class="Leeches">Leeches</span>
+<span>: bro</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Slow Learner</color></link></font></style> changed their vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Leeches">Leeches</span>
+<span>: ah</span>
+<span><br>[5]</span>
+<span class="Batman">Batman</span>
+<span>: :)</span>
+<span><br>[13]</span>
+<span class="Leeches">Leeches</span>
+<span>: i see</span>
+<span><br>[13]</span>
+<span class="Leeches">Leeches</span>
+<span>: Farewell Everyone!</span>
+<span><br>[13]</span>
+<span class="Leeches">Leeches</span>
+<span>: jest gaming?</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Leeches</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leeches</color></link></font></style> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: hangman counter = 1 ?</span>
+<span><br>[12]</span>
+<span class="Petra">Petra</span>
+<span>: well thats one way to claim</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leeches</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leeches</color></link></font></style> was Prosecuted to death.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leeches</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r40"><b><color=#DB7601>Arsonist</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: nope</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: i mean they claimed</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: lol</span>
+<span><br>[14]</span>
+<span class="Opec">Opec</span>
+<span>: lol</span>
+<span><br>[7]</span>
+<span class="Rip">Rip</span>
+<span>: Damn</span>
+<span><br>[7]</span>
+<span class="Rip">Rip</span>
+<span>: nice</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: nice :)</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Leeches</color></link></font></style> left a last will.</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: nooo</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: prosecuted to death</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Rare W Pros</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: ty tav</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: we needed to add to the hangman counter</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: i almosted checked arso n1</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: sobbing</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: LOL</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You cannot find evidence of wrongdoing. Your target seems innocent.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rip</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rip</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rip</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Opec</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Rip</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r15"><b><color=#06E00C>Retributionist</color></b></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> N1: <b>Batman</b> - visited no oneN2: <b>Rip</b> - visited no one</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: n2 <b>Petra</b> - no blood</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: N2 - 6 - NS</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: rb'd last night</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: D:</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: and no coven kills hmm</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: shroud might be on me</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: mimyuu are you perhaps..</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: purple..</span>
+<span><br>[5]</span>
+<span class="Batman">Batman</span>
+<span>: want to add to the hangman Counter???</span>
+<span><br>[5]</span>
+<span class="Batman">Batman</span>
+<span>: give me a sec</span>
+<span><br>[12]</span>
+<span class="Petra">Petra</span>
+<span>: do we have a tk claim</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: mimyuu isnt purple D:</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 and 12 what are you guys</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: mimyuu is green</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: like</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: im a slut</span>
+<span><br>[12]</span>
+<span class="Petra">Petra</span>
+<span>: because poisoner would have book by now surely</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: green green</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[12]</span>
+<span class="Petra">Petra</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><color=#06E00C>Town </color><color=#1F51FF>Power</color></b></link></font></style></span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: huh?</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: yo</span>
+<span><br>[5]</span>
+<span class="Batman">Batman</span>
+<span>: :)</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: gee golly</span>
+<span><br>[5]</span>
+<span class="Batman">Batman</span>
+<span>: easy 2/2</span>
+<span><br>[6]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: you got me</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Abigail Hobbs</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> has been judged <b><style="GuiltyColor">guilty</style></b> and will be put to death.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: well this came up ns so i hope its the shroud or coven killing</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: 12, you cant be serious, right? cause 1 was rb'd n1 and mimyuu was rb'd on n2 so like....</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: My god! Im tavern keep! i slept with 1 and then 2. Im sorry</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> was Prosecuted to death.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r8"><b><color=#06E00C>Investigator</color></b></link></font></style>.</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: please 5 not me</span>
+<span><br>[14]</span>
+<span class="Opec">Opec</span>
+<span>: f</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> left a last will.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: +1</span>
+<span><br>[2]</span>
+<span class="Mimyuu">Mimyuu</span>
+<span>: HANGMANN COUNTER 1</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Not 2/2</span>
+<span style="background-color:#000000; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style> has <b><style="GuiltyColor">dishonored the town</style></b> and will be put to death.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>The hangman executed <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style> for crimes against the town.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Batman</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Depression</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You cannot find evidence of wrongdoing. Your target seems innocent.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style> was killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Mimyuu</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r10"><b><color=#06E00C>Lookout</color></b></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: N3 - 10 - NS</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> N1: <b>Batman</b> - visited no oneN2: <b>Rip</b> - visited no oneN3: <b>End is Nigh</b> - visited no one</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 10s not wildling</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: but who was i visited by!</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: oh dear.... twho shrouds? or a necro?</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 12 what tpow are you</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: 4 said he was tp but didn't visit anyone last night</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> has revealed themself as the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r11"><b><color=#06E00C>Mayor</color></b></link></font></style>!</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Yeah i slefed</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: selfed*</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: for what</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay..</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: i think 3 is pm</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 4 is shroud</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: hang 4</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Im not ?</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: i think theres only 2 coven</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: so 3 and 4 seem naughty</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: you shrouded 2</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: post will 4</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Depression</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>End is Nigh</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: TP
+
+n1 : 13
+n2 : 10
+n3 : Selfed</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Oh it appears nice now</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: cool</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: you went on 10 n2 over the pros</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay.</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: ikr</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: guilty</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Cause other TP ?</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>End is Nigh</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style> to death by a vote of <color=#FF0000><b>8</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Also Tracker is fake so yeah</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: the other tp werent real</span>
+<span><br>[4]</span>
+<span class="End-is-Nigh">End is Nigh</span>
+<span>: Cause i visited someone last night lmao</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: you shrouded 2</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: you didnt</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: we know</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style> was convicted and executed.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 3 is <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style> who never killed anyone</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#6699FF>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style> left a last will.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 drink 3</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: shroud is astral you idiot 4</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k61"><b><color=#007AFF><b>Search</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>'s house tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>End is Nigh</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>You cannot find evidence of wrongdoing. Your target seems innocent.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> N1: <b>Batman</b> - visited no oneN2: <b>Rip</b> - visited no oneN3: <b>End is Nigh</b> - visited no oneN4: <b>virgin huntress</b> - visited no one</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: N4 - 3 - NS but they probably have the necronomicon</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah 2 coven game</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: I roleblocked 3 last night</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 3 is pm</span>
+<span><br>[14]</span>
+<span class="Opec">Opec</span>
+<span>: we hanging 3?</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: yea</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: hang 3</span>
+<span><br>[14]</span>
+<span class="Opec">Opec</span>
+<span>: cool</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 10 cant be wildling</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 is confirmed</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: 12 and 14 are both confirmed</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: me and 3 are only nonconfirmed townies</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: you half confirmed 1</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: since you outted covc</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Opec</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Depression</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Petra</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>virgin huntress</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: I got nothin'. Town is stacked AF, and I had some bad luck.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: i have zero clue why the rit just whispered me my role day 2</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: your not wrong there. kinda stacked town</span>
+<span><br>[10]</span>
+<span class="Depression">Depression</span>
+<span>: ik that's funny ah</span>
+<span><br>[3]</span>
+<span class="virgin-huntress">virgin huntress</span>
+<span>: I was so confused.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>virgin huntress</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: i hope this is my 10th sheriff win</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: its the only role i dont have 10 wins with yet (laugh at me)</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: town that is</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>virgin huntress</color></link></font></style> left a last will.</span>
+<span><br>[14]</span>
+<span class="Opec">Opec</span>
+<span>: gg?</span>
+<span><br>[8]</span>
+<span class="Slow-Learner">Slow Learner</span>
+<span>: this is literally my third game ever</span>
+<span><br>[1]</span>
+<span class="Lilith">Lilith</span>
+<span>: i hate how slow that chat pops up</span>
+</body>
+</html>

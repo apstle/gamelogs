@@ -1,0 +1,828 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] Dusty - </span>
+<span style="color:#06E00C"> Veteran </span>
+<span style="color:#a0a0a0"><i>(Username: dueytwo)</i></span>
+<style>span.Dusty{color: #06E00C;}</style>
+<span><br>[2] Aloss - </span>
+<span style="color:#B545FF"> Illusionist </span>
+<span style="color:#a0a0a0"><i>(Username: ztehb)</i></span>
+<style>span.Aloss{color: #B545FF;}</style>
+<span><br>[3] pear - </span>
+<span style="color:#FF004E"> Baker </span>
+<span style="color:#a0a0a0"><i>(Username: pillion)</i></span>
+<style>span.pear{color: #FF004E;}</style>
+<span><br>[4] The Koza - </span>
+<span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: Cichy777)</i></span>
+<style>span.The-Koza{color: #06E00C;}</style>
+<span><br>[5] Kenough - </span>
+<span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r101"><b><color=#06E00C>Town </color><color=#1F51FF>Investigative</color></b></link></font></style> <br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style> vs <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> = enemies<br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style> vs <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> =</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: PhoenixHero)</i></span>
+<style>span.Kenough{color: #06E00C;}</style>
+<span><br>[6] Rose - </span>
+<span style="color:#B545FF"> Potion Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">N1 7 NB</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Rose123)</i></span>
+<style>span.Rose{color: #B545FF;}</style>
+<span><br>[7] piss - </span>
+<span style="color:#F5A6D4"> Jester </span>
+<span style="color:#a0a0a0"><i>(Username: nikki626)</i></span>
+<style>span.piss{color: #F5A6D4;}</style>
+<span><br>[8] Aqua - </span>
+<span style="color:#06E00C"> Trickster </span>
+<span style="color:#a0a0a0"><i>(Username: Aquatic)</i></span>
+<style>span.Aqua{color: #06E00C;}</style>
+<span><br>[9] big black goblin - </span>
+<span style="color:#B545FF"> Jinx </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">i hate my other coven who all left</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: topg)</i></span>
+<style>span.big-black-goblin{color: #B545FF;}</style>
+<span><br>[10] Lilith - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[11] nuke dukem - </span>
+<span style="color:#B545FF"> Witch </span>
+<span style="color:#a0a0a0"><i>(Username: MaskedUp)</i></span>
+<style>span.nuke-dukem{color: #B545FF;}</style>
+<span><br>[12] John - </span>
+<span style="color:#06E00C"> Admirer </span>
+<span style="color:#a0a0a0"><i>(Username: coreythepuffle)</i></span>
+<style>span.John{color: #06E00C;}</style>
+<span><br>[13] Barbie - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: SalemStowaway)</i></span>
+<style>span.Barbie{color: #06E00C;}</style>
+<span><br>[14] Wheat Bread - </span>
+<span style="color:#06E00C"> Mayor </span>
+<span style="color:#a0a0a0"><i>(Username: DontKillMe)</i></span>
+<style>span.Wheat-Bread{color: #06E00C;}</style>
+<span><br>[15] green goblin - </span>
+<span style="color:#06E00C"> Tracker </span>
+<span style="color:#a0a0a0"><i>(Username: bevta)</i></span>
+<style>span.green-goblin{color: #06E00C;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>nuke dukem</color></link></font></style> has disconnected from life.</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: well bye 11</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: good riddance</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: Oh come on, I have the scrolls set, I want a gun not this role</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: /w <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style> im JarOcrum from last game lol</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: rip</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have decided to have a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> including <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> revealed that at least one of these people <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style>, or <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> are evil!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>nuke dukem</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>nuke dukem</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: what r u dawg</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: 13 rbd no kills</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>nuke dukem</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: kk Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> |N1 - (9), 2 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>nuke dukem</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r39"><b><color=#B545FF>Witch</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> |N1 - (9), 2 4</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: Barbie the Psychic n1; E: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style> (roleblocked)</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: MY B</span>
+<span><br>[15]</span>
+<span class="green-goblin">green goblin</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> role?</span>
+<span><br>[6]</span>
+<span class="Rose">Rose</span>
+<span>: N1 7 NB</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: im coroner had no bodies</span>
+<span><br>[2]</span>
+<span class="Aloss">Aloss</span>
+<span>: TK</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 and 9 claims</span>
+<span><br>[15]</span>
+<span class="green-goblin">green goblin</span>
+<span>: which TK?</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: thanks tav or pois whoever gave me that drink</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Whick TK 2</span>
+<span><br>[15]</span>
+<span class="green-goblin">green goblin</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style>. N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style></span>
+<span><br>[2]</span>
+<span class="Aloss">Aloss</span>
+<span>: VEt</span>
+<span><br>[15]</span>
+<span class="green-goblin">green goblin</span>
+<span>: bullshit lol</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: :3</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Nah</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: lol</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Get 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> has disconnected from life.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: gettem</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: HAHAHAHAHA</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: AHAHAHAH</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: lol</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: 2 dced</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: VFA 1</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: I love people that ragequit the second they get caught</span>
+<span><br>[6]</span>
+<span class="Rose">Rose</span>
+<span>: yeah fuck this</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: interesting</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Rose</color></link></font></style> has disconnected from life.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Wheat Bread</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Aqua</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style> was voted up to trial.</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: I'm tk</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: INNO</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: i claim tk</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Im TS btw 3 claim</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 5 7 8</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: rbing one of TK claims</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Dusty</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style> by a vote of <color=#66FF66><b>10</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span><br>[8]</span>
+<span class="Aqua">Aqua</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: 15?</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 5 7</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: Wtf, <b>green goblin</b> ?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: So thanks to 2 quitting i have an easy N2 lmao</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: 7 is crazy</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r101"><b><color=#06E00C>Town </color><color=#1F51FF>Investigative</color></b></link></font></style></span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: which</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Post</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: which TI</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 5 slow</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: gvet 5 up</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You changed your vote to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Aqua</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kenough</b> was voted up to trial.</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r101"><b><color=#06E00C>Town </color><color=#1F51FF>Investigative</color></b></link></font></style> N1 - <b>Dusty</b> vs <b>Aloss</b> = enemies N2 - <b>Dusty</b> vs <b>pear</b> =</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: happy :/ i didnt wanna out so early</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: I dont care im gonna guiltyh this never posted as seer</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah u post earlier guilty</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: what ti doesn't post info</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: a very very late claim</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: Guilty this</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: this is known info too</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: yall please</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: trust</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Kenough</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style> to death by a vote of <color=#FF0000><b>9</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[5]</span>
+<span class="Kenough">Kenough</span>
+<span>: luv u barbs</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: :c whyy</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style> died today.</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: i love u barb!!!</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: rbing 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Kenough</color></link></font></style> left a last will.</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: Post begining of day</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: oml</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You rejected <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>'s <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k37"><b><color=#007AFF><b>Proposal</b></color></b></link></font></style>!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have decided to have a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> including <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> revealed that at least one of these people <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> or <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Aqua</color></link></font></style> are good!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: |N2 - (2), 8</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: rbd 1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Aloss</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r30"><b><color=#B545FF>Illusionist</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>: |N2 - (2), 8</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Rose</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Rose</color></link></font></style> disconnected from life.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>: neat</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Rose</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Rose</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r35"><b><color=#B545FF>Potion Master</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>: 8 good then</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: I was RBD</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>: ye</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N2 - (2), 8</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 good</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: n2; G: <b>Aloss</b> ( <b>The Koza</b> confirmed good) Thanks 2 for easy N2.</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Yep</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: 4 confirmed town.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yuh</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: 7 claim?</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 7 still no claim</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 7 what r u</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: 12 is admi btw</span>
+<span><br>[15]</span>
+<span class="green-goblin">green goblin</span>
+<span>: N2 <b>piss</b> visited nobody</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: fucking sweaty</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>: W</span>
+<span><br>[8]</span>
+<span class="Aqua">Aqua</span>
+<span>: jest?</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: claim bro</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: im admirer on 7</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: 7 is confirmed</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: 7 said 7 is crazy yesturday</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 9 didnt u claim coroner</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Nah</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: lol</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: im wild like that fr</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Then what 7</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: ur wild(ling)</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: 7's just taking the piss out of themself</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>green goblin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: And why did u propose to 7</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: it's in their name</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>piss</b> was voted up to trial.</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: im jailor. lol</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: :P UWU</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: who was jailed</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: INNO THIS DONT THROW IM ADMIRER ON 7</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: Will? Anyone confirm?</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: Anyone claimed jailed?</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Anyone jailed?</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: 9 didnt you claim coroner</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: HES JAILOR</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 9 7 NA</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Fr</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: i dont believe this</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: anyone jailed?</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Guilty</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: IDc</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: yeah im lying lol</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: guilty</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: Guilty this then</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Noone claimed Jailed</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>piss</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style> to death by a vote of <color=#FF0000><b>10</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 9 7 NA</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: 7 we had a deal</span>
+<span><br>[9]</span>
+<span class="big-black-goblin">big black goblin</span>
+<span>: haunt me</span>
+<span><br>[7]</span>
+<span class="piss">piss</span>
+<span>: ok baby</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style> will get their revenge from the grave!</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: lol</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>piss</color></link></font></style> did not leave a last will.</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 2 visited 9</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: oh</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yea</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 2 VISITED 9 N1</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: LOL</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: HAHAHAHA</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 9 COVEN</span>
+<span style="background-color:#000000; color:#FFBE00"><br>Please do not spam the chat.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFBE00"><br>Please do not spam the chat.</span>
+<span style="background-color:#000000; color:#FFBE00"><br>Please do not spam the chat.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You instead decide not to have a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> tonight.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You have decided to have a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> including <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>A <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k58"><b><color=#007AFF><b>Vision</b></color></b></link></font></style> revealed that at least one of these people <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>, or <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> are evil!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> was haunted by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r45"><b><color=#F5A6D4>Jester</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>big black goblin</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r31"><b><color=#B545FF>Jinx</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: 12 claim?</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: So...just NE left?</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: im trickster going down the list</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay 1 or 3 is evil</span>
+<span><br>[15]</span>
+<span class="green-goblin">green goblin</span>
+<span>: <b>green goblin</b>, <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style>. N1 <b>Aloss</b> visited <b>big black goblin</b> N2 <b>piss</b> visited nobody N3 <b>Barbie</b> visited <b>The Koza</b></span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N3 - (12), 1, 3</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 1 or 3 is evil</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: im confirmed</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: 12 is my lover hands off.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 12 is admi</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> n1: <b>Dusty</b> n2: <b>The Koza</b> n3: <b>Aqua</b></span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: 10 and 13 trust me</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: n3; E: <b>The Koza</b> ( <b>pear</b> or <b>green goblin</b> )</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: I got 3 too</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 12 proposed to me</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: Its 3 then</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah we get 3 here</span>
+<span><br>[14]</span>
+<span class="Wheat-Bread">Wheat Bread</span>
+<span>: ok well what are you</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: Tav N1|13 N2|1 N3|9</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Aqua</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 are u deputy</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: 15 confirmed that 2 visited 9</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: 1s not even claiming</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: TK</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: 1 claimed TK</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 1 which tk</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: I claimed awhile ago</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: i claimed trickster</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: which could be fake</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: if ur dep shoot 3</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: ill rb 1 or 8 tonight</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[4]</span>
+<span class="The-Koza">The Koza</span>
+<span>: get 3</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: Tav on 1 once we up 3.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>The Koza</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: Vet</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 conf town</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>Dusty</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>pear</b> was voted up to trial.</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: 1 claims a vet that didnt alert n1</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r22"><b><color=#06E00C>Trickster</color></b></link></font></style> n1: <b>Dusty</b> n2: <b>The Koza</b> n3: <b>Aqua</b></span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: didnt go on the confirmed coven, guilty</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: I mean isn't there an achievement for not alerting at all? or is that just tos1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: Idk how this role works. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style> N1 - No Alert N2 - RBD N3 - Alert (Nobody) N4 -</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: inno</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: Oh</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: 1 first</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: guilty</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>John</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Barbie</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: We have a tav</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: this didnt go on conf coven</span>
+<span><br>[13]</span>
+<span class="Barbie">Barbie</span>
+<span>: they can rb 1 easily</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>pear</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> to death by a vote of <color=#FF0000><b>6</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: 2 psy and coven dc</span>
+<span><br>[3]</span>
+<span class="pear">pear</span>
+<span>: impossible</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> died today.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: i mean u claimed trick with a confirmed coven</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> was convicted and executed.</span>
+<span><br>[10]</span>
+<span class="Lilith">Lilith</span>
+<span>: ur loss</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style>'s role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF004E>Baker</color></b></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: I innoed in case of jester</span>
+<span><br>[1]</span>
+<span class="Dusty">Dusty</span>
+<span>: They did RBD me on N2, justsaying</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>pear</color></link></font></style> did not leave a last will.</span>
+<span><br>[12]</span>
+<span class="John">John</span>
+<span>: since im confirmed</span>
+</body>
+</html>

@@ -1,0 +1,950 @@
+<!--DOWNLOAD HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>Game log generated using the GameLogs mod by TubaAntics. You can get it here using Salem Mod Loader. <a href="https://discord.gg/AdpRqzstfj" target="_blank">Join the discord here</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] KaKee - </span>
+<span style="color:#06E00C"> Tavern Keeper </span>
+<span style="color:#a0a0a0"><i>(Username: KaKee)</i></span>
+<style>span.KaKee{color: #06E00C;}</style>
+<span><br>[2] nostraightanswer - </span>
+<span style="color:#ECC23E"> Pirate </span>
+<span style="color:#a0a0a0"><i>(Username: CrimsonWood)</i></span>
+<style>span.nostraightanswer{color: #ECC23E;}</style>
+<span><br>[3] geraldino - </span>
+<span style="color:#B545FF"> Conjurer </span>
+<span style="color:#a0a0a0"><i>(Username: alchang)</i></span>
+<style>span.geraldino{color: #B545FF;}</style>
+<span><br>[4] Emil Sinclair - </span>
+<span style="color:#06E00C"> Sheriff </span>
+<span style="color:#a0a0a0"><i>(Username: TheEcoPath)</i></span>
+<style>span.Emil-Sinclair{color: #06E00C;}</style>
+<span><br>[5] Joel Olsteen - </span>
+<span style="color:#06E00C"> Prosecutor </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Pros<br>D1: nothing<br>D2:</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: GrillCheese78)</i></span>
+<style>span.Joel-Olsteen{color: #06E00C;}</style>
+<span><br>[6] Soul Collector - </span>
+<span style="color:#06E00C"> Bodyguard </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Bg<br>N1 1<br>N2 7 (At 4s request)</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Craftthu)</i></span>
+<style>span.Soul-Collector{color: #06E00C;}</style>
+<span><br>[7] Lilith - </span>
+<span style="color:#06E00C"> Tracker </span>
+<span style="color:#a0a0a0"><i>(Username: Apostle)</i></span>
+<style>span.Lilith{color: #06E00C;}</style>
+<span><br>[8] Solipso - </span>
+<span style="color:#B545FF"> Enchanter </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Investigator<br><br>N1- Investigate 6-No blood<br>N2-Investigate 4- Blood<br>N3-You can't be serious, pirate</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">I'm your dark edgy past disgrace<br><br>Said you're crushed by the pain<br><br>but that's not the case, right?<br><br>Pray no one digs up the dirt<br><br>"He'll rest in peace" said the priest<br><br>"But man, that had to hurt"</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Solipso)</i></span>
+<style>span.Solipso{color: #B545FF;}</style>
+<span><br>[9] thundercat - </span>
+<span style="color:#FF004E"> Plaguebearer </span>
+<span style="color:#a0a0a0"><i>(Username: Robert5682)</i></span>
+<style>span.thundercat{color: #FF004E;}</style>
+<span><br>[10] Green Conjurer - </span>
+<span style="color:#B545FF"> Necromancer </span>
+<span style="color:#a0a0a0"><i>(Username: brahhgetoffme)</i></span>
+<style>span.Green-Conjurer{color: #B545FF;}</style>
+<span><br>[11] The Penguin - </span>
+<span style="color:#06E00C"> Veteran </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Veteran<br>N1 - Alerting.  Hey, I can alert n1?  Cool.<br>N2 -  No alert, I guess.  Meh.<br>N3 - Alerting - I was Rbed?  What?  =(  How does that work?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: StormGryffen)</i></span>
+<style>span.The-Penguin{color: #06E00C;}</style>
+<span><br>[12] obnoxious dj - </span>
+<span style="color:#06E00C"> Psychic </span>
+<span style="color:#a0a0a0"><i>(Username: Neviana)</i></span>
+<style>span.obnoxious-dj{color: #06E00C;}</style>
+<span><br>[13] kill thirteen - </span>
+<span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">THE TOWN FUCKING MURDERERERERERER<br>N1. NO MURDER TODAY<br>N2. MURDERER GETS MURDERED OHH NO<br><br><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br>N1. <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>thundercat</color></link></font></style> <br>N2. pirated you son of a gun im scimitar</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">I'm your dark edgy past disgrace<br><br>Said you're crushed by the pain<br><br>but that's not the case, right?<br><br>Pray no one digs up the dirt<br><br>"He'll rest in peace" said the priest<br><br>"But man, that had to hurt"</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: ScoobzDooz)</i></span>
+<style>span.kill-thirteen{color: #06E00C;}</style>
+<span><br>[14] Emi - </span>
+<span style="color:#06E00C"> Cleric </span>
+<span style="color:#a0a0a0"><i>(Username: Wolfey101)</i></span>
+<style>span.Emi{color: #06E00C;}</style>
+<span><br>[15] FrostyCheese - </span>
+<span style="color:#B545FF"> Ritualist </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Last Will Goes Here.</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: FrostyCheese)</i></span>
+<style>span.FrostyCheese{color: #B545FF;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: thank you 4</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: not tp sadly :(</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>thundercat</color></link></font></style> has disconnected from life.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: preventing the curse</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: i forgot to return the slab</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: it's always nice seeing a familiar face, gl tho! don't get regged</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: WHY IS THER SO MUCH SAND</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: HELOP</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k63"><b><color=#007AFF><b>Track</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>thundercat</color></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Joel Olsteen</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: Night 1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>: NOT sus</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Joel Olsteen</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: you're an odd one</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: i was gonna just lie and say you were NS if i found you sus but i don't need to lmao</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: spy?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: uhh no</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>thundercat</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: oke doke</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They disconnected from life.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>thundercat</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF004E>Plaguebearer</color></b></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: Lilith the <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r20"><b><color=#06E00C>Tracker</color></b></link></font></style> |N1 - 13 v 9</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: L pros</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style>ed.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: Night 1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>: NOT sus</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: InvestigatorN1- Investigate 6-No blood</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: i dont like murdering N1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: if you catch mydrift</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: why did u visit 9</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: i dontlike murdering N1</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 13 went to a corpse?</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: but i like to visit?</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: nice talk</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: team</span>
+<span><br>[13]</span>
+<span class="kill-thirteen">kill thirteen</span>
+<span>: yeah</span>
+<span><br>[12]</span>
+<span class="obnoxious-dj">obnoxious dj</span>
+<span>: psychic
+n1, 10, 5, or 6 are evil</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: yeah passive town</span>
+<span><br>[13]</span>
+<span class="kill-thirteen">kill thirteen</span>
+<span>: sure did</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: crusader?</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 12 wrote that out</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: 12 was late asf</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: :)</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 12's jest</span>
+<span><br>[10]</span>
+<span class="Green-Conjurer">Green Conjurer</span>
+<span>: Im TP</span>
+<span><br>[10]</span>
+<span class="Green-Conjurer">Green Conjurer</span>
+<span>: but why is 12 so late</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>geraldino</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 12's jest</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>KaKee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style> was voted up to trial.</span>
+<span><br>[12]</span>
+<span class="obnoxious-dj">obnoxious dj</span>
+<span>: psychic
+n1, 10, 5, or 6 are evil</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: inno this is 100% jest and i'd prefer having you alive</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: not just cuz you're cool but also because you're tracker</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: i mean SC is astral so you can cross that off. so im pirate who is bumfuzzle or a town role</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: i think its real tbh</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: no shot</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style>: ye i know</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: which one did you visit boo</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: i don't want this guiltied it screams jester</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: who'd you visit</span>
+<span><br>[6]</span>
+<span class="Soul-Collector">Soul Collector</span>
+<span>: 10 I assume</span>
+<span><br>[6]</span>
+<span class="Soul-Collector">Soul Collector</span>
+<span>: Tp btw</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: they visited nobodyi t's a jester</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>obnoxious dj</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: you know what they say about assuming</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: if this is real 6 and 10 both claim tp</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 5 is dead pros</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style> was convicted and executed.</span>
+<span><br>[13]</span>
+<span class="kill-thirteen">kill thirteen</span>
+<span>: assuming is amusing?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: PLEASE be psychic so i don't look sus</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: phew</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>obnoxious dj</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style>.</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k63"><b><color=#007AFF><b>Track</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>thundercat</color></link></font></style>!</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>A <style="CovenColor">Coven</style> member attacked you, but a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> protected you!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: Night 2; <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>: SUS</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>geraldino</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: |N2 - 10 v 9</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>geraldino</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: 6 won't go on you even tho it's conf 1f1</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#B545FF>Conjurer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: ye 10's fake L CONJ</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: L CONJJJJ</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: 10 is necromancer claiming tp</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: LOL</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They died while defending their target.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: LOOOOL</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Soul Collector</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: okay we push 10 first then track 2 to make sure he's not jest</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: ye</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>kill thirteen</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>: pirate? yes or no</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: could be pirate</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>: Yes, forgot to pirate N1</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: he is</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>: ok</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: 6 died sadly btw</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: L conj</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: Night 2; <b>nostraightanswer</b>: SUS</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: N2-Investigate 4- Blood</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 10 may I ask a few words</span>
+<span><br>[2]</span>
+<span class="nostraightanswer">nostraightanswer</span>
+<span>: Pirate here</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 10 seen visiting 9 by 7 btw</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: Anyway, 10 is fake</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 2 claim</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: yea</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N2 - 10 v 9</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 10's conf necro</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 10 is a necromancer</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: LOL</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: using a pb</span>
+<span><br>[2]</span>
+<span class="nostraightanswer">nostraightanswer</span>
+<span>: I forgot to pirate N1</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: for some reason</span>
+<span><br>[10]</span>
+<span class="Green-Conjurer">Green Conjurer</span>
+<span>: i was bored</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: let's get 2 first</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: no</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 2 is pirate</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 12 could have used psy corpse on his friends to find conf town</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 10 is necromancer</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: ah my bad</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: get 10</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: Up 10 first</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: oh</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: 4 still has blood</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 8 splitting off coven</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 10 dies 2 is allowed to go free</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: how does 4 ghave blood</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: nuh uh</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 8 splittting yeah</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: yea</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 4 is sheriff</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>KaKee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Green Conjurer</b> was voted up to trial.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: i was wondering why i didn't see 4 in my notes when 8 was saying 4 bloody, then i realized i'm 4</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: well</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: guilty this</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 100%</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 4 told bg to go on me and then cong died to me in whipsers</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: LMAO</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: mhm</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: i dont know how 4 has blood</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Green Conjurer</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style> to death by a vote of <color=#FF0000><b>7</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: enchanter maybe</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: i said to 6 "i'd prefer it if you were on 7 since he's tracker"</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: ty 7 for being so based</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>: pirate a nonvoter to this please</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r33"><b><color=#B545FF>Necromancer</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: it's nice to finally work with you</span>
+<span><br>[8]</span>
+<span class="Solipso">Solipso</span>
+<span>: prob enchanter game</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Green Conjurer</color></link></font></style> did not leave a last will.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: add me after this match?</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: could be could be</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>: 8, 11</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k63"><b><color=#007AFF><b>Track</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style> tonight.</span>
+<span style="background-color:#00BF52; color:#FFFFFF"><br>Your target did     not visit anyone last night.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>: gg</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Solipso</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: Night 3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style>: NOT sus</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Solipso</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: told pirate to kill 8 LMFAO</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: LMAO</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: i told 2 he was a real one</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: |N3 - 11 v N/A</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r28"><b><color=#B545FF>Enchanter</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FF7F66"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>nostraightanswer</color></link></font></style> has accomplished their goal as <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#ECC23E>Pirate</color></b></link></font></style> and left town.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 14 has been pushing coven, 11 has been silent and barely voting</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 11 will and logs</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 1 is... something</span>
+<span><br>[11]</span>
+<span class="The-Penguin">The Penguin</span>
+<span>: Veteran
+N1 - Alerting. Hey, I can alert n1? Cool.
+N2 - No alert, I guess. Meh.
+N3 - Alerting - I was Rbed? What? =( How does that</span>
+<span><br>[11]</span>
+<span class="The-Penguin">The Penguin</span>
+<span>:  work?</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 15 was silence</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N3 - 11 v N/A</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: im Something!</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: but no proof rbers exist</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: not silecned</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: who rb'd 11</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: rbed</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: who rbed 15 n1</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: me</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: ok</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: kk</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: I rb</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: n1</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 1 post your will</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: me</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 15 post yours too</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r19"><b><color=#06E00C>Tavern Keeper</color></b></link></font></style> 
+N1: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style> <b>FrostyCheese</b> 
+N2: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style> <b>kill thirteen</b> 
+N3: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k31"><b><color=#007AFF><b>Roleblock</b></color></b></link></font></style> <b>The Penguin</b></span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: i was</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 14 and 15 what are you</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: smile</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 1's rbs make sense and seem townlike</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: i missed your claims</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: I'm clerivc</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 14 has pushed coven</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: Cleric
+N1- 4
+N2- 4
+N3- 7</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 15 may be final evil</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style>.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: get 11 out imo</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>KaKee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>FrostyCheese</b> was voted up to trial.</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: Should inno me</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: u know</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: Im useless</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 11 is a silent vet who hasn't been baiting 11's a very good hang here</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: and 15 just claims sc...</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: + 11 cannot be rb'd again</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 1 hasn't visited a coven btw</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>FrostyCheese</b> was found <b><style="InnocentColor">innocent!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to pardon <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> by a vote of <color=#66FF66><b>3</b></color> to <color=#FF0000><b>1</b></color>.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: well 11 soft confirms 1</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>2</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style>.</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: Unless 11 is coven</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>KaKee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: if 11's coven the</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>The Penguin</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: man we're making a helluva team</span>
+<span><br>[11]</span>
+<span class="The-Penguin">The Penguin</span>
+<span>: Oh ffs.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: it'd suck if you were a really cunning ww</span>
+<span><br>[11]</span>
+<span class="The-Penguin">The Penguin</span>
+<span>: Just do it, I can't prove vet unless someone visits.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: nah i dont claim tracker as ww</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: you wanna add me after this match? i see you around a lot</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: good i hate ww trackers lol</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: this is a good kill for info</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>: i only recently stuck to this name</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: if vet, confs 1</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: i kinda believe this but idk</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: it is yes</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>The Penguin</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>1</b></color>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 15 is possibly the final evil</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: Idk what ur talking about</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: just rb 15 here</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: but 11 hasn't baited or spoken or gotten any kills</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style> died today.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah 11 did not act like a vet</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: gottem</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: tea</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>The Penguin</color></link></font></style> left a last will.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: worst vet of all time</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: also alerting n3 after not voting or baiting</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: 1 saved my life</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: but 1's conf tav</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: i wouldve gotten shot</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: and acts like town</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k63"><b><color=#007AFF><b>Track</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Your target visited <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: |N4 - 14 v 7</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style>: You would've been fine N3. I was on you</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: Hey man thats not Pog</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: no coven kills that's pomising</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>Lilith</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style>: fair enough</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 14 visits are nice</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: okay we get 15 and hopefully thats it</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: pssst</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: no</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 15 didn't immediately claim attacked so 1's actually real</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: vet conf'd 1 anyways</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: lol</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: why would i</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 8 had book when 11 was rbed</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>KaKee</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: wait no</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>FrostyCheese</b> was voted up to trial.</span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: im not <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r50"><b><color=#FF004E>Soul Collector</color></b></link></font></style></span>
+<span><br>[15]</span>
+<span class="FrostyCheese">FrostyCheese</span>
+<span>: i lied</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Emi</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Emil Sinclair</color></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: 1 would have had book so 1's 100% hard confirmed tavernkeep and 14 can't be anything other than a baker or an arsonist</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: ok.</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: theres no medusa</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: pois gets book before enchant right?</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: and conj died to bg</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: yes</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: pois is 4th</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: so 1's conf</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>FrostyCheese</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> to death by a vote of <color=#FF0000><b>4</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: if game doesn't end 14's a really clever arsonist</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> has disconnected from life.</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: Well, you have 1 anyway</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: and deserves the upcoming W</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: oh true</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r36"><b><color=#B545FF>Ritualist</color></b></link></font></style>.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: RIT</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: WHAT</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: Wow lol</span>
+<span><br>[1]</span>
+<span class="KaKee">KaKee</span>
+<span>: screaming</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>FrostyCheese</color></link></font></style> left a last will.</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: WTF</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: IF HE KILLED</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: yeah thats why we rb'd them</span>
+<span><br>[14]</span>
+<span class="Emi">Emi</span>
+<span>: GG</span>
+<span><br>[7]</span>
+<span class="Lilith">Lilith</span>
+<span>: lol</span>
+<span><br>[4]</span>
+<span class="Emil-Sinclair">Emil Sinclair</span>
+<span>: WE COULD HAVE HUNG 1 LMAO</span>
+</body>
+</html>

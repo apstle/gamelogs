@@ -1,0 +1,930 @@
+<!--DOWNLOAD AND OPEN HTML FILE TO VIEW LOG-->
+<html>
+<head>
+<title>AllAny</title>
+<meta charset="UTF-8">
+</head>
+<style>
+.tooltipwill {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipwill .tooltiptext {
+  visibility: hidden;
+  background-color: #996829;
+    width: 350px;
+  max-width: 1000px;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7d5420;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipwill:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipdeath {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipdeath .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  max-width: 1000px;
+  background-color: #7d5420;
+  color: #161616;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #990000;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipdeath:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipprev {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipprev .tooltiptext {
+  visibility: hidden;
+  max-width: 1000px;
+  background-color: black;
+  color: #323232;
+  text-align: left;
+  font-family: calibri;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipprev:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<body style="background-color:#050505; font-family:calibri; color:#FFFFFF; font-size:22;">
+<span style="color:#000000;background-color:#FFFFFF;font-size:22;"><b>PLAYER INFO</b></span>
+<p></p>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>This game log generated using the GameLogs mod by TubaAntics and Curtis. You can install it through <a href="https://discord.gg/AdpRqzstfj" target="_blank">Salem Mod Loader</a>!</b><br></span>
+<span style="border:1px solid #a0a0a0; background-color:#a0a0a0; color:#000000"><b>These logs are very easy to modify and should not be taken as 100% proof of events.</b></span>
+<span><br>[1] dundunsparce - </span><span style="color:#FFF300"> Pirate </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> i said what i said</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.dundunsparce{color: #FFF300;}</style>
+<span><br>[2] Asiora - </span><span style="color:#06E00C"> Spy </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>n1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>hank hill</color></link></font></style> (target is plagued and being targeted by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>)<br>n2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> (target is plagued and has bread)<br>n3- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> (target is hexed, plagued, and has bread)<br>n4- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Introno07)</i></span>
+<style>span.Asiora{color: #06E00C;}</style>
+<span><br>[3] BlockAndBlock - </span><span style="color:#777777"> Executioner </span>
+<span style="color:#a0a0a0"><i>(Username: Ragnaris)</i></span>
+<style>span.BlockAndBlock{color: #777777;}</style>
+<span><br>[4] Abigail Hobbs - </span><span style="color:#06E00C"> Coroner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> <br>autopsy on 8</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: schlorptheplorp)</i></span>
+<style>span.Abigail-Hobbs{color: #06E00C;}</style>
+<span><br>[5] Crouching Doom - </span><span style="color:#AE00FF"> Hex Master </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>BlockAndBlock</color></link></font></style> NB<br>n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> NB<br>n3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> NB<br>n4 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> NB (I survived famine since baker gave me bread?)<br><br><br><br><br><br><br><br>GOOD GOOGLY MOOGLY</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: RainWraith)</i></span>
+<style>span.Crouching-Doom{color: #AE00FF;}</style>
+<span><br>[6] Lynz - </span><span style="color:#06E00C"> Sheriff </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">Sherriff<br>N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> -Suspicious<br>N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> -Suspicious<br>N3 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style>- Seems inno<br><br>PROBABLY WILL DIE TO <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>  AND <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> - COVEN<br><br>L TOWN</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Lynz)</i></span>
+<style>span.Lynz{color: #06E00C;}</style>
+<span><br>[7] hank hill - </span><span style="color:#000000"> Shroud </span>
+<span style="color:#a0a0a0"><i>(Username: LagCaster)</i></span>
+<style>span.hank-hill{color: #000000;}</style>
+<span><br>[8] Duck in the fridge - </span><span style="color:#06E00C"> Veteran </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext">tarnation u pirate i wanted to vet bait<br>sidestep</span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">will you really tho?</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: timmeh432)</i></span>
+<style>span.Duck-in-the-fridge{color: #06E00C;}</style>
+<span><br>[9] i love admirer - </span><span style="color:#06E00C"> Crusader </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style><br>|N1 - 5 (attack visitor)<br>|N2 - 13<br>|N3 - 13<br>|N4 - nothing<br>|1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style> <br>|2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> <br>|3 -<br>|4 -<br>|5 - NOT NEUT APOC<br>|6 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style> <br>|7 -<br>|8 -<br>|9 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style> <br>|10 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style> <br>|13 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style> <br>|14 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>|15 -<br>if there are 4 people alive it is SC and we lost<br>if its 3 people its between 2, 5 and last person</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.i-love-admirer{color: #06E00C;}</style>
+<span><br>[10] Sufferingly - </span><span style="color:#777777"> Executioner </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style> <br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r113"><b><style="NeutralColor">Neutral </style><color=#1F51FF>Evil</color></b></link></font></style> <br><br><br>Thanks for outing me <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> <br><br><br>I shall not say who my target is LOL</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Sufferingly)</i></span>
+<style>span.Sufferingly{color: #777777;}</style>
+<span><br>[11] Kara - </span><span style="color:#06E00C"> Seer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style> !<br><br>N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> ENEMIES<br>N2 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style></span></div></span>
+<span><div class="tooltipdeath"><span style="color:#DD0000"> 🕱 </span><span class="tooltiptext">12 is immune</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Ahamkara)</i></span>
+<style>span.Kara{color: #06E00C;}</style>
+<span><br>[12] Sarah Good - </span><span style="color:#FF0000"> Plaguebearer </span>
+<span style="color:#a0a0a0"><i>(Username: Anonymous)</i></span>
+<style>span.Sarah-Good{color: #FF0000;}</style>
+<span><br>[13] Blueduck - </span><span style="color:#06E00C"> Prosecutor </span>
+<span style="color:#a0a0a0"><i>(Username: BlueDucko)</i></span>
+<style>span.Blueduck{color: #06E00C;}</style>
+<span><br>[14] Grandpa - </span><span style="color:#AE00FF"> Conjurer </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> <br>N1: (15), 10, 4<br>N2: (1), 13<br>N3: (2), 7, 13<br><br>you're lucky I have alzheimer's pirate</span></div></span>
+<span style="color:#a0a0a0"><i>(Username: Wahsteinious)</i></span>
+<style>span.Grandpa{color: #AE00FF;}</style>
+<span><br>[15] Bees - </span><span style="color:#FF0000"> Baker </span>
+<span><div class="tooltipwill"> 📜 <span class="tooltiptext"><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r3"><b><color=#06E00C>Bodyguard</color></b></link></font></style> <br>N1- protect  <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> <br>N2- protect <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style> <br>N3- protect <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style></span></div></span>
+<span style="color:#a0a0a0"><i>(Username: MayBees)</i></span>
+<style>span.Bees{color: #FF0000;}</style>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 1</span>
+<span><br>[8]</span>
+<span class="Duck-in-the-fridge">Duck in the fridge</span>
+<span>: ILL KILL ALL OF YOU</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: nuh uh</span>
+<span><br>[8]</span>
+<span class="Duck-in-the-fridge">Duck in the fridge</span>
+<span>: (fr)</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: TP ON MEEE</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: TP LO ON ME AFRAID OF 8</span>
+<span><br>[4]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: fym nuh uh</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: im crus on 5</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: same</span>
+<span><br>[8]</span>
+<span class="Duck-in-the-fridge">Duck in the fridge</span>
+<span>: YUH HUH</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: jk</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: tp/lo</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 1</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> tonight.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You attacked someone visiting your target.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 2</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Duck in the fridge</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They lost a duel with a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="7"><sprite="PlayerNumbers" name="PlayerNumbers_8"><color=#FCCE3B>Duck in the fridge</color></link></font></style> left a last will.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r23"><b><color=#06E00C>Veteran</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: pb/arso/baker game I attacked a visitor to 5</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: n1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>BlockAndBlock</color></link></font></style> NB</span>
+<span><br>[11]</span>
+<span class="Kara">Kara</span>
+<span>: N1 - <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> ENEMIES</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: N1 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> -Suspicious</span>
+<span><br>[14]</span>
+<span class="Grandpa">Grandpa</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r14"><b><color=#06E00C>Psychic</color></b></link></font></style> N1: (15), 10, 4</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: interesting</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: YARG IM ZA PIRATE</span>
+<span><br>[12]</span>
+<span class="Sarah-Good">Sarah Good</span>
+<span>: tk</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: i am a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> btw and i will not post until certain conditions are met or one of the bugs i have is triggered</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> whispering me claiming exe</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: bug 5 for me please</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: DUDE</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: 10 jest imo, leave it</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: exe for who 10?</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: he was visited by an immune role pb/arso/baker</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: im <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r105"><b><style="TownColor">Town </style><color=#1F51FF>Power</color></b></link></font></style> tp/lo on me</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: im exe</span>
+<span><br>[4]</span>
+<span class="Abigail-Hobbs">Abigail Hobbs</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style> autopsy on 8</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: nah 10 is jest</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: trust</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: im crus on the tpow</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: mght aswell say it now LOL</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: 10 IS JESTER</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: tp/lo on me</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: ok</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: IM EXE</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: not jester</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: NUH UH</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: tp/lo</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: :3</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: h</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 2</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 3</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="3"><sprite="PlayerNumbers" name="PlayerNumbers_4"><color=#FCCE3B>Abigail Hobbs</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: did you see what it was</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r5"><b><color=#06E00C>Coroner</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: yes</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: douse? bread? plague?</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Kara</color></link></font></style> died last night.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>They were killed by the <style="CovenColor">Coven</style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: bread and plague</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="10"><sprite="PlayerNumbers" name="PlayerNumbers_11"><color=#FCCE3B>Kara</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: OH NO</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style>: THATS NOT GOOD</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r16"><b><color=#06E00C>Seer</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: n2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> NB</span>
+<span><br>[12]</span>
+<span class="Sarah-Good">Sarah Good</span>
+<span>: i was never attacked</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: N2 <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> -Suspicious</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: ok people i should probably post my information now.</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: 12 what is your role?</span>
+<span><br>[7]</span>
+<span class="hank-hill">hank hill</span>
+<span>: 12</span>
+<span><br>[14]</span>
+<span class="Grandpa">Grandpa</span>
+<span>: N2: (1), 13</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>hank hill</color></link></font></style> (target is plagued and being targeted by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>) n2- <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> (target is plagued and has bread)</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> im still fucking pirate</span>
+<span><br>[12]</span>
+<span class="Sarah-Good">Sarah Good</span>
+<span>: im trickster</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: its baker/pb game</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: we get 12 here</span>
+<span><br>[12]</span>
+<span class="Sarah-Good">Sarah Good</span>
+<span>: i claimed tk yesterday</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> AND <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> BOTH SUS and 1 was trynna protect 10 idk man</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style> confirmed good btw</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: oh hell we've got a PB and Baker in game</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: They arent immune i protected 12 im bodyguard</span>
+<span><br>[7]</span>
+<span class="hank-hill">hank hill</span>
+<span>: i can't trust that</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: he wasnt protecting me</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: 10 is probably the executioner targetting 7</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: 12 rb immune according to death ntoe</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: 5 isnt NA btw</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: 6 you on a mad one</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> IM FUCKING PIRATE, ILL COME EAT YOUR ASS TONIGHT BROSKI</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: prolly a baker</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: he was visited by NA n1</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: im the exe, exe come sup; as sus</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>hank hill</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style>.</span>
+<span><br>[10]</span>
+<span class="Sufferingly">Sufferingly</span>
+<span>: and they thought i was jester</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style>.</span>
+<span><br>[12]</span>
+<span class="Sarah-Good">Sarah Good</span>
+<span>: wow to think i was one away from pest</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: that says it all! hang this flummery!</span>
+<span><br>[12]</span>
+<span class="Sarah-Good">Sarah Good</span>
+<span>: i just needed 10 gone or to be plagued</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: hey crus</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Sarah Good</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> to death by a vote of <color=#FF0000><b>10</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: dont be on 7</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: tp/lo remember to be on me</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> died today.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r47"><b><color=#FF0000>Plaguebearer</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="11"><sprite="PlayerNumbers" name="PlayerNumbers_12"><color=#FCCE3B>Sarah Good</color></link></font></style> did not leave a last will.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: well famine tomorrow</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: good luck boys</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: prayge</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 3</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>You decided to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k66"><b><color=#007AFF><b>Fortify</b></color></b></link></font></style> <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style> tonight.</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 4</span>
+<span style="background-color:#FF5500; color:#FFFFFF"><br>The <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r41"><b><color=#FF0000>Baker</color></b></link></font></style> has transformed into <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF0000>Famine</color></b></link></font></style>, Horseman of the Apocalypse! A famine has begun!</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: n3 <b>Lynz</b> NB</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: okay so 5 is not famine</span>
+<span><br>[14]</span>
+<span class="Grandpa">Grandpa</span>
+<span>: N3: (2), 7, 13</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: Oh no</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1- <b>hank hill</b> (target is plagued and being targeted by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>) n2- <b>Crouching Doom</b> (target is plagued and has bread) n3- <b>Lynz</b></span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>:  (target is hexed, plagued, and has bread)</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: coven time to come out if you found famine</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: N3 <b>Bees</b>- Seems inno</span>
+<span><br>[7]</span>
+<span class="hank-hill">hank hill</span>
+<span>: you lost pirate</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: 7 isnt famine btw</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: 7s not famine</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style> n1- <b>hank hill</b> (target is plagued and being targeted by an <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>) n2- <b>Crouching Doom</b> (target is plagued and has bread) n3- <b>Lynz</b></span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>:  (target is hexed, plagued, and has bread)</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: <b>hank hill</b> seems i did you mf</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: We gotta figure out who famine is like now or we dead</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: a hex master</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: 5 possibly famine?</span>
+<span><br>[2]</span>
+<span class="Asiora">Asiora</span>
+<span>: 6 will not die</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: 2 must have been visited by baker n1</span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span style="background-color:#000000; color:#00FF00"><br>You voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: ger 6 imo</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: has bread</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>hank hill</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: checked pirate claim</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: as sheriff</span>
+<span><br>[1]</span>
+<span class="dundunsparce">dundunsparce</span>
+<span>: 5 got bread too</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lynz</b> was voted up to trial.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>: 5 was given bread n1</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: L TOWN FR. R U STUPID</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: IVE POSTED EVERYDAY</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: IM SHERRIFF</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: you check pirate claim, you are not coven, and you have bread</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>: baker has bread every night, spy doesnt say if it was given that night</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>: yes 5 was visited n1</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: true....</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>To <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>: i attacked visitor</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: i think we guilty the pushing</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>: mmm, fair</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: hard</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Lynz</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> to death by a vote of <color=#FF0000><b>5</b></color> to <color=#66FF66><b>2</b></color>.</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: oh</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: uh</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: hard pusher</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#AA7CFF"><br>From <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style>: pls dont be on 14</span>
+<span><br>[6]</span>
+<span class="Lynz">Lynz</span>
+<span>: L down. i hope cov win</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: coven if this isnt famine you need to not attack</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> died today.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> was convicted and executed.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r17"><b><color=#06E00C>Sheriff</color></b></link></font></style>.</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: WHY DID U CHECK PIRATE</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: PB is dead</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="5"><sprite="PlayerNumbers" name="PlayerNumbers_6"><color=#FCCE3B>Lynz</color></link></font></style> left a last will.</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: crap</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: U WASTED UR NIGHT</span>
+<span style="background-color:#000000; color:#AA7CFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style> is whispering to <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style>.</span>
+<span><br>[13]</span>
+<span class="Blueduck">Blueduck</span>
+<span>: tp/lo on me</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: why check pirate</span>
+<span><br>[9]</span>
+<span class="i-love-admirer">i love admirer</span>
+<span>: coven dont attack or you lose</span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 4</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You did not perform your night ability.</span>
+<span style="background-color:#FF0000; color:#FFFFFF"><br>You have died to starvation!</span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 5</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Sufferingly</span>
+<span style="color:#689194">: thank the lord im dead</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: coven killed 2 didnt they</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Sufferingly</span>
+<span style="color:#689194">: outs D2 sucks</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: aw man</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="0"><sprite="PlayerNumbers" name="PlayerNumbers_1"><color=#FCCE3B>dundunsparce</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Kara</span>
+<span style="color:#689194">: yeah rip 10</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r46"><b><color=#FFF300>Pirate</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Grandpa</span>
+<span style="color:#689194">: why did you visit</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="1"><sprite="PlayerNumbers" name="PlayerNumbers_2"><color=#FCCE3B>Asiora</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r18"><b><color=#06E00C>Spy</color></b></link></font></style>.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>BlockAndBlock</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="2"><sprite="PlayerNumbers" name="PlayerNumbers_3"><color=#FCCE3B>BlockAndBlock</color></link></font></style> did not leave a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Kara</span>
+<span style="color:#689194">: second exe</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Sufferingly</span>
+<span style="color:#689194">: daymn</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="8"><sprite="PlayerNumbers" name="PlayerNumbers_9"><color=#FCCE3B>i love admirer</color></link></font></style> left a last will.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r6"><b><color=#06E00C>Crusader</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: so 7 or 15 is the famine</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> died last night.</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="9"><sprite="PlayerNumbers" name="PlayerNumbers_10"><color=#FCCE3B>Sufferingly</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Grandpa</span>
+<span style="color:#689194">: 7 had defense</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r44"><b><color=#777777>Executioner</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Sufferingly</span>
+<span style="color:#689194">: 7 wa smy target too omg</i></span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Sufferingly</span>
+<span style="color:#689194">: fuming</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Kara</span>
+<span style="color:#689194">: cov L</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They died of starvation!</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: actually</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: 15 is famine</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="12"><sprite="PlayerNumbers" name="PlayerNumbers_13"><color=#FCCE3B>Blueduck</color></link></font></style> did not leave a last will.</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Grandpa</span>
+<span style="color:#689194">: I should have nuked them</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r13"><b><color=#06E00C>Prosecutor</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: 7 is something else</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Kara</span>
+<span style="color:#689194">: oh jk</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[10]</span>
+<span style="color:#689194">Sufferingly</span>
+<span style="color:#689194">: 7 coven maybe?</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>. They also died of starvation!</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: NO</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: 7 IS SHROUD</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="13"><sprite="PlayerNumbers" name="PlayerNumbers_14"><color=#FCCE3B>Grandpa</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: NOOOOOOOOOOO</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: NOOOOOOOOOOOOOOOOOOO</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: LET FAMINE WIN</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: LET FAMINE WIN 5</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: DONT LET THE SHROUD WIN</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r25"><b><color=#AE00FF>Conjurer</color></b></link></font></style>.</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: n4 <b>Bees</b> NB (I survived famine since baker gave me bread?)</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: NOOOOOO FUCK THJE SHE SHROUD</i></span>
+<span><br>[7]</span>
+<span class="hank-hill">hank hill</span>
+<span>: coven who are you</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Grandpa</span>
+<span style="color:#689194">: 5 is hex</i></span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: 15 must be famine</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: Im not famine im bodyguard</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Grandpa</span>
+<span style="color:#689194">: we win if 7 is lycnhed</i></span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: 7 what role did you say you were</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: 5 same</span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Grandpa</span>
+<span style="color:#689194">: lynched*</i></span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: Famine Shroud and Hex master left</span>
+<span><br>[7]</span>
+<span class="hank-hill">hank hill</span>
+<span>: im shroud</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: KILL 7</i></span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: i'm HM</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: KILL 7</i></span>
+<span style="background-color:#000000; color:#02FF4D"><br>There are <b>3</b> possible trials remaining today.</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: so yeah, 15 is famine</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: 15 is hexed?</i></span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style>.</span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>hank hill</color></link></font></style>.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: NOOOOOOOOO</i></span>
+<span style="color:#689194"><br><i>[14]</span>
+<span style="color:#689194">Grandpa</span>
+<span style="color:#689194">: 15 is hexed yes</i></span>
+<span style="background-color:#000000; color:#00FF00"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="6"><sprite="PlayerNumbers" name="PlayerNumbers_7"><color=#FCCE3B>hank hill</color></link></font></style> voted against <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style>.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Bees</b> was voted up to trial.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: it doesnt matter</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: even if 7 dies</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: hex bomb wont be triggered</i></span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: sooo uhhh whats up guys</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: famine will just kill hex with starvation</i></span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: let me live and lets see what happend</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: for fun</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: please</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: wait</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: it only activates at the start of a day</i></span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: yeah guilty</span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: lol.</span>
+<span style="background-color:#872C2B; color:#02FF4D"><br><b>Bees</b> was found <b><style="GuiltyColor">guilty!</style></b></span>
+<span style="background-color:#000000; color:#02FF4D"><br>The Town decided to put <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> to death by a vote of <color=#FF0000><b>2</b></color> to <color=#66FF66><b>0</b></color>.</span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: welp</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: coven CANT win this</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: NOOOOOO</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Kara</span>
+<span style="color:#689194">: yep cov l</i></span>
+<span><br>[15]</span>
+<span class="Bees">Bees</span>
+<span>: i like bread</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: YOU LET THE SHROUD WIN</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: NOOOOO</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Bees</span>
+<span style="color:#689194">: garlic bread</i></span>
+<span><br>[5]</span>
+<span class="Crouching-Doom">Crouching Doom</span>
+<span>: <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="k35"><b><color=#007AFF><b>Bread</b></color></b></link></font></style></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Bees</span>
+<span style="color:#689194">: SOO CLOSE</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> died today.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: it didnt matter if they killed 7</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> was convicted and executed.</span>
+<span><br>[7]</span>
+<span class="hank-hill">hank hill</span>
+<span>: gg</span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r250"><b><color=#FF0000>Famine</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: dawg</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="14"><sprite="PlayerNumbers" name="PlayerNumbers_15"><color=#FCCE3B>Bees</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: cov would still lose</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: rah</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: i dont care i wanted famine to win</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Bees</span>
+<span style="color:#689194">: dang i got so many people</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: ok</i></span>
+<span style="background-color:#519DFF; color:#000000"><br><br>Night 5</span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Bees</span>
+<span style="color:#689194">: i wanted to win so bad</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: personally</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: i was cheering for famine when i realized 7 was shroud</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: rare shroud win</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: cool</i></span>
+<span style="color:#689194"><br><i>[15]</span>
+<span style="color:#689194">Bees</span>
+<span style="color:#689194">: i killed half the lobby that last night oml</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: yeah u did cuz 6 is a goober</i></span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: 5 NOOOOO</i></span>
+<span style="background-color:#FFBE00; color:#000000"><br><br>Day 6</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: YOU LET THE SHROUD WIN HOW COULD YOU</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> died last night.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: bruh</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>They were killed by a <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r49"><b><color=#000000>Shroud</color></b></link></font></style>.</span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: it aint that serious</i></span>
+<span style="color:#689194"><br><i>[11]</span>
+<span style="color:#689194">Kara</span>
+<span style="color:#689194">: yeah 6 was so bad, lmao</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br><style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="4"><sprite="PlayerNumbers" name="PlayerNumbers_5"><color=#FCCE3B>Crouching Doom</color></link></font></style> left a last will.</span>
+<span style="color:#689194"><br><i>[9]</span>
+<span style="color:#689194">i-love-admirer</span>
+<span style="color:#689194">: IT IS</i></span>
+<span style="color:#689194"><br><i>[13]</span>
+<span style="color:#689194">Blueduck</span>
+<span style="color:#689194">: nuh uh</i></span>
+<span style="background-color:#000000; color:#FFFFFF"><br>Their role was <style=Mention><font="NotoSans SDF" material="NotoSans SDF - Mentions"><link="r29"><b><color=#AE00FF>Hex Master</color></b></link></font></style>.</span>
+</body>
+</html>
